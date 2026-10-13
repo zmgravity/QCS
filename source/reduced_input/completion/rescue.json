@@ -1,0 +1,154 @@
+[
+  {
+    "order": 18,
+    "record_end": 40,
+    "preparation": "plus",
+    "filter": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "objective": 4.1826810045081063e-05,
+      "bias": 8.83527197036742e-07,
+      "noise_gain": 4.434596720835888,
+      "rank": 36
+    },
+    "noiseless_relative_error": 2.2732609899570384e-09,
+    "worst_noise_relative_bound": 1.3778837403652506e-05,
+    "total_relative_bound": 1.3781110664642464e-05,
+    "target_sample": 0.025,
+    "input_sample": 0.1,
+    "recovered_energy": 0.3284468069532967
+  },
+  {
+    "order": 18,
+    "record_end": 40,
+    "preparation": "minus",
+    "filter": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "objective": 4.1826810045081063e-05,
+      "bias": 8.83527197036742e-07,
+      "noise_gain": 4.434596720835888,
+      "rank": 36
+    },
+    "noiseless_relative_error": 2.4896503891320798e-09,
+    "worst_noise_relative_bound": 1.282760617249109e-05,
+    "total_relative_bound": 1.2830095822880224e-05,
+    "target_sample": 0.025,
+    "input_sample": 0.1,
+    "recovered_energy": 0.3515542007178337
+  },
+  {
+    "order": 26,
+    "record_end": 40,
+    "preparation": "plus",
+    "filter": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "objective": 0.00038645164894959003,
+      "bias": 0.00016091588671347855,
+      "noise_gain": 14.764238202154242,
+      "rank": 52
+    },
+    "noiseless_relative_error": 5.107885390055683e-07,
+    "worst_noise_relative_bound": 4.784912960473052e-05,
+    "total_relative_bound": 4.835991814373609e-05,
+    "target_sample": 0.025,
+    "input_sample": 0.1,
+    "recovered_energy": 0.32844648464123166
+  },
+  {
+    "order": 26,
+    "record_end": 40,
+    "preparation": "minus",
+    "filter": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "objective": 0.00038645164894959003,
+      "bias": 0.00016091588671347855,
+      "noise_gain": 14.764238202154242,
+      "rank": 52
+    },
+    "noiseless_relative_error": 5.093952056243904e-07,
+    "worst_noise_relative_bound": 4.45458330253076e-05,
+    "total_relative_bound": 4.505522823093199e-05,
+    "target_sample": 0.025,
+    "input_sample": 0.1,
+    "recovered_energy": 0.35155386409769657
+  },
+  {
+    "order": 34,
+    "record_end": 40,
+    "preparation": "plus",
+    "filter": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "objective": 0.08870787345454488,
+      "bias": 0.0779023023120267,
+      "noise_gain": 572.8433853151435,
+      "rank": 68
+    },
+    "noiseless_relative_error": 6.965545158859551e-09,
+    "worst_noise_relative_bound": 0.002224790927194678,
+    "total_relative_bound": 0.002224797892739837,
+    "target_sample": 0.025,
+    "input_sample": 0.1,
+    "recovered_energy": 0.3284468105336282
+  },
+  {
+    "order": 34,
+    "record_end": 40,
+    "preparation": "minus",
+    "filter": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "objective": 0.08870787345454488,
+      "bias": 0.0779023023120267,
+      "noise_gain": 572.8433853151435,
+      "rank": 68
+    },
+    "noiseless_relative_error": 6.525894851015462e-09,
+    "worst_noise_relative_bound": 0.0020712010015169744,
+    "total_relative_bound": 0.0020712075274118254,
+    "target_sample": 0.025,
+    "input_sample": 0.1,
+    "recovered_energy": 0.3515542044595946
+  },
+  {
+    "order": 26,
+    "record_end": 60,
+    "preparation": "plus",
+    "filter": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "objective": 0.0004310128684624215,
+      "bias": 0.00018508678265222468,
+      "noise_gain": 14.744749502039397,
+      "rank": 52
+    },
+    "noiseless_relative_error": 5.6754432224729705e-08,
+    "worst_noise_relative_bound": 4.6796685922590195e-05,
+    "total_relative_bound": 4.685344035481492e-05,
+    "target_sample": 0.025,
+    "input_sample": 0.1,
+    "recovered_energy": 0.3284467717047856
+  },
+  {
+    "order": 26,
+    "record_end": 60,
+    "preparation": "minus",
+    "filter": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "objective": 0.0004310128684624215,
+      "bias": 0.00018508678265222468,
+      "noise_gain": 14.744749502039397,
+      "rank": 52
+    },
+    "noiseless_relative_error": 5.5930359514854376e-08,
+    "worst_noise_relative_bound": 4.35667136288317e-05,
+    "total_relative_bound": 4.362264398834656e-05,
+    "target_sample": 0.025,
+    "input_sample": 0.1,
+    "recovered_energy": 0.35155416390571614
+  }
+]

@@ -1,0 +1,17 @@
+base = StringReplace[DirectoryName[$InputFileName], "\\" -> "/"] <> "/";
+JS[a_,b_,c_]:=ThreeJSymbol[a,b,c];
+M=1;l=4;m=4;l1=2;l2=2;m1=2;m2=2;
+Print["Loading even source"];Get[base<>"public_inputs/SourceEEE.wl"];
+s=SourceEEE/.{\[Psi]1l1e[r]->p,\[Psi]1l2e[r]->p,Derivative[1][\[Psi]1l1e][r]->d,Derivative[1][\[Psi]1l2e][r]->d,\[Omega]1->w,\[Omega]2->w};
+Print["Reducing even source"];fe=Together/@{Coefficient[s,p,2],Coefficient[Coefficient[s,p,1],d,1],Coefficient[s,d,2]};
+Put[fe,base<>"source_220_coeffs.wl"];
+Print["Even source lengths ",LeafCount/@fe," residual ",Simplify[s-fe.{p^2,p*d,d^2}]];
+l1=3;l2=3;m1=2;m2=2;
+Print["Loading odd source"];Get[base<>"public_inputs/SourceOOE.wl"];
+Print["Odd symbols ",DeleteDuplicates[Cases[SourceOOE,x_Symbol/;StringContainsQ[SymbolName[x],"Psi"],Infinity]]];
+Put[SourceOOE,base<>"source_320_specialized.wl"];
+Get[base<>"public_inputs/AsymptoticRelations.wl"];
+Put[ROOE,base<>"reconstruct_320.wl"];
+l1=2;l2=2;Get[base<>"public_inputs/AsymptoticRelations.wl"];
+Put[REEE,base<>"reconstruct_220.wl"];
+Print["Done"];Exit[];

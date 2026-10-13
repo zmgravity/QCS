@@ -1,0 +1,45 @@
+base = StringReplace[DirectoryName[$InputFileName], "\\" -> "/"] <> "/";$MaxExtraPrecision=500;
+inp=Import[base<>"overlap_inputs.json","RawJSON"];
+uncx[z_]:=ToExpression[z[[1]]]+I*ToExpression[z[[2]]];
+JS[a_,b_,c_]:=ThreeJSymbol[a,b,c];
+f=1-2/r;vr[j_]:=f*(j*(j+1)/r^2-6/r^3);
+cc[j_]:=(j+2)*(j-1)*((j+2)*(j-1)+2)/6;
+hh[j_]:=cc[j]+12*(r-2)/(r^2*((j+2)*(j-1)*r+6));
+dr[e_]:=D[e,r]+D[e,y1]*d1+D[e,d1]*((vr[l1]-w1^2)*y1/f^2-D[f,r]*d1/f)+D[e,y2]*d2+D[e,d2]*((vr[l2]-w2^2)*y2/f^2-D[f,r]*d2/f);
+al[k_,ww_]:=k^2+(2*(-2*I*ww)+2)*k+2*(-2*I*ww)+1;
+be[k_,ww_,j_]:=-(2*k^2+(8*(-2*I*ww)+2)*k+8*(-2*I*ww)^2+4*(-2*I*ww)+(j+2)*(j-1)-1);
+ga[k_,ww_]:=k^2+4*(-2*I*ww)*k+4*(-2*I*ww)^2-4;
+rows={};M=1;l2=4;m2=4;
+Do[
+ l1=j;m1=j;l=j+4;m=l;Clear[w1,w2];\[Omega]1=w1;\[Omega]2=w2;
+ Print["Loading conversion source ",j," x 4"];
+ Get[base<>"public_inputs/SourceEEE.wl"];
+ ss=SourceEEE/.{\[Psi]1l1e[r]->z1,\[Psi]1l2e[r]->z2,Derivative[1][\[Psi]1l1e][r]->dz1,Derivative[1][\[Psi]1l2e][r]->dz2};
+ ff=Together/@{Coefficient[Coefficient[ss,z1],z2],Coefficient[Coefficient[ss,dz1],z2],Coefficient[Coefficient[ss,z1],dz2],Coefficient[Coefficient[ss,dz1],dz2]};
+ Get[base<>"public_inputs/AsymptoticRelations.wl"];rec=Together[REEE];
+ pkey=If[j==2,"220","320"];a1=uncx/@inp["modes"][pkey]["a"];freq1=uncx[inp["modes"][pkey]["omega"]];
+ Do[
+  a2=uncx/@inp["modes"][nk]["a"];freq2=uncx[inp["modes"][nk]["omega"]];
+  w1=Rationalize[freq1,0];w2=Rationalize[freq2,0];ww=N[w1+w2,60];
+  zz1=(hh[l1]*y1+2*f*d1)/(cc[l1]+2*I*w1);zz2=(hh[l2]*y2+2*f*d2)/(cc[l2]+2*I*w2);
+  sz=Together[ff.{zz1*zz2,dr[zz1]*zz2,zz1*dr[zz2],dr[zz1]*dr[zz2]}];
+  sr=Together[(hh[l]*sz-2*f*dr[sz])/(cc[l]-2*I*(w1+w2))];
+  la[wp_]:=I*wp-2*I*wp/(r-2)+4*I*wp/r;
+  ss=Together[(r^3/(r-2))*(sr/.{y1->p1,y2->p2,d1->la[w1]*p1+2*dp1/r^2,d2->la[w2]*p2+2*dp2/r^2})];
+  gg=Together/@({Coefficient[Coefficient[ss,p1],p2],Coefficient[Coefficient[ss,dp1],p2],Coefficient[Coefficient[ss,p1],dp2],Coefficient[Coefficient[ss,dp1],dp2]}/.r->2/(1-u));
+  Print["Integrating conversion ",j," ",nk];
+  jj=(-1)^m*ThreeJSymbol[{l1,m1},{l2,m2},{l,-m}];
+  Do[
+   ps1=SeriesData[u,0,Take[a1,nn+8],0,nn+8,1];ps2=SeriesData[u,0,Take[a2,nn+8],0,nn+8,1];
+   source=Total[MapThread[Times,{(Series[N[#,60],{u,0,nn+5}]&/@gg),{ps1*ps2,D[ps1,u]*ps2,ps1*D[ps2,u],D[ps1,u]*D[ps2,u]}}]];
+   bb=Table[SeriesCoefficient[source,k],{k,0,nn}];
+   mat=SparseArray[{Band[{1,1}]->Table[be[k,ww,l],{k,0,nn}],Band[{1,2}]->Table[al[k,ww],{k,0,nn-1}],Band[{2,1}]->Table[ga[k,ww],{k,1,nn}]},{nn+1,nn+1}];
+   xx=LinearSolve[mat,bb];master=Total[xx]/(Total[a1]*Total[a2]);reduced=N[rec/.NUMERIC->master/jj,20];strain=reduced*jj;
+   Print["RESULT ",j," ",nk," N=",nn," reduced=",reduced," strain=",N[strain,16]];
+   AppendTo[rows,{j,nk,nn,master,reduced,strain}];Put[rows,base<>"conversion_results.wl"];
+  ,{nn,{160,320}}];
+  Clear[w1,w2];
+ ,{nk,{"440","441"}}];
+,{j,{2,3}}];
+Export[base<>"conversion_results.json",Map[<|"parent_l"->#[[1]],"intermediate"->#[[2]],"resolution"->#[[3]],"reduced"->{Re[#[[5]]],Im[#[[5]]]},"strain"->{Re[#[[6]]],Im[#[[6]]]}|>&,rows],"RawJSON"];
+Exit[];

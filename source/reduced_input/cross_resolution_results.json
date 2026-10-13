@@ -1,0 +1,3642 @@
+[
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 10,
+    "target": "strain_0_70",
+    "observation_model_error": 4.664662987228782e-13,
+    "output_model_error": 2.559421327537456e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.7782794100389228e-08,
+      "rank": 28,
+      "bias": 3.937589419771549e-08,
+      "noise": 0.004849151863838787,
+      "bound": 0.004849191239732985,
+      "relative_bound": 0.0031533463185674684,
+      "output_norm": 1.537792157867367
+    },
+    "lower": {
+      "output_norm": 0.004798551990837471,
+      "relative_lower_bound": 0.003120416479098303,
+      "radiation_norm": 4.5488493656110434e-06,
+      "noise_budget": 4.548849365610955e-06,
+      "energy": 3.283118795264075e-05,
+      "cutoff": 0.00017782794100389227
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 10,
+    "target": "strain_30_70",
+    "observation_model_error": 4.664662987228782e-13,
+    "output_model_error": 1.3879139914531423e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.6234132519034905e-08,
+      "rank": 28,
+      "bias": 3.9353065126683134e-08,
+      "noise": 0.00027655380720329907,
+      "bound": 0.00027659316026842575,
+      "relative_bound": 0.0009760238273670258,
+      "output_norm": 0.2833877129973131
+    },
+    "lower": {
+      "output_norm": 0.00026448193017200756,
+      "relative_lower_bound": 0.0009332865118768055,
+      "radiation_norm": 4.5488493656110434e-06,
+      "noise_budget": 4.548849365610955e-06,
+      "energy": 3.283118795264075e-05,
+      "cutoff": 0.00017782794100389227
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 10,
+    "target": "news_0_70",
+    "observation_model_error": 4.664662987228782e-13,
+    "output_model_error": 1.9896018185945937e-09,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.7782794100389228e-08,
+      "rank": 28,
+      "bias": 2.1733928267195344e-08,
+      "noise": 0.003408088081292657,
+      "bound": 0.0034081098152209245,
+      "relative_bound": 0.00031222016631609565,
+      "output_norm": 10.915726089808404
+    },
+    "lower": {
+      "output_norm": 0.0033596241235039977,
+      "relative_lower_bound": 0.00030777834620096875,
+      "radiation_norm": 4.5488493656110434e-06,
+      "noise_budget": 4.548849365610955e-06,
+      "energy": 3.283118795264075e-05,
+      "cutoff": 0.00017782794100389227
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 10,
+    "target": "news_30_70",
+    "observation_model_error": 4.664662987228782e-13,
+    "output_model_error": 6.005068779640013e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.6234132519034905e-08,
+      "rank": 28,
+      "bias": 2.1715350179125533e-08,
+      "noise": 0.0002973446416166833,
+      "bound": 0.0002973663569668624,
+      "relative_bound": 0.0008228287888575836,
+      "output_norm": 0.36139517843040736
+    },
+    "lower": {
+      "output_norm": 0.00025693404027675356,
+      "relative_lower_bound": 0.0007109503823284418,
+      "radiation_norm": 4.5488493656110434e-06,
+      "noise_budget": 4.548849365610955e-06,
+      "energy": 3.283118795264075e-05,
+      "cutoff": 0.00017782794100389227
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 20,
+    "target": "strain_0_70",
+    "observation_model_error": 4.78896413478275e-11,
+    "output_model_error": 2.559421327537456e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 28,
+      "bias": 3.935742724416575e-08,
+      "noise": 1.6419769871193885e-05,
+      "bound": 1.645912729843805e-05,
+      "relative_bound": 1.0703089630307266e-05,
+      "output_norm": 1.537792157867367
+    },
+    "lower": {
+      "output_norm": 1.3635540409077031e-05,
+      "relative_lower_bound": 8.866959256696302e-06,
+      "radiation_norm": 6.072068895174713e-06,
+      "noise_budget": 6.072068895174713e-06,
+      "energy": 2.0232597404783043e-10,
+      "cutoff": 0.1
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 20,
+    "target": "strain_30_70",
+    "observation_model_error": 4.78896413478275e-11,
+    "output_model_error": 1.3879139914531423e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "rank": 28,
+      "bias": 3.930555163194366e-08,
+      "noise": 2.8797830020262927e-06,
+      "bound": 2.9190885536582365e-06,
+      "relative_bound": 1.0300688490633021e-05,
+      "output_norm": 0.2833877129973131
+    },
+    "lower": {
+      "output_norm": 2.212777762671053e-06,
+      "relative_lower_bound": 7.808305234080609e-06,
+      "radiation_norm": 6.072068895174713e-06,
+      "noise_budget": 6.072068895174713e-06,
+      "energy": 7.855231730059004e-11,
+      "cutoff": 0.1778279410038923
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 20,
+    "target": "news_0_70",
+    "observation_model_error": 4.78896413478275e-11,
+    "output_model_error": 1.9896018185945937e-09,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.62341325190349e-07,
+      "rank": 28,
+      "bias": 2.1720713415763688e-08,
+      "noise": 0.0004795172193371361,
+      "bound": 0.0004795389400505519,
+      "relative_bound": 4.393101623338452e-05,
+      "output_norm": 10.915726089808404
+    },
+    "lower": {
+      "output_norm": 0.0004532750864570309,
+      "relative_lower_bound": 4.152495974411052e-05,
+      "radiation_norm": 6.072068895174713e-06,
+      "noise_budget": 6.072068895174713e-06,
+      "energy": 2.770225329570329e-09,
+      "cutoff": 0.03162277660168379
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 20,
+    "target": "news_30_70",
+    "observation_model_error": 4.78896413478275e-11,
+    "output_model_error": 6.005068779640013e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-09,
+      "rank": 28,
+      "bias": 2.1701867458812203e-08,
+      "noise": 3.4857278815198065e-06,
+      "bound": 3.5074297489786187e-06,
+      "relative_bound": 9.705247768417675e-06,
+      "output_norm": 0.36139517843040736
+    },
+    "lower": {
+      "output_norm": 2.7686320071994756e-06,
+      "relative_lower_bound": 7.660954468800755e-06,
+      "radiation_norm": 6.0720688951747135e-06,
+      "noise_budget": 6.072068895174713e-06,
+      "energy": 7.50623465813888e-11,
+      "cutoff": 0.1778279410038923
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 30,
+    "target": "strain_0_70",
+    "observation_model_error": 6.516627357031563e-10,
+    "output_model_error": 2.559421327537456e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 28,
+      "bias": 3.936691471079539e-08,
+      "noise": 1.2886723163908667e-05,
+      "bound": 1.2926090078619463e-05,
+      "relative_bound": 8.405615812572199e-06,
+      "output_norm": 1.537792157867367
+    },
+    "lower": {
+      "output_norm": 1.254483583191888e-05,
+      "relative_lower_bound": 8.157692681510513e-06,
+      "radiation_norm": 6.4355244941065785e-06,
+      "noise_budget": 6.4355244941065785e-06,
+      "energy": 2.8830048252900715e-09,
+      "cutoff": 0.03162277660168379
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 30,
+    "target": "strain_30_70",
+    "observation_model_error": 6.516627357031563e-10,
+    "output_model_error": 1.3879139914531423e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "rank": 28,
+      "bias": 3.930722806973818e-08,
+      "noise": 2.0203612722863305e-06,
+      "bound": 2.0596685003560685e-06,
+      "relative_bound": 7.268023297734144e-06,
+      "output_norm": 0.2833877129973131
+    },
+    "lower": {
+      "output_norm": 1.6844585473639175e-06,
+      "relative_lower_bound": 5.944006991509504e-06,
+      "radiation_norm": 6.4355244941065785e-06,
+      "noise_budget": 6.4355244941065785e-06,
+      "energy": 4.082903814307602e-11,
+      "cutoff": 0.31622776601683794
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 30,
+    "target": "news_0_70",
+    "observation_model_error": 6.516627357031563e-10,
+    "output_model_error": 1.9896018185945937e-09,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.7782794100389227e-07,
+      "rank": 28,
+      "bias": 4.029233020968763e-08,
+      "noise": 0.00046126901081830897,
+      "bound": 0.0004613093031485187,
+      "relative_bound": 4.226098194047078e-05,
+      "output_norm": 10.915726089808404
+    },
+    "lower": {
+      "output_norm": 0.00043169404252991713,
+      "relative_lower_bound": 3.954789988116076e-05,
+      "radiation_norm": 6.4355244941065785e-06,
+      "noise_budget": 6.4355244941065785e-06,
+      "energy": 2.8902691146223003e-09,
+      "cutoff": 0.03162277660168379
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 30,
+    "target": "news_30_70",
+    "observation_model_error": 6.516627357031563e-10,
+    "output_model_error": 6.005068779640013e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 28,
+      "bias": 2.1702620736806525e-08,
+      "noise": 2.6265638996691408e-06,
+      "bound": 2.648266520405947e-06,
+      "relative_bound": 7.327896658466114e-06,
+      "output_norm": 0.36139517843040736
+    },
+    "lower": {
+      "output_norm": 2.2043347482022732e-06,
+      "relative_lower_bound": 6.0995134405943785e-06,
+      "radiation_norm": 6.4355244941065785e-06,
+      "noise_budget": 6.4355244941065785e-06,
+      "energy": 4.111482441720576e-11,
+      "cutoff": 0.31622776601683794
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 40,
+    "target": "strain_0_70",
+    "observation_model_error": 3.169722017056944e-09,
+    "output_model_error": 2.559421327537456e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 28,
+      "bias": 3.938609507202948e-08,
+      "noise": 1.3898333484464764e-05,
+      "bound": 1.3937719579536794e-05,
+      "relative_bound": 9.063461214983585e-06,
+      "output_norm": 1.537792157867367
+    },
+    "lower": {
+      "output_norm": 1.3543000506709236e-05,
+      "relative_lower_bound": 8.806782137249855e-06,
+      "radiation_norm": 6.947039655011359e-06,
+      "noise_budget": 6.947039655011358e-06,
+      "energy": 3.37042714701493e-09,
+      "cutoff": 0.01778279410038923
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 40,
+    "target": "strain_30_70",
+    "observation_model_error": 3.169722017056944e-09,
+    "output_model_error": 1.3879139914531423e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-05,
+      "rank": 28,
+      "bias": 3.9302608770973556e-08,
+      "noise": 2.157684577855067e-06,
+      "bound": 2.1969871866260406e-06,
+      "relative_bound": 7.75258448360064e-06,
+      "output_norm": 0.2833877129973131
+    },
+    "lower": {
+      "output_norm": 1.804901966504828e-06,
+      "relative_lower_bound": 6.3690198400448685e-06,
+      "radiation_norm": 6.947039655011359e-06,
+      "noise_budget": 6.947039655011358e-06,
+      "energy": 5.1123891023202614e-11,
+      "cutoff": 0.1778279410038923
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 40,
+    "target": "news_0_70",
+    "observation_model_error": 3.169722017056944e-09,
+    "output_model_error": 1.9896018185945937e-09,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.7782794100389227e-07,
+      "rank": 28,
+      "bias": 5.4840460164007556e-08,
+      "noise": 0.0004972221954465735,
+      "bound": 0.0004972770359067375,
+      "relative_bound": 4.5556019985791514e-05,
+      "output_norm": 10.915726089808404
+    },
+    "lower": {
+      "output_norm": 0.0004651409067705829,
+      "relative_lower_bound": 4.2611998775314375e-05,
+      "radiation_norm": 6.947039655011359e-06,
+      "noise_budget": 6.947039655011358e-06,
+      "energy": 3.37042714701493e-09,
+      "cutoff": 0.01778279410038923
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 40,
+    "target": "news_30_70",
+    "observation_model_error": 3.169722017056944e-09,
+    "output_model_error": 6.005068779640013e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-09,
+      "rank": 28,
+      "bias": 2.170227062250462e-08,
+      "noise": 2.8056989966906057e-06,
+      "bound": 2.8274012673131102e-06,
+      "relative_bound": 7.823572189294089e-06,
+      "output_norm": 0.36139517843040736
+    },
+    "lower": {
+      "output_norm": 2.370439035688824e-06,
+      "relative_lower_bound": 6.559132985625295e-06,
+      "radiation_norm": 6.947039655011357e-06,
+      "noise_budget": 6.947039655011358e-06,
+      "energy": 5.148243892867821e-11,
+      "cutoff": 0.1778279410038923
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 60,
+    "target": "strain_0_70",
+    "observation_model_error": 2.0434614729634088e-08,
+    "output_model_error": 2.559421327537456e-08,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 28,
+      "bias": 4.257910413239733e-08,
+      "noise": 1.4410782181112834e-05,
+      "bound": 1.4453361285245231e-05,
+      "relative_bound": 9.398774217505028e-06,
+      "output_norm": 1.537792157867367
+    },
+    "lower": {
+      "output_norm": 1.4041647855998049e-05,
+      "relative_lower_bound": 9.131043999776415e-06,
+      "radiation_norm": 7.205234016871059e-06,
+      "noise_budget": 7.205234016871063e-06,
+      "energy": 3.6228604418693553e-09,
+      "cutoff": 0.01778279410038923
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 60,
+    "target": "strain_30_70",
+    "observation_model_error": 2.0434614729634088e-08,
+    "output_model_error": 1.3879139914531423e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "rank": 28,
+      "bias": 3.926019426306101e-08,
+      "noise": 2.2327842219834915e-06,
+      "bound": 2.2720444162465524e-06,
+      "relative_bound": 8.017441519308547e-06,
+      "output_norm": 0.2833877129973131
+    },
+    "lower": {
+      "output_norm": 1.8700150287060752e-06,
+      "relative_lower_bound": 6.598786549097158e-06,
+      "radiation_norm": 7.205234016871065e-06,
+      "noise_budget": 7.205234016871063e-06,
+      "energy": 5.4092281547991707e-11,
+      "cutoff": 0.1778279410038923
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 60,
+    "target": "news_0_70",
+    "observation_model_error": 2.0434614729634088e-08,
+    "output_model_error": 1.9896018185945937e-09,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 28,
+      "bias": 2.9826195930408074e-07,
+      "noise": 0.0005150146302331714,
+      "bound": 0.0005153128921924755,
+      "relative_bound": 4.720830185301218e-05,
+      "output_norm": 10.915726089808404
+    },
+    "lower": {
+      "output_norm": 0.0004817563820138442,
+      "relative_lower_bound": 4.4134158190689824e-05,
+      "radiation_norm": 7.205234016871059e-06,
+      "noise_budget": 7.205234016871063e-06,
+      "energy": 3.6228604418693553e-09,
+      "cutoff": 0.01778279410038923
+    }
+  },
+  {
+    "order": 14,
+    "channel": "both",
+    "end": 60,
+    "target": "news_30_70",
+    "observation_model_error": 2.0434614729634088e-08,
+    "output_model_error": 6.005068779640013e-08,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 28,
+      "bias": 2.1753195667125547e-08,
+      "noise": 2.9040205445403334e-06,
+      "bound": 2.9257737402074587e-06,
+      "relative_bound": 8.09577414096814e-06,
+      "output_norm": 0.36139517843040736
+    },
+    "lower": {
+      "output_norm": 2.4542837136891253e-06,
+      "relative_lower_bound": 6.791135743283687e-06,
+      "radiation_norm": 7.205234016871063e-06,
+      "noise_budget": 7.205234016871063e-06,
+      "energy": 5.4750391976456086e-11,
+      "cutoff": 0.1778279410038923
+    }
+  },
+  {
+    "order": 14,
+    "channel": "infinity",
+    "end": 60,
+    "target": "strain_0_70",
+    "observation_model_error": 1.527945968052371e-08,
+    "output_model_error": 2.559421327537456e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 28,
+      "bias": 0.029124834801846,
+      "noise": 0.003528873479339793,
+      "bound": 0.03265370828118579,
+      "relative_bound": 0.02123414930563207,
+      "output_norm": 1.537792157867367
+    },
+    "lower": {
+      "output_norm": 0.03160747086785972,
+      "relative_lower_bound": 0.020553798968316647,
+      "radiation_norm": 6.928080618013576e-06,
+      "noise_budget": 7.201483248129079e-06,
+      "energy": 1.0000000000000004,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 14,
+    "channel": "infinity",
+    "end": 60,
+    "target": "strain_30_70",
+    "observation_model_error": 1.527945968052371e-08,
+    "output_model_error": 1.3879139914531423e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 28,
+      "bias": 0.006004013663855256,
+      "noise": 0.0020674604668094185,
+      "bound": 0.008071474130664676,
+      "relative_bound": 0.028482089238432172,
+      "output_norm": 0.2833877129973131
+    },
+    "lower": {
+      "output_norm": 0.007533083649045432,
+      "relative_lower_bound": 0.02658225217095724,
+      "radiation_norm": 7.201483248135586e-06,
+      "noise_budget": 7.201483248129079e-06,
+      "energy": 0.8835567234867269,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 14,
+    "channel": "infinity",
+    "end": 60,
+    "target": "news_0_70",
+    "observation_model_error": 1.527945968052371e-08,
+    "output_model_error": 1.9896018185945937e-09,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 28,
+      "bias": 0.0469124664420273,
+      "noise": 0.005149254687941528,
+      "bound": 0.052061721129968826,
+      "relative_bound": 0.004769423554753437,
+      "output_norm": 10.915726089808404
+    },
+    "lower": {
+      "output_norm": 0.05095704635184704,
+      "relative_lower_bound": 0.004668223252635818,
+      "radiation_norm": 6.932490487175815e-06,
+      "noise_budget": 7.201483248129079e-06,
+      "energy": 1.0,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 14,
+    "channel": "infinity",
+    "end": 60,
+    "target": "news_30_70",
+    "observation_model_error": 1.527945968052371e-08,
+    "output_model_error": 6.005068779640013e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 28,
+      "bias": 0.007887409501432407,
+      "noise": 0.0027448012292832754,
+      "bound": 0.010632210730715682,
+      "relative_bound": 0.029419901994522848,
+      "output_norm": 0.36139517843040736
+    },
+    "lower": {
+      "output_norm": 0.009895130231373518,
+      "relative_lower_bound": 0.027380360397583417,
+      "radiation_norm": 7.201483248122343e-06,
+      "noise_budget": 7.201483248129079e-06,
+      "energy": 0.872917634438181,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 14,
+    "channel": "infinity",
+    "end": 400,
+    "target": "strain_0_70",
+    "observation_model_error": 6.3091663879970635e-06,
+    "output_model_error": 2.559421327537456e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 28,
+      "bias": 0.029082122998875692,
+      "noise": 0.0035325638581154397,
+      "bound": 0.032614686856991135,
+      "relative_bound": 0.021208774339324027,
+      "output_norm": 1.537792157867367
+    },
+    "lower": {
+      "output_norm": 0.03165797950100168,
+      "relative_lower_bound": 0.020586643870590053,
+      "radiation_norm": 7.1070778850843715e-06,
+      "noise_budget": 7.234887548296712e-06,
+      "energy": 0.9999999999999998,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 14,
+    "channel": "infinity",
+    "end": 400,
+    "target": "strain_30_70",
+    "observation_model_error": 6.3091663879970635e-06,
+    "output_model_error": 1.3879139914531423e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 28,
+      "bias": 0.00596893041837647,
+      "noise": 0.002086677366390786,
+      "bound": 0.008055607784767256,
+      "relative_bound": 0.02842610111625988,
+      "output_norm": 0.2833877129973131
+    },
+    "lower": {
+      "output_norm": 0.0074033857236111165,
+      "relative_lower_bound": 0.02612458262677504,
+      "radiation_norm": 7.234887548298404e-06,
+      "noise_budget": 7.234887548296712e-06,
+      "energy": 0.8473518526203739,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 14,
+    "channel": "infinity",
+    "end": 400,
+    "target": "news_0_70",
+    "observation_model_error": 6.3091663879970635e-06,
+    "output_model_error": 1.9896018185945937e-09,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 28,
+      "bias": 0.04681966649283734,
+      "noise": 0.005155397718103635,
+      "bound": 0.051975064210940974,
+      "relative_bound": 0.00476148483237117,
+      "output_norm": 10.915726089808404
+    },
+    "lower": {
+      "output_norm": 0.05101014825959474,
+      "relative_lower_bound": 0.00467308796867127,
+      "radiation_norm": 7.1089588354282665e-06,
+      "noise_budget": 7.234887548296712e-06,
+      "energy": 0.9999999999999998,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 14,
+    "channel": "infinity",
+    "end": 400,
+    "target": "news_30_70",
+    "observation_model_error": 6.3091663879970635e-06,
+    "output_model_error": 6.005068779640013e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 28,
+      "bias": 0.007840044587940038,
+      "noise": 0.0027703815852392075,
+      "bound": 0.010610426173179244,
+      "relative_bound": 0.029359622945889573,
+      "output_norm": 0.36139517843040736
+    },
+    "lower": {
+      "output_norm": 0.009726223769690878,
+      "relative_lower_bound": 0.026912987085033355,
+      "radiation_norm": 7.234887548296784e-06,
+      "noise_budget": 7.234887548296712e-06,
+      "energy": 0.8372109055863074,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 10,
+    "target": "strain_0_70",
+    "observation_model_error": 2.0878670311730734e-11,
+    "output_model_error": 3.1408716050465937e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.7782794100389228e-09,
+      "rank": 36,
+      "bias": 8.659314786534031e-07,
+      "noise": 0.49541490915049946,
+      "bound": 0.4954157750819781,
+      "relative_bound": 0.1797504541015014,
+      "output_norm": 2.756130867976706
+    },
+    "lower": {
+      "output_norm": 0.4949867345605313,
+      "relative_lower_bound": 0.1795947864129922,
+      "radiation_norm": 5.116814586666741e-06,
+      "noise_budget": 5.116814586673192e-06,
+      "energy": 0.22622779945340535,
+      "cutoff": 3.162277660168379e-06
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 10,
+    "target": "strain_30_70",
+    "observation_model_error": 2.0878670311730734e-11,
+    "output_model_error": 1.1315042378288735e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-09,
+      "rank": 36,
+      "bias": 8.648423863412781e-07,
+      "noise": 0.034689595413657015,
+      "bound": 0.03469046025604336,
+      "relative_bound": 0.04537859952857734,
+      "output_norm": 0.764467405702922
+    },
+    "lower": {
+      "output_norm": 0.03463639649274273,
+      "relative_lower_bound": 0.045307878706607276,
+      "radiation_norm": 5.116814586666741e-06,
+      "noise_budget": 5.116814586673192e-06,
+      "energy": 0.22622779945340535,
+      "cutoff": 3.162277660168379e-06
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 10,
+    "target": "news_0_70",
+    "observation_model_error": 2.0878670311730734e-11,
+    "output_model_error": 1.6047859020044218e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.7782794100389228e-09,
+      "rank": 36,
+      "bias": 4.6679954144145854e-07,
+      "noise": 0.2629292317010624,
+      "bound": 0.2629296985006039,
+      "relative_bound": 0.009045027563976607,
+      "output_norm": 29.068977030845883
+    },
+    "lower": {
+      "output_norm": 0.2624122999842349,
+      "relative_lower_bound": 0.009027228571056424,
+      "radiation_norm": 5.116814586666741e-06,
+      "noise_budget": 5.116814586673192e-06,
+      "energy": 0.22622779945340535,
+      "cutoff": 3.162277660168379e-06
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 10,
+    "target": "news_30_70",
+    "observation_model_error": 2.0878670311730734e-11,
+    "output_model_error": 8.658549368890788e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-08,
+      "rank": 36,
+      "bias": 6.333591301237606e-07,
+      "noise": 0.013426476594519158,
+      "bound": 0.01342710995364928,
+      "relative_bound": 0.024947306132652447,
+      "output_norm": 0.5382188314142311
+    },
+    "lower": {
+      "output_norm": 0.013305115542400874,
+      "relative_lower_bound": 0.024720642916637035,
+      "radiation_norm": 5.116814586666741e-06,
+      "noise_budget": 5.116814586673192e-06,
+      "energy": 0.22622779945340535,
+      "cutoff": 3.162277660168379e-06
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 20,
+    "target": "strain_0_70",
+    "observation_model_error": 1.3469093887351722e-09,
+    "output_model_error": 3.1408716050465937e-07,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 36,
+      "bias": 8.668525729410265e-07,
+      "noise": 0.00021502585805372744,
+      "bound": 0.00021589271062666848,
+      "relative_bound": 7.833180678577747e-05,
+      "output_norm": 2.756130867976706
+    },
+    "lower": {
+      "output_norm": 0.00021197308540525658,
+      "relative_lower_bound": 7.690965906886252e-05,
+      "radiation_norm": 7.988135335082564e-06,
+      "noise_budget": 7.988135335082563e-06,
+      "energy": 1.656353225186801e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 20,
+    "target": "strain_30_70",
+    "observation_model_error": 1.3469093887351722e-09,
+    "output_model_error": 1.1315042378288735e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 36,
+      "bias": 8.630851435549303e-07,
+      "noise": 5.311909663010642e-05,
+      "bound": 5.398218177366135e-05,
+      "relative_bound": 7.061410515471897e-05,
+      "output_norm": 0.764467405702922
+    },
+    "lower": {
+      "output_norm": 5.208422666476432e-05,
+      "relative_lower_bound": 6.813138961349604e-05,
+      "radiation_norm": 7.988135335082561e-06,
+      "noise_budget": 7.988135335082563e-06,
+      "energy": 1.6740626630217365e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 20,
+    "target": "news_0_70",
+    "observation_model_error": 1.3469093887351722e-09,
+    "output_model_error": 1.6047859020044218e-08,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 36,
+      "bias": 4.6818565702084583e-07,
+      "noise": 0.0025074526730752616,
+      "bound": 0.0025079208587322826,
+      "relative_bound": 8.627482336482152e-05,
+      "output_norm": 29.068977030845883
+    },
+    "lower": {
+      "output_norm": 0.0023371864125028333,
+      "relative_lower_bound": 8.040139871529642e-05,
+      "radiation_norm": 7.988135335082561e-06,
+      "noise_budget": 7.988135335082563e-06,
+      "energy": 1.1060509866374837e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 20,
+    "target": "news_30_70",
+    "observation_model_error": 1.3469093887351722e-09,
+    "output_model_error": 8.658549368890788e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 36,
+      "bias": 4.660075081913846e-07,
+      "noise": 8.628635179069512e-06,
+      "bound": 9.094642687260898e-06,
+      "relative_bound": 1.689766718745922e-05,
+      "output_norm": 0.5382188314142311
+    },
+    "lower": {
+      "output_norm": 7.2118487815260184e-06,
+      "relative_lower_bound": 1.3399473152167616e-05,
+      "radiation_norm": 7.988135335082561e-06,
+      "noise_budget": 7.988135335082563e-06,
+      "energy": 1.667710031363639e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 30,
+    "target": "strain_0_70",
+    "observation_model_error": 1.172994413637105e-08,
+    "output_model_error": 3.1408716050465937e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "rank": 36,
+      "bias": 8.666953168885493e-07,
+      "noise": 4.0868846154757714e-05,
+      "bound": 4.173554147164626e-05,
+      "relative_bound": 1.5142801075438265e-05,
+      "output_norm": 2.756130867976706
+    },
+    "lower": {
+      "output_norm": 4.023281526797712e-05,
+      "relative_lower_bound": 1.4597570723306147e-05,
+      "radiation_norm": 9.056546685493467e-06,
+      "noise_budget": 9.056546685493462e-06,
+      "energy": 1.3528122483826347e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 30,
+    "target": "strain_30_70",
+    "observation_model_error": 1.172994413637105e-08,
+    "output_model_error": 1.1315042378288735e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-05,
+      "rank": 36,
+      "bias": 8.65297904043881e-07,
+      "noise": 6.15298369626264e-06,
+      "bound": 7.0182816003065204e-06,
+      "relative_bound": 9.180615874463953e-06,
+      "output_norm": 0.764467405702922
+    },
+    "lower": {
+      "output_norm": 4.942839629221592e-06,
+      "relative_lower_bound": 6.465729725489981e-06,
+      "radiation_norm": 9.056546685493467e-06,
+      "noise_budget": 9.056546685493462e-06,
+      "energy": 1.3528122483826347e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 30,
+    "target": "news_0_70",
+    "observation_model_error": 1.172994413637105e-08,
+    "output_model_error": 1.6047859020044218e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-07,
+      "rank": 36,
+      "bias": 1.181119599400559e-06,
+      "noise": 0.002688366030703744,
+      "bound": 0.0026895471503031445,
+      "relative_bound": 9.252293768195534e-05,
+      "output_norm": 29.068977030845883
+    },
+    "lower": {
+      "output_norm": 0.0025132631594386584,
+      "relative_lower_bound": 8.645860350612842e-05,
+      "radiation_norm": 9.056546685493467e-06,
+      "noise_budget": 9.056546685493462e-06,
+      "energy": 1.3528122483826347e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 30,
+    "target": "news_30_70",
+    "observation_model_error": 1.172994413637105e-08,
+    "output_model_error": 8.658549368890788e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-05,
+      "rank": 36,
+      "bias": 4.6601179231351746e-07,
+      "noise": 6.210307785373228e-06,
+      "bound": 6.676319577686746e-06,
+      "relative_bound": 1.2404470427286904e-05,
+      "output_norm": 0.5382188314142311
+    },
+    "lower": {
+      "output_norm": 5.193682016201172e-06,
+      "relative_lower_bound": 9.649759007045857e-06,
+      "radiation_norm": 9.05654668549346e-06,
+      "noise_budget": 9.056546685493462e-06,
+      "energy": 1.0736754300766218e-10,
+      "cutoff": 0.1778279410038923
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 40,
+    "target": "strain_0_70",
+    "observation_model_error": 4.739833101322904e-08,
+    "output_model_error": 3.1408716050465937e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 36,
+      "bias": 8.83527197036742e-07,
+      "noise": 4.094328284804432e-05,
+      "bound": 4.1826810045081063e-05,
+      "relative_bound": 1.5175915821365336e-05,
+      "output_norm": 2.756130867976706
+    },
+    "lower": {
+      "output_norm": 4.020438911968909e-05,
+      "relative_lower_bound": 1.458725693573593e-05,
+      "radiation_norm": 9.232695874164356e-06,
+      "noise_budget": 9.232695874164365e-06,
+      "energy": 1.3761882770432854e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 40,
+    "target": "strain_30_70",
+    "observation_model_error": 4.739833101322904e-08,
+    "output_model_error": 1.1315042378288735e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-05,
+      "rank": 36,
+      "bias": 8.684868970652268e-07,
+      "noise": 5.7732795880670125e-06,
+      "bound": 6.64176648513224e-06,
+      "relative_bound": 8.68809636040033e-06,
+      "output_norm": 0.764467405702922
+    },
+    "lower": {
+      "output_norm": 5.0540415202146425e-06,
+      "relative_lower_bound": 6.611192946241428e-06,
+      "radiation_norm": 9.232695874164356e-06,
+      "noise_budget": 9.232695874164365e-06,
+      "energy": 1.3761882770432854e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 40,
+    "target": "news_0_70",
+    "observation_model_error": 4.739833101322904e-08,
+    "output_model_error": 1.6047859020044218e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.62341325190349e-07,
+      "rank": 36,
+      "bias": 9.129462135048276e-06,
+      "noise": 0.00264964400319548,
+      "bound": 0.002658773465330528,
+      "relative_bound": 9.146429413423222e-05,
+      "output_norm": 29.068977030845883
+    },
+    "lower": {
+      "output_norm": 0.0024732596106200734,
+      "relative_lower_bound": 8.508244400880121e-05,
+      "radiation_norm": 9.232695874164356e-06,
+      "noise_budget": 9.232695874164365e-06,
+      "energy": 1.3761882770432854e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 40,
+    "target": "news_30_70",
+    "observation_model_error": 4.739833101322904e-08,
+    "output_model_error": 8.658549368890788e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-05,
+      "rank": 36,
+      "bias": 4.662124174512773e-07,
+      "noise": 5.867881443272442e-06,
+      "bound": 6.33409386072372e-06,
+      "relative_bound": 1.1768621778023205e-05,
+      "output_norm": 0.5382188314142311
+    },
+    "lower": {
+      "output_norm": 4.909245279823263e-06,
+      "relative_lower_bound": 9.121281146784967e-06,
+      "radiation_norm": 9.232695874164367e-06,
+      "noise_budget": 9.232695874164365e-06,
+      "energy": 9.966246125532947e-11,
+      "cutoff": 0.1778279410038923
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 60,
+    "target": "strain_0_70",
+    "observation_model_error": 2.1305106890344683e-07,
+    "output_model_error": 3.1408716050465937e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 36,
+      "bias": 9.46949217659523e-07,
+      "noise": 4.512619884289681e-05,
+      "bound": 4.607314806055633e-05,
+      "relative_bound": 1.671660391597404e-05,
+      "output_norm": 2.756130867976706
+    },
+    "lower": {
+      "output_norm": 4.388834602605515e-05,
+      "relative_lower_bound": 1.5923897713272913e-05,
+      "radiation_norm": 1.0203013350323099e-05,
+      "noise_budget": 1.0203013350323099e-05,
+      "energy": 1.5775175525041486e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 60,
+    "target": "strain_30_70",
+    "observation_model_error": 2.1305106890344683e-07,
+    "output_model_error": 1.1315042378288735e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "rank": 36,
+      "bias": 8.679232610162412e-07,
+      "noise": 6.359159775075914e-06,
+      "bound": 7.227083036092155e-06,
+      "relative_bound": 9.453749083581799e-06,
+      "output_norm": 0.764467405702922
+    },
+    "lower": {
+      "output_norm": 5.627501418908946e-06,
+      "relative_lower_bound": 7.3613359797001425e-06,
+      "radiation_norm": 1.0203013350323104e-05,
+      "noise_budget": 1.0203013350323099e-05,
+      "energy": 1.6125845229465625e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 60,
+    "target": "news_0_70",
+    "observation_model_error": 2.1305106890344683e-07,
+    "output_model_error": 1.6047859020044218e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.62341325190349e-07,
+      "rank": 36,
+      "bias": 2.5286680123021203e-05,
+      "noise": 0.0029142973396064456,
+      "bound": 0.0029395840197294666,
+      "relative_bound": 0.00010112443986625997,
+      "output_norm": 29.068977030845883
+    },
+    "lower": {
+      "output_norm": 0.002720074664418816,
+      "relative_lower_bound": 9.357311272193963e-05,
+      "radiation_norm": 1.02030133503231e-05,
+      "noise_budget": 1.0203013350323099e-05,
+      "energy": 1.6755287185970076e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 18,
+    "channel": "both",
+    "end": 60,
+    "target": "news_30_70",
+    "observation_model_error": 2.1305106890344683e-07,
+    "output_model_error": 8.658549368890788e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "rank": 36,
+      "bias": 4.6833180010635285e-07,
+      "noise": 6.440012249455191e-06,
+      "bound": 6.908344049561544e-06,
+      "relative_bound": 1.2835567331245334e-05,
+      "output_norm": 0.5382188314142311
+    },
+    "lower": {
+      "output_norm": 5.292366694603263e-06,
+      "relative_lower_bound": 9.833113198022017e-06,
+      "radiation_norm": 1.0203013350323096e-05,
+      "noise_budget": 1.0203013350323099e-05,
+      "energy": 1.4550006876786052e-10,
+      "cutoff": 0.1
+    }
+  },
+  {
+    "order": 18,
+    "channel": "infinity",
+    "end": 60,
+    "target": "strain_0_70",
+    "observation_model_error": 1.640388911179654e-07,
+    "output_model_error": 3.1408716050465937e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 36,
+      "bias": 0.04794014382737968,
+      "noise": 0.004343732774104737,
+      "bound": 0.05228387660148442,
+      "relative_bound": 0.018970026862282618,
+      "output_norm": 2.756130867976706
+    },
+    "lower": {
+      "output_norm": 0.04607489449370882,
+      "relative_lower_bound": 0.016717237569902735,
+      "radiation_norm": 1.8501438119899266e-06,
+      "noise_budget": 1.0200884844197857e-05,
+      "energy": 1.0,
+      "cutoff": 3.162277660168379e-07
+    }
+  },
+  {
+    "order": 18,
+    "channel": "infinity",
+    "end": 60,
+    "target": "strain_30_70",
+    "observation_model_error": 1.640388911179654e-07,
+    "output_model_error": 1.1315042378288735e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 36,
+      "bias": 0.010855997479144609,
+      "noise": 0.0034557705100102254,
+      "bound": 0.014311767989154834,
+      "relative_bound": 0.018721227199994576,
+      "output_norm": 0.764467405702922
+    },
+    "lower": {
+      "output_norm": 0.010490418474348931,
+      "relative_lower_bound": 0.013722518966917981,
+      "radiation_norm": 1.6707201779181572e-06,
+      "noise_budget": 1.0200884844197857e-05,
+      "energy": 1.000000000000001,
+      "cutoff": 3.162277660168379e-07
+    }
+  },
+  {
+    "order": 18,
+    "channel": "infinity",
+    "end": 60,
+    "target": "news_0_70",
+    "observation_model_error": 1.640388911179654e-07,
+    "output_model_error": 1.6047859020044218e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 36,
+      "bias": 0.07700791037514923,
+      "noise": 0.006596117773008916,
+      "bound": 0.08360402814815815,
+      "relative_bound": 0.00287605676867967,
+      "output_norm": 29.068977030845883
+    },
+    "lower": {
+      "output_norm": 0.0763667729957455,
+      "relative_lower_bound": 0.002627088421952745,
+      "radiation_norm": 2.0704696992375836e-06,
+      "noise_budget": 1.0200884844197857e-05,
+      "energy": 1.0000000000000016,
+      "cutoff": 3.162277660168379e-07
+    }
+  },
+  {
+    "order": 18,
+    "channel": "infinity",
+    "end": 60,
+    "target": "news_30_70",
+    "observation_model_error": 1.640388911179654e-07,
+    "output_model_error": 8.658549368890788e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 36,
+      "bias": 0.01439864675296114,
+      "noise": 0.004488343617380665,
+      "bound": 0.018886990370341805,
+      "relative_bound": 0.03509165653069792,
+      "output_norm": 0.5382188314142311
+    },
+    "lower": {
+      "output_norm": 0.01396718682419048,
+      "relative_lower_bound": 0.025950758332795806,
+      "radiation_norm": 1.6045339474395231e-06,
+      "noise_budget": 1.0200884844197857e-05,
+      "energy": 0.9999999999999997,
+      "cutoff": 3.162277660168379e-07
+    }
+  },
+  {
+    "order": 18,
+    "channel": "infinity",
+    "end": 400,
+    "target": "strain_0_70",
+    "observation_model_error": 3.993022705812153e-05,
+    "output_model_error": 3.1408716050465937e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 36,
+      "bias": 0.048130309091637756,
+      "noise": 0.004353425975314757,
+      "bound": 0.05248373506695252,
+      "relative_bound": 0.01904254100440491,
+      "output_norm": 2.756130867976706
+    },
+    "lower": {
+      "output_norm": 0.04607657323377673,
+      "relative_lower_bound": 0.016717846662920564,
+      "radiation_norm": 1.860010969610456e-06,
+      "noise_budget": 1.0612513753985214e-05,
+      "energy": 0.999999999999999,
+      "cutoff": 3.162277660168379e-07
+    }
+  },
+  {
+    "order": 18,
+    "channel": "infinity",
+    "end": 400,
+    "target": "strain_30_70",
+    "observation_model_error": 3.993022705812153e-05,
+    "output_model_error": 1.1315042378288735e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 36,
+      "bias": 0.011093466280050616,
+      "noise": 0.003501224545229651,
+      "bound": 0.014594690825280268,
+      "relative_bound": 0.019091318630989323,
+      "output_norm": 0.764467405702922
+    },
+    "lower": {
+      "output_norm": 0.010495331836054654,
+      "relative_lower_bound": 0.013728946136564548,
+      "radiation_norm": 1.6805961618454285e-06,
+      "noise_budget": 1.0612513753985214e-05,
+      "energy": 1.0,
+      "cutoff": 3.162277660168379e-07
+    }
+  },
+  {
+    "order": 18,
+    "channel": "infinity",
+    "end": 400,
+    "target": "news_0_70",
+    "observation_model_error": 3.993022705812153e-05,
+    "output_model_error": 1.6047859020044218e-08,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 36,
+      "bias": 0.07716119654611119,
+      "noise": 0.0065868466312884785,
+      "bound": 0.08374804317739966,
+      "relative_bound": 0.00288101102039237,
+      "output_norm": 29.068977030845883
+    },
+    "lower": {
+      "output_norm": 0.07635976697248917,
+      "relative_lower_bound": 0.0026268474081995296,
+      "radiation_norm": 2.080589162638166e-06,
+      "noise_budget": 1.0612513753985214e-05,
+      "energy": 0.9999999999999988,
+      "cutoff": 3.162277660168379e-07
+    }
+  },
+  {
+    "order": 18,
+    "channel": "infinity",
+    "end": 400,
+    "target": "news_30_70",
+    "observation_model_error": 3.993022705812153e-05,
+    "output_model_error": 8.658549368890788e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 36,
+      "bias": 0.014711234396163037,
+      "noise": 0.004547238503356031,
+      "bound": 0.01925847289951907,
+      "relative_bound": 0.035781863761465284,
+      "output_norm": 0.5382188314142311
+    },
+    "lower": {
+      "output_norm": 0.013973417740915673,
+      "relative_lower_bound": 0.02596233525348589,
+      "radiation_norm": 1.6144689392019204e-06,
+      "noise_budget": 1.0612513753985214e-05,
+      "energy": 0.9999999999999997,
+      "cutoff": 3.162277660168379e-07
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 10,
+    "target": "strain_0_70",
+    "observation_model_error": 9.822621048929786e-10,
+    "output_model_error": 2.6769964833423555e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 44,
+      "bias": 1.6917368153370136,
+      "noise": 0.14561747044707674,
+      "bound": 1.8373542857840903,
+      "relative_bound": 0.3697578935816517,
+      "output_norm": 4.969073866108979
+    },
+    "lower": {
+      "output_norm": 1.6282352042736004,
+      "relative_lower_bound": 0.3276737774776904,
+      "radiation_norm": 1.1185958794641346e-06,
+      "noise_budget": 5.4552846392962065e-06,
+      "energy": 1.0000000000000007,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 10,
+    "target": "strain_30_70",
+    "observation_model_error": 9.822621048929786e-10,
+    "output_model_error": 4.6993865980408475e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 44,
+      "bias": 0.2837361146020862,
+      "noise": 0.07844700424119096,
+      "bound": 0.36218311884327714,
+      "relative_bound": 0.12808401576405196,
+      "output_norm": 2.8276995898572332
+    },
+    "lower": {
+      "output_norm": 0.28537049132562375,
+      "relative_lower_bound": 0.1009196635842182,
+      "radiation_norm": 1.2782113849208107e-06,
+      "noise_budget": 5.4552846392962065e-06,
+      "energy": 1.0000000000000002,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 10,
+    "target": "news_0_70",
+    "observation_model_error": 9.822621048929786e-10,
+    "output_model_error": 1.0543104816916802e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 44,
+      "bias": 0.7073162759973766,
+      "noise": 0.06802710742458903,
+      "bound": 0.7753433834219656,
+      "relative_bound": 0.011728353257395433,
+      "output_norm": 66.10846095832464
+    },
+    "lower": {
+      "output_norm": 0.6985798744929393,
+      "relative_lower_bound": 0.010567178003634516,
+      "radiation_norm": 1.781952251027628e-06,
+      "noise_budget": 5.4552846392962065e-06,
+      "energy": 1.0000000000000007,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 10,
+    "target": "news_30_70",
+    "observation_model_error": 9.822621048929786e-10,
+    "output_model_error": 9.523141482269566e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 44,
+      "bias": 0.037403042170328256,
+      "noise": 0.013656629338033627,
+      "bound": 0.05105967150836188,
+      "relative_bound": 0.06986934539077168,
+      "output_norm": 0.7307878902083692
+    },
+    "lower": {
+      "output_norm": 0.03721250960657396,
+      "relative_lower_bound": 0.050921081349560374,
+      "radiation_norm": 1.8829133217392083e-06,
+      "noise_budget": 5.4552846392962065e-06,
+      "energy": 1.0000000000000004,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 20,
+    "target": "strain_0_70",
+    "observation_model_error": 2.839369223631551e-08,
+    "output_model_error": 2.6769964833423555e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-06,
+      "rank": 44,
+      "bias": 1.557233838479066e-05,
+      "noise": 0.003980493466886132,
+      "bound": 0.003996065805270923,
+      "relative_bound": 0.0008041872415150939,
+      "output_norm": 4.969073866108979
+    },
+    "lower": {
+      "output_norm": 0.003975408405276579,
+      "relative_lower_bound": 0.0008000300483336371,
+      "radiation_norm": 9.234691893151472e-06,
+      "noise_budget": 9.234691893151537e-06,
+      "energy": 2.2854146694144476e-06,
+      "cutoff": 0.001
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 20,
+    "target": "strain_30_70",
+    "observation_model_error": 2.839369223631551e-08,
+    "output_model_error": 4.6993865980408475e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 44,
+      "bias": 1.3778394153779903e-05,
+      "noise": 0.0019172861321384706,
+      "bound": 0.0019310645262922504,
+      "relative_bound": 0.0006829100705106186,
+      "output_norm": 2.8276995898572332
+    },
+    "lower": {
+      "output_norm": 0.0019062876867351332,
+      "relative_lower_bound": 0.0006741478810453762,
+      "radiation_norm": 9.234691893151472e-06,
+      "noise_budget": 9.234691893151537e-06,
+      "energy": 2.2854146694144476e-06,
+      "cutoff": 0.001
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 20,
+    "target": "news_0_70",
+    "observation_model_error": 2.839369223631551e-08,
+    "output_model_error": 1.0543104816916802e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-06,
+      "rank": 44,
+      "bias": 1.0818555447821815e-05,
+      "noise": 0.008537562764936195,
+      "bound": 0.008548381320384017,
+      "relative_bound": 0.00012930843036525978,
+      "output_norm": 66.10846095832464
+    },
+    "lower": {
+      "output_norm": 0.007850980229304994,
+      "relative_lower_bound": 0.00011875908341376032,
+      "radiation_norm": 9.234691893151537e-06,
+      "noise_budget": 9.234691893151537e-06,
+      "energy": 2.5796484432811258e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 20,
+    "target": "news_30_70",
+    "observation_model_error": 2.839369223631551e-08,
+    "output_model_error": 9.523141482269566e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 44,
+      "bias": 6.96288903026914e-06,
+      "noise": 0.00018452803487680052,
+      "bound": 0.00019149092390706966,
+      "relative_bound": 0.00026203352090641507,
+      "output_norm": 0.7307878902083692
+    },
+    "lower": {
+      "output_norm": 0.0001836087890899977,
+      "relative_lower_bound": 0.0002512477170874375,
+      "radiation_norm": 9.234691893151472e-06,
+      "noise_budget": 9.234691893151537e-06,
+      "energy": 2.2854146694144476e-06,
+      "cutoff": 0.001
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 30,
+    "target": "strain_0_70",
+    "observation_model_error": 1.5846992243988144e-07,
+    "output_model_error": 2.6769964833423555e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-05,
+      "rank": 44,
+      "bias": 1.3348917316277305e-05,
+      "noise": 0.00011895814258039826,
+      "bound": 0.00013230705989667556,
+      "relative_bound": 2.662610044883037e-05,
+      "output_norm": 4.969073866108979
+    },
+    "lower": {
+      "output_norm": 0.00011337949203511232,
+      "relative_lower_bound": 2.281702689275856e-05,
+      "radiation_norm": 1.1463954915954944e-05,
+      "noise_budget": 1.1463954915954946e-05,
+      "energy": 3.4249778417336774e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 30,
+    "target": "strain_30_70",
+    "observation_model_error": 1.5846992243988144e-07,
+    "output_model_error": 4.6993865980408475e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "rank": 44,
+      "bias": 1.3311642032597697e-05,
+      "noise": 7.057807497394472e-05,
+      "bound": 8.388971700654242e-05,
+      "relative_bound": 2.966712493344383e-05,
+      "output_norm": 2.8276995898572332
+    },
+    "lower": {
+      "output_norm": 5.770592286920434e-05,
+      "relative_lower_bound": 2.0407373921965253e-05,
+      "radiation_norm": 1.1463954915954946e-05,
+      "noise_budget": 1.1463954915954946e-05,
+      "energy": 1.0029554496972467e-09,
+      "cutoff": 0.05623413251903491
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 30,
+    "target": "news_0_70",
+    "observation_model_error": 1.5846992243988144e-07,
+    "output_model_error": 1.0543104816916802e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-06,
+      "rank": 44,
+      "bias": 7.303441403608738e-06,
+      "noise": 0.01040980062861645,
+      "bound": 0.01041710407002006,
+      "relative_bound": 0.00015757595803942695,
+      "output_norm": 66.10846095832464
+    },
+    "lower": {
+      "output_norm": 0.009228101380118033,
+      "relative_lower_bound": 0.00013959032242386507,
+      "radiation_norm": 1.1463954915954952e-05,
+      "noise_budget": 1.1463954915954946e-05,
+      "energy": 2.6294157501064988e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 30,
+    "target": "news_30_70",
+    "observation_model_error": 1.5846992243988144e-07,
+    "output_model_error": 9.523141482269566e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "rank": 44,
+      "bias": 6.959705258549298e-06,
+      "noise": 1.1806210499854716e-05,
+      "bound": 1.8765915758404014e-05,
+      "relative_bound": 2.567901850843929e-05,
+      "output_norm": 0.7307878902083692
+    },
+    "lower": {
+      "output_norm": 9.27326373767345e-06,
+      "relative_lower_bound": 1.2689405314351021e-05,
+      "radiation_norm": 1.1463954915954946e-05,
+      "noise_budget": 1.1463954915954946e-05,
+      "energy": 2.0415068818138176e-10,
+      "cutoff": 0.1
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 40,
+    "target": "strain_0_70",
+    "observation_model_error": 4.6976568797502214e-07,
+    "output_model_error": 2.6769964833423555e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "rank": 44,
+      "bias": 1.3588421273272744e-05,
+      "noise": 0.00012832804228268124,
+      "bound": 0.000141916463555954,
+      "relative_bound": 2.8559942431904586e-05,
+      "output_norm": 4.969073866108979
+    },
+    "lower": {
+      "output_norm": 0.00012134513575332705,
+      "relative_lower_bound": 2.442007082666816e-05,
+      "radiation_norm": 1.254106732393525e-05,
+      "noise_budget": 1.2541067323935244e-05,
+      "energy": 3.8878742363599015e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 40,
+    "target": "strain_30_70",
+    "observation_model_error": 4.6976568797502214e-07,
+    "output_model_error": 4.6993865980408475e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "rank": 44,
+      "bias": 1.3439905651575279e-05,
+      "noise": 2.6946767277375366e-05,
+      "bound": 4.038667292895064e-05,
+      "relative_bound": 1.4282518932992353e-05,
+      "output_norm": 2.8276995898572332
+    },
+    "lower": {
+      "output_norm": 2.3643468235178285e-05,
+      "relative_lower_bound": 8.361379094153355e-06,
+      "radiation_norm": 1.2541067323935242e-05,
+      "noise_budget": 1.2541067323935244e-05,
+      "energy": 3.4364673722440934e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 40,
+    "target": "news_0_70",
+    "observation_model_error": 4.6976568797502214e-07,
+    "output_model_error": 1.0543104816916802e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.62341325190349e-07,
+      "rank": 44,
+      "bias": 0.00011438501372334788,
+      "noise": 0.01090790465227107,
+      "bound": 0.011022289665994419,
+      "relative_bound": 0.00016673039284552347,
+      "output_norm": 66.10846095832464
+    },
+    "lower": {
+      "output_norm": 0.009620099139591477,
+      "relative_lower_bound": 0.00014551993799486685,
+      "radiation_norm": 1.2541067323935244e-05,
+      "noise_budget": 1.2541067323935244e-05,
+      "energy": 3.0312411330633675e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 40,
+    "target": "news_30_70",
+    "observation_model_error": 4.6976568797502214e-07,
+    "output_model_error": 9.523141482269566e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 0.0001,
+      "rank": 44,
+      "bias": 6.9632455069191716e-06,
+      "noise": 1.1279587894675807e-05,
+      "bound": 1.8242833401594978e-05,
+      "relative_bound": 2.4963239875791327e-05,
+      "output_norm": 0.7307878902083692
+    },
+    "lower": {
+      "output_norm": 9.301556993251604e-06,
+      "relative_lower_bound": 1.2728121412355991e-05,
+      "radiation_norm": 1.2541067323935242e-05,
+      "noise_budget": 1.2541067323935244e-05,
+      "energy": 2.0317954127165927e-10,
+      "cutoff": 0.1
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 60,
+    "target": "strain_0_70",
+    "observation_model_error": 1.6901452146692672e-06,
+    "output_model_error": 2.6769964833423555e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 44,
+      "bias": 2.0481041477587884e-05,
+      "noise": 0.0001321570194400444,
+      "bound": 0.0001526380609176323,
+      "relative_bound": 3.0717607552321445e-05,
+      "output_norm": 4.969073866108979
+    },
+    "lower": {
+      "output_norm": 0.00012453365042572307,
+      "relative_lower_bound": 2.5061742646872512e-05,
+      "radiation_norm": 1.302924471606298e-05,
+      "noise_budget": 1.302924471606299e-05,
+      "energy": 4.1246034001030484e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 60,
+    "target": "strain_30_70",
+    "observation_model_error": 1.6901452146692672e-06,
+    "output_model_error": 4.6993865980408475e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "rank": 44,
+      "bias": 1.3891271676302536e-05,
+      "noise": 2.7645046797970593e-05,
+      "bound": 4.153631847427313e-05,
+      "relative_bound": 1.4689084591326846e-05,
+      "output_norm": 2.8276995898572332
+    },
+    "lower": {
+      "output_norm": 2.4766417933001222e-05,
+      "relative_lower_bound": 8.75850391669493e-06,
+      "radiation_norm": 1.3029244716062988e-05,
+      "noise_budget": 1.302924471606299e-05,
+      "energy": 3.611605398353125e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 60,
+    "target": "news_0_70",
+    "observation_model_error": 1.6901452146692672e-06,
+    "output_model_error": 1.0543104816916802e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 44,
+      "bias": 0.0013600376234759015,
+      "noise": 0.011138117511272654,
+      "bound": 0.012498155134748555,
+      "relative_bound": 0.00018905530326333722,
+      "output_norm": 66.10846095832464
+    },
+    "lower": {
+      "output_norm": 0.009804803549357042,
+      "relative_lower_bound": 0.0001483138982094603,
+      "radiation_norm": 1.3029244716062988e-05,
+      "noise_budget": 1.302924471606299e-05,
+      "energy": 3.2325104703899864e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 22,
+    "channel": "both",
+    "end": 60,
+    "target": "news_30_70",
+    "observation_model_error": 1.6901452146692672e-06,
+    "output_model_error": 9.523141482269566e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-05,
+      "rank": 44,
+      "bias": 7.039259997567136e-06,
+      "noise": 1.1657829503736411e-05,
+      "bound": 1.8697089501303545e-05,
+      "relative_bound": 2.558483761406125e-05,
+      "output_norm": 0.7307878902083692
+    },
+    "lower": {
+      "output_norm": 9.584722661593591e-06,
+      "relative_lower_bound": 1.3115601380396032e-05,
+      "radiation_norm": 1.3029244716062993e-05,
+      "noise_budget": 1.302924471606299e-05,
+      "energy": 2.1888913574108458e-10,
+      "cutoff": 0.1
+    }
+  },
+  {
+    "order": 22,
+    "channel": "infinity",
+    "end": 60,
+    "target": "strain_0_70",
+    "observation_model_error": 1.3435020011310918e-06,
+    "output_model_error": 2.6769964833423555e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 44,
+      "bias": 0.061142663559300044,
+      "noise": 0.020751550042687503,
+      "bound": 0.08189421360198755,
+      "relative_bound": 0.016480780082690664,
+      "output_norm": 4.969073866108979
+    },
+    "lower": {
+      "output_norm": 0.057729892242491115,
+      "relative_lower_bound": 0.011617837407536137,
+      "radiation_norm": 5.676946635880378e-06,
+      "noise_budget": 1.3028111839449426e-05,
+      "energy": 1.0000000000000007,
+      "cutoff": 1e-06
+    }
+  },
+  {
+    "order": 22,
+    "channel": "infinity",
+    "end": 60,
+    "target": "strain_30_70",
+    "observation_model_error": 1.3435020011310918e-06,
+    "output_model_error": 4.6993865980408475e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 44,
+      "bias": 0.021728181849802967,
+      "noise": 0.007701179861904314,
+      "bound": 0.02942936171170728,
+      "relative_bound": 0.01040752766569278,
+      "output_norm": 2.8276995898572332
+    },
+    "lower": {
+      "output_norm": 0.020528930153587588,
+      "relative_lower_bound": 0.0072599402805105144,
+      "radiation_norm": 6.663316759272641e-06,
+      "noise_budget": 1.3028111839449426e-05,
+      "energy": 1.0,
+      "cutoff": 1e-06
+    }
+  },
+  {
+    "order": 22,
+    "channel": "infinity",
+    "end": 60,
+    "target": "news_0_70",
+    "observation_model_error": 1.3435020011310918e-06,
+    "output_model_error": 1.0543104816916802e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 44,
+      "bias": 0.10899903168733466,
+      "noise": 0.017674639665182887,
+      "bound": 0.12667367135251756,
+      "relative_bound": 0.0019161491512012926,
+      "output_norm": 66.10846095832464
+    },
+    "lower": {
+      "output_norm": 0.09744930170138427,
+      "relative_lower_bound": 0.0014740821415101038,
+      "radiation_norm": 6.353696444648681e-06,
+      "noise_budget": 1.3028111839449426e-05,
+      "energy": 1.0000000000000007,
+      "cutoff": 1e-06
+    }
+  },
+  {
+    "order": 22,
+    "channel": "infinity",
+    "end": 60,
+    "target": "news_30_70",
+    "observation_model_error": 1.3435020011310918e-06,
+    "output_model_error": 9.523141482269566e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 44,
+      "bias": 0.029188460850364712,
+      "noise": 0.010373475277399713,
+      "bound": 0.03956193612776442,
+      "relative_bound": 0.05413600397303265,
+      "output_norm": 0.7307878902083692
+    },
+    "lower": {
+      "output_norm": 0.027573713144059722,
+      "relative_lower_bound": 0.03773148613094511,
+      "radiation_norm": 6.741694494567176e-06,
+      "noise_budget": 1.3028111839449426e-05,
+      "energy": 1.0000000000000004,
+      "cutoff": 1e-06
+    }
+  },
+  {
+    "order": 22,
+    "channel": "infinity",
+    "end": 400,
+    "target": "strain_0_70",
+    "observation_model_error": 0.00018491113511305644,
+    "output_model_error": 2.6769964833423555e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 44,
+      "bias": 0.08454119005658033,
+      "noise": 0.006726974895969502,
+      "bound": 0.09126816495254983,
+      "relative_bound": 0.01836723852608316,
+      "output_norm": 4.969073866108979
+    },
+    "lower": {
+      "output_norm": 0.05602118200229568,
+      "relative_lower_bound": 0.011273968452025232,
+      "radiation_norm": 5.979688699569112e-06,
+      "noise_budget": 1.4656455224955088e-05,
+      "energy": 0.9999999999999997,
+      "cutoff": 1e-06
+    }
+  },
+  {
+    "order": 22,
+    "channel": "infinity",
+    "end": 400,
+    "target": "strain_30_70",
+    "observation_model_error": 0.00018491113511305644,
+    "output_model_error": 4.6993865980408475e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 44,
+      "bias": 0.03148390925287013,
+      "noise": 0.0025877088272372333,
+      "bound": 0.03407161808010736,
+      "relative_bound": 0.012049235428798712,
+      "output_norm": 2.8276995898572332
+    },
+    "lower": {
+      "output_norm": 0.020406750688766247,
+      "relative_lower_bound": 0.007216732202375344,
+      "radiation_norm": 1.4656455224945013e-05,
+      "noise_budget": 1.4656455224955088e-05,
+      "energy": 0.40359084583992755,
+      "cutoff": 3.162277660168379e-06
+    }
+  },
+  {
+    "order": 22,
+    "channel": "infinity",
+    "end": 400,
+    "target": "news_0_70",
+    "observation_model_error": 0.00018491113511305644,
+    "output_model_error": 1.0543104816916802e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 44,
+      "bias": 0.1311626562984797,
+      "noise": 0.017122127606068925,
+      "bound": 0.14828478390454863,
+      "relative_bound": 0.0022430530336809487,
+      "output_norm": 66.10846095832464
+    },
+    "lower": {
+      "output_norm": 0.09577209999282049,
+      "relative_lower_bound": 0.0014487116868927878,
+      "radiation_norm": 6.966152980305268e-06,
+      "noise_budget": 1.4656455224955088e-05,
+      "energy": 1.0,
+      "cutoff": 1e-06
+    }
+  },
+  {
+    "order": 22,
+    "channel": "infinity",
+    "end": 400,
+    "target": "news_30_70",
+    "observation_model_error": 0.00018491113511305644,
+    "output_model_error": 9.523141482269566e-06,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 44,
+      "bias": 0.04238296069132999,
+      "noise": 0.003427041672265248,
+      "bound": 0.04581000236359524,
+      "relative_bound": 0.06268577103888989,
+      "output_norm": 0.7307878902083692
+    },
+    "lower": {
+      "output_norm": 0.027409726567893842,
+      "relative_lower_bound": 0.03750708917751568,
+      "radiation_norm": 1.4656455224951207e-05,
+      "noise_budget": 1.4656455224955088e-05,
+      "energy": 0.4015619510779678,
+      "cutoff": 3.162277660168379e-06
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 10,
+    "target": "strain_0_70",
+    "observation_model_error": 3.2790606264681774e-08,
+    "output_model_error": 1.8592123904733984e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 52,
+      "bias": 3.302331084736772,
+      "noise": 0.3177565208001656,
+      "bound": 3.6200876055369378,
+      "relative_bound": 0.42814070268183224,
+      "output_norm": 8.455368954320523
+    },
+    "lower": {
+      "output_norm": 3.5154002692086763,
+      "relative_lower_bound": 0.4157595355330269,
+      "radiation_norm": 5.287481994025604e-06,
+      "noise_budget": 5.673824571867207e-06,
+      "energy": 1.0000000000000013,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 10,
+    "target": "strain_30_70",
+    "observation_model_error": 3.2790606264681774e-08,
+    "output_model_error": 2.3312054228830278e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 52,
+      "bias": 1.753449128811567,
+      "noise": 0.19877476098517133,
+      "bound": 1.9522238897967383,
+      "relative_bound": 0.28999506479194076,
+      "output_norm": 6.731921080096231
+    },
+    "lower": {
+      "output_norm": 1.8190061525655126,
+      "relative_lower_bound": 0.2702061017832833,
+      "radiation_norm": 5.673824571878941e-06,
+      "noise_budget": 5.673824571867207e-06,
+      "energy": 0.9133277427259207,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 10,
+    "target": "news_0_70",
+    "observation_model_error": 3.2790606264681774e-08,
+    "output_model_error": 5.802989911727179e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "rank": 52,
+      "bias": 0.8925561492864547,
+      "noise": 0.03547100684979503,
+      "bound": 0.9280271561362496,
+      "relative_bound": 0.006726452435177381,
+      "output_norm": 137.9668056943269
+    },
+    "lower": {
+      "output_norm": 0.8927826577942126,
+      "relative_lower_bound": 0.0064709960725786615,
+      "radiation_norm": 3.5839883493307027e-06,
+      "noise_budget": 5.673824571867207e-06,
+      "energy": 1.0000000000000007,
+      "cutoff": 1.778279410038923e-06
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 10,
+    "target": "news_30_70",
+    "observation_model_error": 3.2790606264681774e-08,
+    "output_model_error": 7.67581078620658e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 52,
+      "bias": 0.15951221821209977,
+      "noise": 0.02101597051376891,
+      "bound": 0.18052818872586868,
+      "relative_bound": 0.17346741966905282,
+      "output_norm": 1.0407037187172474
+    },
+    "lower": {
+      "output_norm": 0.1439064130188654,
+      "relative_lower_bound": 0.1382779848199657,
+      "radiation_norm": 1.1342901104808962e-06,
+      "noise_budget": 5.673824571867207e-06,
+      "energy": 1.0000000000000002,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 20,
+    "target": "strain_0_70",
+    "observation_model_error": 4.5448225870563786e-07,
+    "output_model_error": 1.8592123904733984e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-06,
+      "rank": 52,
+      "bias": 0.005792998167578644,
+      "noise": 0.060280249277104646,
+      "bound": 0.06607324744468329,
+      "relative_bound": 0.007814354146062567,
+      "output_norm": 8.455368954320523
+    },
+    "lower": {
+      "output_norm": 0.06021055306568757,
+      "relative_lower_bound": 0.0071209847129049516,
+      "radiation_norm": 1.0054457418770637e-05,
+      "noise_budget": 1.0054457418771008e-05,
+      "energy": 0.00023905278577963343,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 20,
+    "target": "strain_30_70",
+    "observation_model_error": 4.5448225870563786e-07,
+    "output_model_error": 2.3312054228830278e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-06,
+      "rank": 52,
+      "bias": 0.003832647209967666,
+      "noise": 0.0423109485260275,
+      "bound": 0.04614359573599516,
+      "relative_bound": 0.006854446923393753,
+      "output_norm": 6.731921080096231
+    },
+    "lower": {
+      "output_norm": 0.042134323121832816,
+      "relative_lower_bound": 0.006258885483136192,
+      "radiation_norm": 1.0054457418770637e-05,
+      "noise_budget": 1.0054457418771008e-05,
+      "energy": 0.00023905278577963343,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 20,
+    "target": "news_0_70",
+    "observation_model_error": 4.5448225870563786e-07,
+    "output_model_error": 5.802989911727179e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-06,
+      "rank": 52,
+      "bias": 0.001557028381624184,
+      "noise": 0.03216402243286002,
+      "bound": 0.033721050814484205,
+      "relative_bound": 0.00024441423170436417,
+      "output_norm": 137.9668056943269
+    },
+    "lower": {
+      "output_norm": 0.022901365805881802,
+      "relative_lower_bound": 0.00016599185355223087,
+      "radiation_norm": 1.0054457418771003e-05,
+      "noise_budget": 1.0054457418771008e-05,
+      "energy": 3.797685118990792e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 20,
+    "target": "news_30_70",
+    "observation_model_error": 4.5448225870563786e-07,
+    "output_model_error": 7.67581078620658e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-06,
+      "rank": 52,
+      "bias": 0.00030186878553245154,
+      "noise": 0.003011207995238741,
+      "bound": 0.0033130767807711924,
+      "relative_bound": 0.0031834966294295853,
+      "output_norm": 1.0407037187172474
+    },
+    "lower": {
+      "output_norm": 0.0029970403017982143,
+      "relative_lower_bound": 0.002879820882635369,
+      "radiation_norm": 1.0054457418770637e-05,
+      "noise_budget": 1.0054457418771008e-05,
+      "energy": 0.00023905278577963343,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 30,
+    "target": "strain_0_70",
+    "observation_model_error": 1.7211805998692834e-06,
+    "output_model_error": 1.8592123904733984e-05,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 52,
+      "bias": 0.00031218285287884626,
+      "noise": 0.0013970805232500906,
+      "bound": 0.001709263376128937,
+      "relative_bound": 0.00020215124678332787,
+      "output_norm": 8.455368954320523
+    },
+    "lower": {
+      "output_norm": 0.0013679845877222422,
+      "relative_lower_bound": 0.00016178886990179532,
+      "radiation_norm": 1.3224587158289287e-05,
+      "noise_budget": 1.3224587158289285e-05,
+      "energy": 7.752440552991952e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 30,
+    "target": "strain_30_70",
+    "observation_model_error": 1.7211805998692834e-06,
+    "output_model_error": 2.3312054228830278e-05,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 52,
+      "bias": 0.0002781469794172404,
+      "noise": 0.0011970055496273338,
+      "bound": 0.0014751525290445742,
+      "relative_bound": 0.00021912801880670404,
+      "output_norm": 6.731921080096231
+    },
+    "lower": {
+      "output_norm": 0.001172385676038893,
+      "relative_lower_bound": 0.00017415321155579176,
+      "radiation_norm": 1.322458715828929e-05,
+      "noise_budget": 1.3224587158289285e-05,
+      "energy": 7.77355834697678e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 30,
+    "target": "news_0_70",
+    "observation_model_error": 1.7211805998692834e-06,
+    "output_model_error": 5.802989911727179e-07,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 52,
+      "bias": 0.00024967455186476647,
+      "noise": 0.03524461114254845,
+      "bound": 0.035494285694413215,
+      "relative_bound": 0.0002572668513689646,
+      "output_norm": 137.9668056943269
+    },
+    "lower": {
+      "output_norm": 0.02707984175406188,
+      "relative_lower_bound": 0.0001962779497414673,
+      "radiation_norm": 1.322458715828928e-05,
+      "noise_budget": 1.3224587158289285e-05,
+      "energy": 4.6994883630633556e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 30,
+    "target": "news_30_70",
+    "observation_model_error": 1.7211805998692834e-06,
+    "output_model_error": 7.67581078620658e-05,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 52,
+      "bias": 8.145459508166288e-05,
+      "noise": 8.236583071649855e-05,
+      "bound": 0.00016382042579816145,
+      "relative_bound": 0.0001574131261874259,
+      "output_norm": 1.0407037187172474
+    },
+    "lower": {
+      "output_norm": 7.960774961933079e-05,
+      "relative_lower_bound": 7.649415312693785e-05,
+      "radiation_norm": 1.3224587158289284e-05,
+      "noise_budget": 1.3224587158289285e-05,
+      "energy": 7.640657432321251e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 40,
+    "target": "strain_0_70",
+    "observation_model_error": 3.825372629037061e-06,
+    "output_model_error": 1.8592123904733984e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "rank": 52,
+      "bias": 0.00016091588671347855,
+      "noise": 0.00022553576223611148,
+      "bound": 0.00038645164894959003,
+      "relative_bound": 4.570488302016922e-05,
+      "output_norm": 8.455368954320523
+    },
+    "lower": {
+      "output_norm": 0.00019400077624743482,
+      "relative_lower_bound": 2.294409354523842e-05,
+      "radiation_norm": 1.527581437985764e-05,
+      "noise_budget": 1.5275814379857653e-05,
+      "energy": 7.07576766527326e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 40,
+    "target": "strain_30_70",
+    "observation_model_error": 3.825372629037061e-06,
+    "output_model_error": 2.3312054228830278e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "rank": 52,
+      "bias": 0.0001598099125855345,
+      "noise": 9.249610608199601e-05,
+      "bound": 0.0002523060186675305,
+      "relative_bound": 3.7479051769264634e-05,
+      "output_norm": 6.731921080096231
+    },
+    "lower": {
+      "output_norm": 4.601316264456906e-05,
+      "relative_lower_bound": 6.835071608402057e-06,
+      "radiation_norm": 1.5275814379857653e-05,
+      "noise_budget": 1.5275814379857653e-05,
+      "energy": 2.2302915967613556e-10,
+      "cutoff": 0.1
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 40,
+    "target": "news_0_70",
+    "observation_model_error": 3.825372629037061e-06,
+    "output_model_error": 5.802989911727179e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-06,
+      "rank": 52,
+      "bias": 0.0008209971277049047,
+      "noise": 0.039356610372389314,
+      "bound": 0.04017760750009422,
+      "relative_bound": 0.00029121213104773864,
+      "output_norm": 137.9668056943269
+    },
+    "lower": {
+      "output_norm": 0.0278426582042719,
+      "relative_lower_bound": 0.00020180693511132565,
+      "radiation_norm": 1.5275814379857663e-05,
+      "noise_budget": 1.5275814379857653e-05,
+      "energy": 4.700424261270888e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 40,
+    "target": "news_30_70",
+    "observation_model_error": 3.825372629037061e-06,
+    "output_model_error": 7.67581078620658e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "rank": 52,
+      "bias": 7.99093589727669e-05,
+      "noise": 2.0983633056072985e-05,
+      "bound": 0.00010089299202883989,
+      "relative_bound": 9.694689296700003e-05,
+      "output_norm": 1.0407037187172474
+    },
+    "lower": {
+      "output_norm": 1.7064343271508167e-05,
+      "relative_lower_bound": 1.6396927352716072e-05,
+      "radiation_norm": 1.5275814379857653e-05,
+      "noise_budget": 1.5275814379857653e-05,
+      "energy": 4.5087394238282485e-10,
+      "cutoff": 0.05623413251903491
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 60,
+    "target": "strain_0_70",
+    "observation_model_error": 1.0031636074137778e-05,
+    "output_model_error": 1.8592123904733984e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "rank": 52,
+      "bias": 0.00018508678265222468,
+      "noise": 0.00024592608581019683,
+      "bound": 0.0004310128684624215,
+      "relative_bound": 5.0975051566754236e-05,
+      "output_norm": 8.455368954320523
+    },
+    "lower": {
+      "output_norm": 0.00020976845333212218,
+      "relative_lower_bound": 2.480890597032253e-05,
+      "radiation_norm": 1.667889208807392e-05,
+      "noise_budget": 1.6678892088073925e-05,
+      "energy": 8.226977429160456e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 60,
+    "target": "strain_30_70",
+    "observation_model_error": 1.0031636074137778e-05,
+    "output_model_error": 2.3312054228830278e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-05,
+      "rank": 52,
+      "bias": 0.00017300939972218405,
+      "noise": 7.829604787618607e-05,
+      "bound": 0.0002513054475983701,
+      "relative_bound": 3.733042093160988e-05,
+      "output_norm": 6.731921080096231
+    },
+    "lower": {
+      "output_norm": 5.911639690828324e-05,
+      "relative_lower_bound": 8.781504745067241e-06,
+      "radiation_norm": 1.667889208807392e-05,
+      "noise_budget": 1.6678892088073925e-05,
+      "energy": 7.357946763634862e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 60,
+    "target": "news_0_70",
+    "observation_model_error": 1.0031636074137778e-05,
+    "output_model_error": 5.802989911727179e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 52,
+      "bias": 0.01552772693938533,
+      "noise": 0.04103368665686828,
+      "bound": 0.056561413596253614,
+      "relative_bound": 0.0004099639280014104,
+      "output_norm": 137.9668056943269
+    },
+    "lower": {
+      "output_norm": 0.029119972129231314,
+      "relative_lower_bound": 0.0002110650600532727,
+      "radiation_norm": 1.6678892088073922e-05,
+      "noise_budget": 1.6678892088073925e-05,
+      "energy": 5.338736780765604e-08,
+      "cutoff": 0.01
+    }
+  },
+  {
+    "order": 26,
+    "channel": "both",
+    "end": 60,
+    "target": "news_30_70",
+    "observation_model_error": 1.0031636074137778e-05,
+    "output_model_error": 7.67581078620658e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 0.0001,
+      "rank": 52,
+      "bias": 8.042531179110664e-05,
+      "noise": 2.1486270502215896e-05,
+      "bound": 0.00010191158229332254,
+      "relative_bound": 9.792564440812886e-05,
+      "output_norm": 1.0407037187172474
+    },
+    "lower": {
+      "output_norm": 1.700976256202012e-05,
+      "relative_lower_bound": 1.6344481388983646e-05,
+      "radiation_norm": 1.6678892088073915e-05,
+      "noise_budget": 1.6678892088073925e-05,
+      "energy": 5.283382851812698e-10,
+      "cutoff": 0.05623413251903491
+    }
+  },
+  {
+    "order": 26,
+    "channel": "infinity",
+    "end": 60,
+    "target": "strain_0_70",
+    "observation_model_error": 8.222007896455808e-06,
+    "output_model_error": 1.8592123904733984e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 52,
+      "bias": 0.0996973472647875,
+      "noise": 0.026532642809919703,
+      "bound": 0.1262299900747072,
+      "relative_bound": 0.01492897480366084,
+      "output_norm": 8.455368954320523
+    },
+    "lower": {
+      "output_norm": 0.10099554402860399,
+      "relative_lower_bound": 0.01194454607175921,
+      "radiation_norm": 5.211858223397958e-06,
+      "noise_budget": 1.6677773772186566e-05,
+      "energy": 0.9999999999999998,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 26,
+    "channel": "infinity",
+    "end": 60,
+    "target": "strain_30_70",
+    "observation_model_error": 8.222007896455808e-06,
+    "output_model_error": 2.3312054228830278e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 52,
+      "bias": 0.03706568791363159,
+      "noise": 0.010716931731920194,
+      "bound": 0.04778261964555178,
+      "relative_bound": 0.0070979173815372085,
+      "output_norm": 6.731921080096231
+    },
+    "lower": {
+      "output_norm": 0.03727961551469918,
+      "relative_lower_bound": 0.005537738049978191,
+      "radiation_norm": 5.164051402284964e-06,
+      "noise_budget": 1.6677773772186566e-05,
+      "energy": 1.0000000000000004,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 26,
+    "channel": "infinity",
+    "end": 60,
+    "target": "news_0_70",
+    "observation_model_error": 8.222007896455808e-06,
+    "output_model_error": 5.802989911727179e-07,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-06,
+      "rank": 52,
+      "bias": 0.13719066174385364,
+      "noise": 0.08610741265312183,
+      "bound": 0.22329807439697547,
+      "relative_bound": 0.0016184912977669768,
+      "output_norm": 137.9668056943269
+    },
+    "lower": {
+      "output_norm": 0.1500113803827322,
+      "relative_lower_bound": 0.0010873005258604793,
+      "radiation_norm": 5.450592008698458e-06,
+      "noise_budget": 1.6677773772186566e-05,
+      "energy": 0.9999999999999996,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 26,
+    "channel": "infinity",
+    "end": 60,
+    "target": "news_30_70",
+    "observation_model_error": 8.222007896455808e-06,
+    "output_model_error": 7.67581078620658e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-06,
+      "rank": 52,
+      "bias": 0.0498364181119383,
+      "noise": 0.014140900027274115,
+      "bound": 0.06397731813921241,
+      "relative_bound": 0.061475054800486054,
+      "output_norm": 1.0407037187172474
+    },
+    "lower": {
+      "output_norm": 0.05016281282187456,
+      "relative_lower_bound": 0.048200858630258706,
+      "radiation_norm": 5.128716267221775e-06,
+      "noise_budget": 1.6677773772186566e-05,
+      "energy": 1.000000000000001,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 26,
+    "channel": "infinity",
+    "end": 400,
+    "target": "strain_0_70",
+    "observation_model_error": 0.0006923101813563836,
+    "output_model_error": 1.8592123904733984e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "rank": 52,
+      "bias": 0.20410964385238198,
+      "noise": 0.0025963851415014235,
+      "bound": 0.2067060289938834,
+      "relative_bound": 0.02444671901493557,
+      "output_norm": 8.455368954320523
+    },
+    "lower": {
+      "output_norm": 0.10073382835680449,
+      "relative_lower_bound": 0.011913593469547125,
+      "radiation_norm": 5.581670402187646e-06,
+      "noise_budget": 1.936335107381654e-05,
+      "energy": 1.000000000000001,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 26,
+    "channel": "infinity",
+    "end": 400,
+    "target": "strain_30_70",
+    "observation_model_error": 0.0006923101813563836,
+    "output_model_error": 2.3312054228830278e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "rank": 52,
+      "bias": 0.0841067965349473,
+      "noise": 0.001092517009721251,
+      "bound": 0.08519931354466856,
+      "relative_bound": 0.012656017878250388,
+      "output_norm": 6.731921080096231
+    },
+    "lower": {
+      "output_norm": 0.03710492020568593,
+      "relative_lower_bound": 0.00551178775927592,
+      "radiation_norm": 5.511829834900078e-06,
+      "noise_budget": 1.936335107381654e-05,
+      "energy": 1.0,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 26,
+    "channel": "infinity",
+    "end": 400,
+    "target": "news_0_70",
+    "observation_model_error": 0.0006923101813563836,
+    "output_model_error": 5.802989911727179e-07,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1.778279410038923e-05,
+      "rank": 39,
+      "bias": 0.8949889619999706,
+      "noise": 0.06449977580074547,
+      "bound": 0.9594887378007161,
+      "relative_bound": 0.006954489762751459,
+      "output_norm": 137.9668056943269
+    },
+    "lower": {
+      "output_norm": 0.15024812280626135,
+      "relative_lower_bound": 0.0010890164634176165,
+      "radiation_norm": 5.901864200626319e-06,
+      "noise_budget": 1.936335107381654e-05,
+      "energy": 1.0,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 26,
+    "channel": "infinity",
+    "end": 400,
+    "target": "news_30_70",
+    "observation_model_error": 0.0006923101813563836,
+    "output_model_error": 7.67581078620658e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.1622776601683795e-05,
+      "rank": 52,
+      "bias": 0.11245027549053693,
+      "noise": 0.0014314432703756955,
+      "bound": 0.11388171876091263,
+      "relative_bound": 0.10942760817774455,
+      "output_norm": 1.0407037187172474
+    },
+    "lower": {
+      "output_norm": 0.04993051194347631,
+      "relative_lower_bound": 0.04797764344017119,
+      "radiation_norm": 5.462373088527241e-06,
+      "noise_budget": 1.936335107381654e-05,
+      "energy": 1.0000000000000004,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 10,
+    "target": "strain_0_70",
+    "observation_model_error": 1.405009334092481e-05,
+    "output_model_error": 0.0006841266874604062,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 68,
+      "bias": 10.45872530731547,
+      "noise": 0.9577114077786812,
+      "bound": 11.416436715094152,
+      "relative_bound": 0.588726099224703,
+      "output_norm": 19.391762536311074
+    },
+    "lower": {
+      "output_norm": 10.329885550002476,
+      "relative_lower_bound": 0.5326945155531772,
+      "radiation_norm": 2.1283123434644553e-06,
+      "noise_budget": 5.928510675476359e-06,
+      "energy": 1.0000000000000004,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 10,
+    "target": "strain_30_70",
+    "observation_model_error": 1.405009334092481e-05,
+    "output_model_error": 0.0007233365496314709,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 68,
+      "bias": 9.591620033724965,
+      "noise": 0.9281655720070042,
+      "bound": 10.519785605731968,
+      "relative_bound": 0.5769634240066214,
+      "output_norm": 18.233019924693252
+    },
+    "lower": {
+      "output_norm": 9.434882213483725,
+      "relative_lower_bound": 0.5174613011147935,
+      "radiation_norm": 2.2237348160942795e-06,
+      "noise_budget": 5.928510675476359e-06,
+      "energy": 1.0000000000000009,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 10,
+    "target": "news_0_70",
+    "observation_model_error": 1.405009334092481e-05,
+    "output_model_error": 1.3981771320489449e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.62341325190349e-07,
+      "rank": 68,
+      "bias": 1.125125560033791,
+      "noise": 7.064039679146527,
+      "bound": 8.189165239180317,
+      "relative_bound": 0.01815726742587041,
+      "output_norm": 451.0130873279106
+    },
+    "lower": {
+      "output_norm": 5.807257661550244,
+      "relative_lower_bound": 0.012876029154621974,
+      "radiation_norm": 5.928510675476105e-06,
+      "noise_budget": 5.928510675476359e-06,
+      "energy": 0.0037493109465591328,
+      "cutoff": 1.778279410038923e-05
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 10,
+    "target": "news_30_70",
+    "observation_model_error": 1.405009334092481e-05,
+    "output_model_error": 0.0034361120762146976,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 68,
+      "bias": 0.581963538231448,
+      "noise": 0.050355902057217475,
+      "bound": 0.6323194402886655,
+      "relative_bound": 0.3460680734668901,
+      "output_norm": 1.8271533515187506
+    },
+    "lower": {
+      "output_norm": 0.5555183143233718,
+      "relative_lower_bound": 0.3040348604902915,
+      "radiation_norm": 2.1703739952336314e-06,
+      "noise_budget": 5.928510675476359e-06,
+      "energy": 1.0000000000000004,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 20,
+    "target": "strain_0_70",
+    "observation_model_error": 5.529274259541173e-05,
+    "output_model_error": 0.0006841266874604062,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 68,
+      "bias": 7.531033469781295,
+      "noise": 0.38710167080458174,
+      "bound": 7.918135140585877,
+      "relative_bound": 0.40832467527173816,
+      "output_norm": 19.391762536311074
+    },
+    "lower": {
+      "output_norm": 6.546101098826012,
+      "relative_lower_bound": 0.3375712283279273,
+      "radiation_norm": 1.0985525952693774e-05,
+      "noise_budget": 1.102418161730222e-05,
+      "energy": 0.9999999999999999,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 20,
+    "target": "strain_30_70",
+    "observation_model_error": 5.529274259541173e-05,
+    "output_model_error": 0.0007233365496314709,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 68,
+      "bias": 6.722949274826188,
+      "noise": 0.6780586091761492,
+      "bound": 7.401007884002338,
+      "relative_bound": 0.4059123455450757,
+      "output_norm": 18.233019924693252
+    },
+    "lower": {
+      "output_norm": 5.8135096510887205,
+      "relative_lower_bound": 0.318845132353275,
+      "radiation_norm": 1.0985525952693774e-05,
+      "noise_budget": 1.102418161730222e-05,
+      "energy": 0.9999999999999999,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 20,
+    "target": "news_0_70",
+    "observation_model_error": 5.529274259541173e-05,
+    "output_model_error": 1.3981771320489449e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-06,
+      "rank": 68,
+      "bias": 3.132935946993538,
+      "noise": 4.456298114910686,
+      "bound": 7.589234061904223,
+      "relative_bound": 0.01682708168596102,
+      "output_norm": 451.0130873279106
+    },
+    "lower": {
+      "output_norm": 2.7185506002513646,
+      "relative_lower_bound": 0.006027653468678245,
+      "radiation_norm": 1.1024181617302179e-05,
+      "noise_budget": 1.102418161730222e-05,
+      "energy": 9.667897105763752e-05,
+      "cutoff": 0.00017782794100389227
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 20,
+    "target": "news_30_70",
+    "observation_model_error": 5.529274259541173e-05,
+    "output_model_error": 0.0034361120762146976,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 68,
+      "bias": 0.4188683924796596,
+      "noise": 0.051180279539832084,
+      "bound": 0.4700486720194917,
+      "relative_bound": 0.25725737340480037,
+      "output_norm": 1.8271533515187506
+    },
+    "lower": {
+      "output_norm": 0.3070798440300863,
+      "relative_lower_bound": 0.1680646256510643,
+      "radiation_norm": 1.0985525952693774e-05,
+      "noise_budget": 1.102418161730222e-05,
+      "energy": 0.9999999999999999,
+      "cutoff": 5.62341325190349e-07
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 30,
+    "target": "strain_0_70",
+    "observation_model_error": 0.00010816574002392023,
+    "output_model_error": 0.0006841266874604062,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 68,
+      "bias": 1.0949377970954097,
+      "noise": 0.187743553032043,
+      "bound": 1.2826813501274528,
+      "relative_bound": 0.06614568158647942,
+      "output_norm": 19.391762536311074
+    },
+    "lower": {
+      "output_norm": 0.1808002233550318,
+      "relative_lower_bound": 0.009323558032256396,
+      "radiation_norm": 1.5318671002426333e-05,
+      "noise_budget": 1.531867100242699e-05,
+      "energy": 0.00039685470338731956,
+      "cutoff": 5.623413251903491e-05
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 30,
+    "target": "strain_30_70",
+    "observation_model_error": 0.00010816574002392023,
+    "output_model_error": 0.0007233365496314709,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 68,
+      "bias": 1.0654472298736106,
+      "noise": 0.1801687714349577,
+      "bound": 1.2456160013085684,
+      "relative_bound": 0.06831649427540042,
+      "output_norm": 18.233019924693252
+    },
+    "lower": {
+      "output_norm": 0.17347346818273537,
+      "relative_lower_bound": 0.009514247716462903,
+      "radiation_norm": 1.5318671002426333e-05,
+      "noise_budget": 1.531867100242699e-05,
+      "energy": 0.00039685470338731956,
+      "cutoff": 5.623413251903491e-05
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 30,
+    "target": "news_0_70",
+    "observation_model_error": 0.00010816574002392023,
+    "output_model_error": 1.3981771320489449e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 68,
+      "bias": 16.371192680274074,
+      "noise": 3.5751950072679644,
+      "bound": 19.94638768754204,
+      "relative_bound": 0.04422574033431528,
+      "output_norm": 451.0130873279106
+    },
+    "lower": {
+      "output_norm": 3.567257196741891,
+      "relative_lower_bound": 0.007909431670545525,
+      "radiation_norm": 1.5318671002427068e-05,
+      "noise_budget": 1.531867100242699e-05,
+      "energy": 0.0001673270976089186,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 30,
+    "target": "news_30_70",
+    "observation_model_error": 0.00010816574002392023,
+    "output_model_error": 0.0034361120762146976,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 68,
+      "bias": 0.061486500048008624,
+      "noise": 0.010081075825548019,
+      "bound": 0.07156757587355664,
+      "relative_bound": 0.039168893959595046,
+      "output_norm": 1.8271533515187506
+    },
+    "lower": {
+      "output_norm": 0.009685324457091225,
+      "relative_lower_bound": 0.005300772619353856,
+      "radiation_norm": 1.5318671002426333e-05,
+      "noise_budget": 1.531867100242699e-05,
+      "energy": 0.00039685470338731956,
+      "cutoff": 5.623413251903491e-05
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 40,
+    "target": "strain_0_70",
+    "observation_model_error": 0.00014684424727426016,
+    "output_model_error": 0.0006841266874604062,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 68,
+      "bias": 0.0779023023120267,
+      "noise": 0.010805571142518178,
+      "bound": 0.08870787345454488,
+      "relative_bound": 0.00457451318767128,
+      "output_norm": 19.391762536311074
+    },
+    "lower": {
+      "output_norm": 0.009969829012772585,
+      "relative_lower_bound": 0.0005141270162577579,
+      "radiation_norm": 1.8863046025352273e-05,
+      "noise_budget": 1.8863046025352307e-05,
+      "energy": 0.00023988035292194402,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 40,
+    "target": "strain_30_70",
+    "observation_model_error": 0.00014684424727426016,
+    "output_model_error": 0.0007233365496314709,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 68,
+      "bias": 0.073664223852247,
+      "noise": 0.00990264564603413,
+      "bound": 0.08356686949828113,
+      "relative_bound": 0.004583270892229173,
+      "output_norm": 18.233019924693252
+    },
+    "lower": {
+      "output_norm": 0.005065040587352606,
+      "relative_lower_bound": 0.0002777949351381416,
+      "radiation_norm": 1.8863046025352273e-05,
+      "noise_budget": 1.8863046025352307e-05,
+      "energy": 0.00023988035292194402,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 40,
+    "target": "news_0_70",
+    "observation_model_error": 0.00014684424727426016,
+    "output_model_error": 1.3981771320489449e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 3.162277660168379e-06,
+      "rank": 68,
+      "bias": 10.963921730065476,
+      "noise": 4.265730596697718,
+      "bound": 15.229652326763194,
+      "relative_bound": 0.03376765055088174,
+      "output_norm": 451.0130873279106
+    },
+    "lower": {
+      "output_norm": 4.270992542130677,
+      "relative_lower_bound": 0.009469775184207541,
+      "radiation_norm": 1.8863046025352273e-05,
+      "noise_budget": 1.8863046025352307e-05,
+      "energy": 0.00023988035292194402,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 40,
+    "target": "news_30_70",
+    "observation_model_error": 0.00014684424727426016,
+    "output_model_error": 0.0034361120762146976,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 1e-09,
+      "rank": 68,
+      "bias": 0.0072093584630142735,
+      "noise": 0.0005903718137999622,
+      "bound": 0.007799730276814236,
+      "relative_bound": 0.004268787986695814,
+      "output_norm": 1.8271533515187506
+    },
+    "lower": {
+      "output_norm": 0.0003565273738977063,
+      "relative_lower_bound": 0.00019512723089244627,
+      "radiation_norm": 1.8863046025352273e-05,
+      "noise_budget": 1.8863046025352307e-05,
+      "energy": 0.00023988035292194402,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 60,
+    "target": "strain_0_70",
+    "observation_model_error": 0.00022219612455797987,
+    "output_model_error": 0.0006841266874604062,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 68,
+      "bias": 0.0753101219507972,
+      "noise": 0.010459558606163452,
+      "bound": 0.08576968055696065,
+      "relative_bound": 0.004422995609416985,
+      "output_norm": 19.391762536311074
+    },
+    "lower": {
+      "output_norm": 0.01053452254533232,
+      "relative_lower_bound": 0.0005432472951133982,
+      "radiation_norm": 2.3708656268483578e-05,
+      "noise_budget": 2.3708656268483557e-05,
+      "energy": 0.0002677424602272543,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 60,
+    "target": "strain_30_70",
+    "observation_model_error": 0.00022219612455797987,
+    "output_model_error": 0.0007233365496314709,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 68,
+      "bias": 0.03897437783768421,
+      "noise": 0.0053969010598691825,
+      "bound": 0.04437127889755339,
+      "relative_bound": 0.0024335671809068067,
+      "output_norm": 18.233019924693252
+    },
+    "lower": {
+      "output_norm": 0.00543972279423611,
+      "relative_lower_bound": 0.00029834458672800616,
+      "radiation_norm": 2.3708656268483578e-05,
+      "noise_budget": 2.3708656268483557e-05,
+      "energy": 0.0002677424602272543,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 60,
+    "target": "news_0_70",
+    "observation_model_error": 0.00022219612455797987,
+    "output_model_error": 1.3981771320489449e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 68,
+      "bias": 32.23552536890333,
+      "noise": 4.426753706358067,
+      "bound": 36.662279075261395,
+      "relative_bound": 0.08128872555001039,
+      "output_norm": 451.0130873279106
+    },
+    "lower": {
+      "output_norm": 4.456410205780717,
+      "relative_lower_bound": 0.009880888894340816,
+      "radiation_norm": 2.3708656268483578e-05,
+      "noise_budget": 2.3708656268483557e-05,
+      "energy": 0.0002677424602272543,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 34,
+    "channel": "both",
+    "end": 60,
+    "target": "news_30_70",
+    "observation_model_error": 0.00022219612455797987,
+    "output_model_error": 0.0034361120762146976,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1.778279410038923e-05,
+      "rank": 68,
+      "bias": 0.007125509780236736,
+      "noise": 0.00048715715402597,
+      "bound": 0.007612666934262706,
+      "relative_bound": 0.004166408324695336,
+      "output_norm": 1.8271533515187506
+    },
+    "lower": {
+      "output_norm": 0.0005281072896085701,
+      "relative_lower_bound": 0.00028903282210527176,
+      "radiation_norm": 2.3708656268483578e-05,
+      "noise_budget": 2.3708656268483557e-05,
+      "energy": 0.0002677424602272543,
+      "cutoff": 0.0001
+    }
+  },
+  {
+    "order": 34,
+    "channel": "infinity",
+    "end": 60,
+    "target": "strain_0_70",
+    "observation_model_error": 0.0001947418738015778,
+    "output_model_error": 0.0006841266874604062,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 68,
+      "bias": 0.2628982046330506,
+      "noise": 0.02413205344435319,
+      "bound": 0.2870302580774038,
+      "relative_bound": 0.014801659082816204,
+      "output_norm": 19.391762536311074
+    },
+    "lower": {
+      "output_norm": 0.2012572767252604,
+      "relative_lower_bound": 0.010378493257041807,
+      "radiation_norm": 2.37083582025434e-05,
+      "noise_budget": 2.370835820250038e-05,
+      "energy": 0.7366772578060703,
+      "cutoff": 3.162277660168379e-06
+    }
+  },
+  {
+    "order": 34,
+    "channel": "infinity",
+    "end": 60,
+    "target": "strain_30_70",
+    "observation_model_error": 0.0001947418738015778,
+    "output_model_error": 0.0007233365496314709,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 68,
+      "bias": 0.11895619755231228,
+      "noise": 0.012220925567996676,
+      "bound": 0.13117712312030896,
+      "relative_bound": 0.0071944814222823185,
+      "output_norm": 18.233019924693252
+    },
+    "lower": {
+      "output_norm": 0.08051958832774309,
+      "relative_lower_bound": 0.004416141081417577,
+      "radiation_norm": 2.370835820250824e-05,
+      "noise_budget": 2.370835820250038e-05,
+      "energy": 0.6306330388015884,
+      "cutoff": 3.162277660168379e-06
+    }
+  },
+  {
+    "order": 34,
+    "channel": "infinity",
+    "end": 60,
+    "target": "news_0_70",
+    "observation_model_error": 0.0001947418738015778,
+    "output_model_error": 1.3981771320489449e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 1e-07,
+      "rank": 68,
+      "bias": 1.664942343443898,
+      "noise": 24.06121412396672,
+      "bound": 25.72615646741062,
+      "relative_bound": 0.05704082030042363,
+      "output_norm": 451.0130873279106
+    },
+    "lower": {
+      "output_norm": 16.28278729556161,
+      "relative_lower_bound": 0.036102693587078,
+      "radiation_norm": 2.3708358202479553e-05,
+      "noise_budget": 2.370835820250038e-05,
+      "energy": 0.2870185979218571,
+      "cutoff": 3.162277660168379e-06
+    }
+  },
+  {
+    "order": 34,
+    "channel": "infinity",
+    "end": 60,
+    "target": "news_30_70",
+    "observation_model_error": 0.0001947418738015778,
+    "output_model_error": 0.0034361120762146976,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 5.623413251903491e-06,
+      "rank": 68,
+      "bias": 0.15438189404019304,
+      "noise": 0.012980271999591095,
+      "bound": 0.16736216603978413,
+      "relative_bound": 0.09159721919381907,
+      "output_norm": 1.8271533515187506
+    },
+    "lower": {
+      "output_norm": 0.11360293262303646,
+      "relative_lower_bound": 0.062174821028901824,
+      "radiation_norm": 2.3708358202509216e-05,
+      "noise_budget": 2.370835820250038e-05,
+      "energy": 0.713482425501579,
+      "cutoff": 3.162277660168379e-06
+    }
+  },
+  {
+    "order": 34,
+    "channel": "infinity",
+    "end": 400,
+    "target": "strain_0_70",
+    "observation_model_error": 0.006513343341428171,
+    "output_model_error": 0.0006841266874604062,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 0.00031622776601683794,
+      "rank": 68,
+      "bias": 0.660453420696453,
+      "noise": 0.0009752105745655339,
+      "bound": 0.6614286312710185,
+      "relative_bound": 0.034108742309137366,
+      "output_norm": 19.391762536311074
+    },
+    "lower": {
+      "output_norm": 0.192448745678293,
+      "relative_lower_bound": 0.009924252389019964,
+      "radiation_norm": 4.941438332892645e-06,
+      "noise_budget": 3.075409712444454e-05,
+      "energy": 1.0000000000000004,
+      "cutoff": 3.162277660168379e-07
+    }
+  },
+  {
+    "order": 34,
+    "channel": "infinity",
+    "end": 400,
+    "target": "strain_30_70",
+    "observation_model_error": 0.006513343341428171,
+    "output_model_error": 0.0007233365496314709,
+    "best": {
+      "kind": "tsvd",
+      "cutoff": 0.0005623413251903491,
+      "rank": 46,
+      "bias": 0.34022130068819895,
+      "noise": 0.0005426286147531942,
+      "bound": 0.34076392930295213,
+      "relative_bound": 0.01868938501193927,
+      "output_norm": 18.233019924693252
+    },
+    "lower": {
+      "output_norm": 0.07966580581048814,
+      "relative_lower_bound": 0.00436931490995606,
+      "radiation_norm": 5.1949208251364406e-06,
+      "noise_budget": 3.075409712444454e-05,
+      "energy": 1.0,
+      "cutoff": 3.162277660168379e-07
+    }
+  },
+  {
+    "order": 34,
+    "channel": "infinity",
+    "end": 400,
+    "target": "news_0_70",
+    "observation_model_error": 0.006513343341428171,
+    "output_model_error": 1.3981771320489449e-05,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 0.00031622776601683794,
+      "rank": 68,
+      "bias": 285.60154850257317,
+      "noise": 0.3561495248982386,
+      "bound": 285.9576980274714,
+      "relative_bound": 0.6340341468174844,
+      "output_norm": 451.0130873279106
+    },
+    "lower": {
+      "output_norm": 10.633198824147666,
+      "relative_lower_bound": 0.02357625337913257,
+      "radiation_norm": 3.075409712444481e-05,
+      "noise_budget": 3.075409712444454e-05,
+      "energy": 0.001455123217794533,
+      "cutoff": 3.1622776601683795e-05
+    }
+  },
+  {
+    "order": 34,
+    "channel": "infinity",
+    "end": 400,
+    "target": "news_30_70",
+    "observation_model_error": 0.006513343341428171,
+    "output_model_error": 0.0034361120762146976,
+    "best": {
+      "kind": "tikhonov",
+      "cutoff": 0.0005623413251903491,
+      "rank": 68,
+      "bias": 0.32866505067590734,
+      "noise": 0.00029576883401398777,
+      "bound": 0.32896081950992134,
+      "relative_bound": 0.18004007120501703,
+      "output_norm": 1.8271533515187506
+    },
+    "lower": {
+      "output_norm": 0.10698341884497256,
+      "relative_lower_bound": 0.05855196486712335,
+      "radiation_norm": 5.219103639609285e-06,
+      "noise_budget": 3.075409712444454e-05,
+      "energy": 1.0000000000000002,
+      "cutoff": 3.162277660168379e-07
+    }
+  }
+]

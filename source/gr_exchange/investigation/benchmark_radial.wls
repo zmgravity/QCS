@@ -1,0 +1,31 @@
+base = StringReplace[DirectoryName[$InputFileName], "\\" -> "/"] <> "/";
+$MaxExtraPrecision=500;
+al[k_,ww_]:=k^2+(2*(-2*I*ww)+2)*k+2*(-2*I*ww)+1;
+be[k_,ww_,j_]:=-(2*k^2+(8*(-2*I*ww)+2)*k+8*(-2*I*ww)^2+4*(-2*I*ww)+(j+2)*(j-1)-1);
+ga[k_,ww_]:=k^2+4*(-2*I*ww)*k+4*(-2*I*ww)^2-4;
+cf[j_,ww_?NumericQ,nn_]:=Module[{v=be[nn,ww,j]},Do[v=SetPrecision[be[k,ww,j]-al[k,ww]*ga[k+1,ww]/v,70],{k,nn-1,0,-1}];v];
+aco[j_,ww_,nn_]:=Module[{ra=Table[0,{nn+1}],aa},Do[ra[[k+1]]=SetPrecision[-ga[k+1,ww]/(be[k+1,ww,j]+al[k+1,ww]*ra[[k+2]]),70],{k,nn-1,0,-1}];FoldList[SetPrecision[#1*#2,70]&,1,Take[ra,nn]]];
+rows={};
+Do[
+ guess=If[j==2,37367/100000-8896/100000*I,59944/100000-9270/100000*I];
+ ww=wwv/.FindRoot[cf[j,wwv,1400]==0,{wwv,N[guess,70]},WorkingPrecision->70,AccuracyGoal->55,PrecisionGoal->55];
+ Print["Frequency ",j," ",N[ww,25]];
+ aa=aco[j,ww,1400];
+ gg=Get[base<>"leaver_source_"<>ToString[j]<>".wl"]/.w->ww;
+ rec=Get[base<>"reconstruct_simple_"<>ToString[j]<>".wl"]/.w->ww;
+ jj=ThreeJSymbol[{j,2},{j,2},{4,-4}];
+ Do[
+  pp=SeriesData[u,0,Take[aa,nn+8],0,nn+8,1];dp=D[pp,u];
+  Print["Source expansion ",j," N=",nn];
+  ss=Total[MapThread[Times,{(Series[#,{u,0,nn+5}]&/@gg),{pp^2,pp*dp,dp^2}}]];
+  bb=Table[SeriesCoefficient[ss,k],{k,0,nn}];
+  neg=Table[SeriesCoefficient[ss,k],{k,-3,-1}];Print["Negative source powers ",N[neg,4]];
+  mat=SparseArray[{Band[{1,1}]->Table[be[k,2*ww,4],{k,0,nn}],Band[{1,2}]->Table[al[k,2*ww],{k,0,nn-1}],Band[{2,1}]->Table[ga[k,2*ww],{k,1,nn}]},{nn+1,nn+1}];
+  xx=LinearSolve[mat,bb];
+  master=Total[xx]/Total[aa]^2;
+  reduced=rec/.NUMERIC->master/jj;
+  strain=reduced*jj/2;
+  Print["RESULT ",j," N=",nn," master=",N[master,16]," reduced=",N[reduced,16]," strain=",N[strain,16]];
+  AppendTo[rows,{j,nn,ww,master,reduced,strain,Last[xx],Last[bb]}];Put[rows,base<>"radial_benchmark_results.wl"];
+ ,{nn,{80,160,320,640}}];
+,{j,{2,3}}];Exit[];

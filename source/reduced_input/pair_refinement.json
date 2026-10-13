@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "sample": 0.025,
+      "noise_400": 9.89376881362394e-07,
+      "noise_800": 9.893771873068478e-07,
+      "dark_horizon_energy": 1.000000047700414,
+      "dark_infinity_energy": 2.792227122373091e-10,
+      "strain_relative_pair_difference": 0.1102278335680998,
+      "strain_relative_minimax_lower_bound": 0.0551139167840499,
+      "news_relative_pair_difference": 0.1351883989867305,
+      "news_relative_minimax_lower_bound": 0.06759419949336525
+    },
+    {
+      "sample": 0.0125,
+      "noise_400": 9.893781599610746e-07,
+      "noise_800": 9.893784659291976e-07,
+      "dark_horizon_energy": 1.0000000005241052,
+      "dark_infinity_energy": 2.7906130281443537e-10,
+      "strain_relative_pair_difference": 0.11022783363751087,
+      "strain_relative_minimax_lower_bound": 0.05511391681875544,
+      "news_relative_pair_difference": 0.13518786337555141,
+      "news_relative_minimax_lower_bound": 0.06759393168777571
+    }
+  ],
+  "energy_quadrature": {
+    "80": 1.0000000000000793,
+    "160": 1.0000000000000748,
+    "320": 1.0000000000000384
+  }
+}

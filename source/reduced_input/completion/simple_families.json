@@ -1,0 +1,3200 @@
+[
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.6911317506369175,
+    "horizon_strain_norm": 0.7915391532166811,
+    "cubic_strain_norm": 0.45877275530236195,
+    "cubic_norm_over_unit_baseline": 0.9156674650663135,
+    "radiation_tolerance_for_amplitude_03": 0.371572970958458,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 8.073784248250397e-07,
+        "minimax_relative_lower_bound": 1.4785803112170477e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 8.073784248250397e-06,
+        "minimax_relative_lower_bound": 1.4785803111668616e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 8.073784248250396e-05,
+        "minimax_relative_lower_bound": 0.0001478580306148274
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0008073784248250396,
+        "minimax_relative_lower_bound": 0.0014785798042890044
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.008073784248250398,
+        "minimax_relative_lower_bound": 0.01478529613413124
+      }
+    ],
+    "cubic_norm_6": 0.3366234104631195,
+    "cubic_norm_7": 0.3117003698039175
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.6291450664732552,
+    "horizon_strain_norm": 0.7951081460740834,
+    "cubic_strain_norm": 0.4829041233666653,
+    "cubic_norm_over_unit_baseline": 0.9638314163224423,
+    "radiation_tolerance_for_amplitude_03": 0.33824708718401153,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 8.869255977858442e-07,
+        "minimax_relative_lower_bound": 1.7096935101714802e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 8.869255977858441e-06,
+        "minimax_relative_lower_bound": 1.7096935100093505e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 8.869255977858442e-05,
+        "minimax_relative_lower_bound": 0.00017096934937963122
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0008869255977858442,
+        "minimax_relative_lower_bound": 0.0017096918724931992
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.008869255977858443,
+        "minimax_relative_lower_bound": 0.01709529749147647
+      }
+    ],
+    "cubic_norm_6": 0.3518055636906785,
+    "cubic_norm_7": 0.3308009034461838
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.9250192965726365,
+    "horizon_strain_norm": 0.700453530293639,
+    "cubic_strain_norm": 0.5357788689114836,
+    "cubic_norm_over_unit_baseline": 1.0693644578107953,
+    "radiation_tolerance_for_amplitude_03": 0.49731786725851773,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.032359176109248e-07,
+        "minimax_relative_lower_bound": 1.2901580999358199e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.032359176109248e-06,
+        "minimax_relative_lower_bound": 1.2901580999171661e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.032359176109248e-05,
+        "minimax_relative_lower_bound": 0.00012901580980518283
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006032359176109248,
+        "minimax_relative_lower_bound": 0.0012901579115178108
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.006032359176109248,
+        "minimax_relative_lower_bound": 0.012901392559646875
+      }
+    ],
+    "cubic_norm_6": 0.3992246693429275,
+    "cubic_norm_7": 0.3573215075532103
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.8304196903820589,
+    "horizon_strain_norm": 0.7554638330934585,
+    "cubic_strain_norm": 0.5987150750146476,
+    "cubic_norm_over_unit_baseline": 1.1949792325272974,
+    "radiation_tolerance_for_amplitude_03": 0.44645830728122,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.719552421969668e-07,
+        "minimax_relative_lower_bound": 1.6059451192252653e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.719552421969668e-06,
+        "minimax_relative_lower_bound": 1.605945119107836e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.719552421969667e-05,
+        "minimax_relative_lower_bound": 0.0001605945107364972
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006719552421969667,
+        "minimax_relative_lower_bound": 0.0016059439330785288
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.006719552421969669,
+        "minimax_relative_lower_bound": 0.01605826504506806
+      }
+    ],
+    "cubic_norm_6": 0.4456140355353325,
+    "cubic_norm_7": 0.39985981591516645
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 1.0082639793179289,
+    "horizon_strain_norm": 0.6314260755674721,
+    "cubic_strain_norm": 0.541349636205491,
+    "cubic_norm_over_unit_baseline": 1.0804831877432564,
+    "radiation_tolerance_for_amplitude_03": 0.5420726829006256,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 5.534313192000432e-07,
+        "minimax_relative_lower_bound": 1.1959464719323541e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 5.534313192000433e-06,
+        "minimax_relative_lower_bound": 1.195946471924166e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 5.534313192000433e-05,
+        "minimax_relative_lower_bound": 0.00011959464711053651
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0005534313192000433,
+        "minimax_relative_lower_bound": 0.0011959463892251678
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.005534313192000433,
+        "minimax_relative_lower_bound": 0.011959382002325136
+      }
+    ],
+    "cubic_norm_6": 0.40457088442866074,
+    "cubic_norm_7": 0.3596968558278329
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.9181360581611436,
+    "horizon_strain_norm": 0.7140085770147364,
+    "cubic_strain_norm": 0.6234660000845268,
+    "cubic_norm_over_unit_baseline": 1.2443797615579408,
+    "radiation_tolerance_for_amplitude_03": 0.4936172337049054,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.077583591405688e-07,
+        "minimax_relative_lower_bound": 1.5125644040634616e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.0775835914056885e-06,
+        "minimax_relative_lower_bound": 1.512564403973301e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.0775835914056886e-05,
+        "minimax_relative_lower_bound": 0.00015125643949571494
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006077583591405689,
+        "minimax_relative_lower_bound": 0.0015125634933419209
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.006077583591405689,
+        "minimax_relative_lower_bound": 0.015124733301929566
+      }
+    ],
+    "cubic_norm_6": 0.4678033062892278,
+    "cubic_norm_7": 0.4121527870659934
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.30478712587698603,
+    "horizon_strain_norm": 0.8195603938850812,
+    "cubic_strain_norm": 0.1964915919378539,
+    "cubic_norm_over_unit_baseline": 0.39217882016119116,
+    "radiation_tolerance_for_amplitude_03": 0.163862617753611,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.830801949295656e-06,
+        "minimax_relative_lower_bound": 1.436003496846302e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.830801949295656e-05,
+        "minimax_relative_lower_bound": 1.4360034967614846e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00018308019492956561,
+        "minimax_relative_lower_bound": 0.00014360034882797865
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.001830801949295656,
+        "minimax_relative_lower_bound": 0.0014360026401099596
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.018308019492956563,
+        "minimax_relative_lower_bound": 0.014359178233489341
+      }
+    ],
+    "cubic_norm_6": 0.1462139511746639,
+    "cubic_norm_7": 0.13126471797160535
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.27309356016822767,
+    "horizon_strain_norm": 0.7834323199476333,
+    "cubic_strain_norm": 0.17056093470403993,
+    "cubic_norm_over_unit_baseline": 0.34042365618868997,
+    "radiation_tolerance_for_amplitude_03": 0.14682321483250696,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.0432736086199595e-06,
+        "minimax_relative_lower_bound": 1.3911573448797532e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.0432736086199592e-05,
+        "minimax_relative_lower_bound": 1.3911573448028755e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00020432736086199594,
+        "minimax_relative_lower_bound": 0.00013911573371150994
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.002043273608619959,
+        "minimax_relative_lower_bound": 0.0013911565683374912
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.020432736086199596,
+        "minimax_relative_lower_bound": 0.013910796907186225
+      }
+    ],
+    "cubic_norm_6": 0.12578423978956058,
+    "cubic_norm_7": 0.11519269711087633
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.5324641127290066,
+    "horizon_strain_norm": 0.8998391170692754,
+    "cubic_strain_norm": 0.34017882637558877,
+    "cubic_norm_over_unit_baseline": 0.6789650867808742,
+    "radiation_tolerance_for_amplitude_03": 0.2862685329000539,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.0479670851729282e-06,
+        "minimax_relative_lower_bound": 1.4230661258552532e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.0479670851729283e-05,
+        "minimax_relative_lower_bound": 1.4230661257937752e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00010479670851729283,
+        "minimax_relative_lower_bound": 0.0001423066119645999
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.001047967085172928,
+        "minimax_relative_lower_bound": 0.0014230655048680782
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.010479670851729283,
+        "minimax_relative_lower_bound": 0.014230040240163274
+      }
+    ],
+    "cubic_norm_6": 0.25234973535796323,
+    "cubic_norm_7": 0.22812550269322998
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.44909537589811493,
+    "horizon_strain_norm": 0.8704449229796166,
+    "cubic_strain_norm": 0.31351851033903755,
+    "cubic_norm_over_unit_baseline": 0.6257535921554653,
+    "radiation_tolerance_for_amplitude_03": 0.2414470220943926,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.2425085942154068e-06,
+        "minimax_relative_lower_bound": 1.5550084322275474e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.242508594215407e-05,
+        "minimax_relative_lower_bound": 1.5550084321177494e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0001242508594215407,
+        "minimax_relative_lower_bound": 0.0001555008421137884
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.001242508594215407,
+        "minimax_relative_lower_bound": 0.0015550073231514667
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.01242508594215407,
+        "minimax_relative_lower_bound": 0.015548975253702605
+      }
+    ],
+    "cubic_norm_6": 0.229388816226307,
+    "cubic_norm_7": 0.213716230819053
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 0.711109349822543,
+    "horizon_strain_norm": 0.8633456157583913,
+    "cubic_strain_norm": 0.42827690470196284,
+    "cubic_norm_over_unit_baseline": 0.8548006025694229,
+    "radiation_tolerance_for_amplitude_03": 0.3823135220548,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 7.846962837924383e-07,
+        "minimax_relative_lower_bound": 1.3415177124391943e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 7.846962837924382e-06,
+        "minimax_relative_lower_bound": 1.3415177124063093e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 7.846962837924383e-05,
+        "minimax_relative_lower_bound": 0.000134151770911785
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0007846962837924383,
+        "minimax_relative_lower_bound": 0.0013415173802715707
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.007846962837924383,
+        "minimax_relative_lower_bound": 0.013414844925755934
+      }
+    ],
+    "cubic_norm_6": 0.31904032914120667,
+    "cubic_norm_7": 0.2857172999357315
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.5975638681327182,
+    "horizon_strain_norm": 0.8662577499160968,
+    "cubic_strain_norm": 0.42815420697779943,
+    "cubic_norm_over_unit_baseline": 0.8545557094000802,
+    "radiation_tolerance_for_amplitude_03": 0.32126809629984593,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 9.337995383145794e-07,
+        "minimax_relative_lower_bound": 1.5959674538026326e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 9.337995383145795e-06,
+        "minimax_relative_lower_bound": 1.5959674536904872e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 9.337995383145795e-05,
+        "minimax_relative_lower_bound": 0.00015959674424759353
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0009337995383145795,
+        "minimax_relative_lower_bound": 0.0015959663210206446
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.009337995383145796,
+        "minimax_relative_lower_bound": 0.01595854174788081
+      }
+    ],
+    "cubic_norm_6": 0.31635787646250085,
+    "cubic_norm_7": 0.288502545834392
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.12401423072750677,
+    "horizon_strain_norm": 0.7432263282803692,
+    "cubic_strain_norm": 0.05628155670902096,
+    "cubic_norm_over_unit_baseline": 0.11233271759516333,
+    "radiation_tolerance_for_amplitude_03": 0.06667373638974292,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 4.499522844292733e-06,
+        "minimax_relative_lower_bound": 1.010887257961486e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 4.4995228442927334e-05,
+        "minimax_relative_lower_bound": 1.0108872579261078e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0004499522844292733,
+        "minimax_relative_lower_bound": 0.00010108872543882864
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0044995228442927335,
+        "minimax_relative_lower_bound": 0.0010108869006062071
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.04499522844292734,
+        "minimax_relative_lower_bound": 0.010108515231602378
+      }
+    ],
+    "cubic_norm_6": 0.04480580999822933,
+    "cubic_norm_7": 0.03405955102454106
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.11397621184473244,
+    "horizon_strain_norm": 0.7017520654484432,
+    "cubic_strain_norm": 0.051382155969731835,
+    "cubic_norm_over_unit_baseline": 0.10255397244641931,
+    "radiation_tolerance_for_amplitude_03": 0.06127699908839295,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 4.895801107479915e-06,
+        "minimax_relative_lower_bound": 1.0041677037588972e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 4.895801107479915e-05,
+        "minimax_relative_lower_bound": 1.0041677037201258e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0004895801107479915,
+        "minimax_relative_lower_bound": 0.00010041676998430023
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.004895801107479915,
+        "minimax_relative_lower_bound": 0.0010041673121307872
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.048958011074799156,
+        "minimax_relative_lower_bound": 0.010041285422919743
+      }
+    ],
+    "cubic_norm_6": 0.03915861747915572,
+    "cubic_norm_7": 0.03326753115605379
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.27376458561126343,
+    "horizon_strain_norm": 0.9056488559671426,
+    "cubic_strain_norm": 0.1556922272479002,
+    "cubic_norm_over_unit_baseline": 0.31074710825113205,
+    "radiation_tolerance_for_amplitude_03": 0.14718397805489938,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.038265332712372e-06,
+        "minimax_relative_lower_bound": 1.2667701159772543e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.038265332712372e-05,
+        "minimax_relative_lower_bound": 1.2667701159230092e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0002038265332712372,
+        "minimax_relative_lower_bound": 0.00012667701104985163
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.002038265332712372,
+        "minimax_relative_lower_bound": 0.0012667695680491965
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.02038265332712372,
+        "minimax_relative_lower_bound": 0.01266715322624937
+      }
+    ],
+    "cubic_norm_6": 0.11772587245935696,
+    "cubic_norm_7": 0.10188566424720905
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.2338172930729518,
+    "horizon_strain_norm": 0.8426481338080445,
+    "cubic_strain_norm": 0.1279010779639331,
+    "cubic_norm_over_unit_baseline": 0.2552785763428716,
+    "radiation_tolerance_for_amplitude_03": 0.12570712627298067,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.38649954775461e-06,
+        "minimax_relative_lower_bound": 1.2184444139869057e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.38649954775461e-05,
+        "minimax_relative_lower_bound": 1.2184444139372597e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.000238649954775461,
+        "minimax_relative_lower_bound": 0.00012184444089725979
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0023864995477546097,
+        "minimax_relative_lower_bound": 0.0012184439125064006
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.0238649954775461,
+        "minimax_relative_lower_bound": 0.012183942656680406
+      }
+    ],
+    "cubic_norm_6": 0.0945435472477378,
+    "cubic_norm_7": 0.08614060261079473
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 0.46268598597996075,
+    "horizon_strain_norm": 0.941114554196306,
+    "cubic_strain_norm": 0.2793465213399099,
+    "cubic_norm_over_unit_baseline": 0.557549501608539,
+    "radiation_tolerance_for_amplitude_03": 0.2487537380144695,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.2060120277772451e-06,
+        "minimax_relative_lower_bound": 1.3448228100417125e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.2060120277772452e-05,
+        "minimax_relative_lower_bound": 1.3448228099921234e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00012060120277772452,
+        "minimax_relative_lower_bound": 0.0001344822805033235
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0012060120277772451,
+        "minimax_relative_lower_bound": 0.0013448223091442064
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.012060120277772453,
+        "minimax_relative_lower_bound": 0.01344772717737921
+      }
+    ],
+    "cubic_norm_6": 0.2088293245561714,
+    "cubic_norm_7": 0.18553919313752
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.37890600693244936,
+    "horizon_strain_norm": 0.8903753887677354,
+    "cubic_strain_norm": 0.25027189577792924,
+    "cubic_norm_over_unit_baseline": 0.49951927122019585,
+    "radiation_tolerance_for_amplitude_03": 0.20371113117021333,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.4726735759438264e-06,
+        "minimax_relative_lower_bound": 1.4712576628005124e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.4726735759438266e-05,
+        "minimax_relative_lower_bound": 1.4712576627126563e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00014726735759438265,
+        "minimax_relative_lower_bound": 0.000147125765392699
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0014726735759438266,
+        "minimax_relative_lower_bound": 0.0014712567753603616
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.014726735759438267,
+        "minimax_relative_lower_bound": 0.014711689182289092
+      }
+    ],
+    "cubic_norm_6": 0.183799024498449,
+    "cubic_norm_7": 0.1698644765973663
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.0571886658313032,
+    "horizon_strain_norm": 0.658839073174623,
+    "cubic_strain_norm": 0.02649605478778596,
+    "cubic_norm_over_unit_baseline": 0.05288364455251953,
+    "radiation_tolerance_for_amplitude_03": 0.03074632651228208,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 9.757263193056918e-06,
+        "minimax_relative_lower_bound": 1.0319992770135248e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 9.757263193056919e-05,
+        "minimax_relative_lower_bound": 1.0319992769657168e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0009757263193056918,
+        "minimax_relative_lower_bound": 0.0001031999272184909
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.009757263193056918,
+        "minimax_relative_lower_bound": 0.0010319987941044236
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.09757263193056918,
+        "minimax_relative_lower_bound": 0.0103195098879374
+      }
+    ],
+    "cubic_norm_6": 0.0195487847231928,
+    "cubic_norm_7": 0.017885355326736428
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.05417005487174851,
+    "horizon_strain_norm": 0.6240344642710669,
+    "cubic_strain_norm": 0.03134887634832678,
+    "cubic_norm_over_unit_baseline": 0.06256942202165228,
+    "radiation_tolerance_for_amplitude_03": 0.029123431541278576,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.030098391993368e-05,
+        "minimax_relative_lower_bound": 1.2890532202481535e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 0.0001030098391993368,
+        "minimax_relative_lower_bound": 1.2890532201476489e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.001030098391993368,
+        "minimax_relative_lower_bound": 0.0001289053210097191
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.010300983919933681,
+        "minimax_relative_lower_bound": 0.0012890522050525229
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.10300983919933682,
+        "minimax_relative_lower_bound": 0.012889517115863816
+      }
+    ],
+    "cubic_norm_6": 0.02252320244859525,
+    "cubic_norm_7": 0.02180498566296881
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.15905615990511499,
+    "horizon_strain_norm": 0.8507993913433667,
+    "cubic_strain_norm": 0.07912922931553305,
+    "cubic_norm_over_unit_baseline": 0.1579345329088947,
+    "radiation_tolerance_for_amplitude_03": 0.08551331903175076,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 3.508225424961124e-06,
+        "minimax_relative_lower_bound": 1.1081398876602893e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 3.508225424961124e-05,
+        "minimax_relative_lower_bound": 1.1081398876208551e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0003508225424961124,
+        "minimax_relative_lower_bound": 0.00011081398836774985
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.003508225424961124,
+        "minimax_relative_lower_bound": 0.0011081394893417782
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.03508225424961124,
+        "minimax_relative_lower_bound": 0.011081000558885815
+      }
+    ],
+    "cubic_norm_6": 0.060590919803304596,
+    "cubic_norm_7": 0.05089376552643483
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.14053848681257186,
+    "horizon_strain_norm": 0.787657654346768,
+    "cubic_strain_norm": 0.06636080338020325,
+    "cubic_norm_over_unit_baseline": 0.13244995023923542,
+    "radiation_tolerance_for_amplitude_03": 0.07555766759496925,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 3.970477246705991e-06,
+        "minimax_relative_lower_bound": 1.051779027504089e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 3.9704772467059906e-05,
+        "minimax_relative_lower_bound": 1.0517790274683854e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0003970477246705991,
+        "minimax_relative_lower_bound": 0.00010517790238980471
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.003970477246705991,
+        "minimax_relative_lower_bound": 0.0010517786668642012
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.03970477246705991,
+        "minimax_relative_lower_bound": 0.010517429638147844
+      }
+    ],
+    "cubic_norm_6": 0.04949060125238152,
+    "cubic_norm_7": 0.044209010540202855
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 0.32406951287033586,
+    "horizon_strain_norm": 0.9367635001193454,
+    "cubic_strain_norm": 0.18843563499278793,
+    "cubic_norm_over_unit_baseline": 0.3760998843714879,
+    "radiation_tolerance_for_amplitude_03": 0.1742294021122907,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.721867815437088e-06,
+        "minimax_relative_lower_bound": 1.2951885725772357e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.7218678154370882e-05,
+        "minimax_relative_lower_bound": 1.2951885725262794e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00017218678154370883,
+        "minimax_relative_lower_bound": 0.00012951885674306003
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.001721867815437088,
+        "minimax_relative_lower_bound": 0.001295188057862618
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.017218678154370882,
+        "minimax_relative_lower_bound": 0.01295137099604418
+      }
+    ],
+    "cubic_norm_6": 0.14151609136440185,
+    "cubic_norm_7": 0.12442340784626296
+  },
+  {
+    "n": 32,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.26753665455208375,
+    "horizon_strain_norm": 0.869292875842824,
+    "cubic_strain_norm": 0.15956019317458045,
+    "cubic_norm_over_unit_baseline": 0.31846720608630524,
+    "radiation_tolerance_for_amplitude_03": 0.14383565721093405,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.0857136944843374e-06,
+        "minimax_relative_lower_bound": 1.3284628259561011e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.0857136944843375e-05,
+        "minimax_relative_lower_bound": 1.3284628258923808e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00020857136944843374,
+        "minimax_relative_lower_bound": 0.00013284628195203306
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0020857136944843375,
+        "minimax_relative_lower_bound": 0.0013284621823152585
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.020857136944843375,
+        "minimax_relative_lower_bound": 0.013283984613685166
+      }
+    ],
+    "cubic_norm_6": 0.11716479881235942,
+    "cubic_norm_7": 0.1083137348869882
+  },
+  {
+    "n": 32,
+    "kind": "compact",
+    "center": 0.6,
+    "width": 0.24,
+    "phase": 0,
+    "infinity_strain_norm": 0.7974195221551411,
+    "horizon_strain_norm": 0.7943962990899436,
+    "cubic_strain_norm": 0.5259823523181318,
+    "cubic_norm_over_unit_baseline": 1.0498115279302873,
+    "radiation_tolerance_for_amplitude_03": 0.4287164360115169,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.997632346242515e-07,
+        "minimax_relative_lower_bound": 1.4692390210601328e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.997632346242515e-06,
+        "minimax_relative_lower_bound": 1.4692390210088297e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.997632346242515e-05,
+        "minimax_relative_lower_bound": 0.00014692390158785735
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006997632346242515,
+        "minimax_relative_lower_bound": 0.0014692385028524297
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.006997632346242516,
+        "minimax_relative_lower_bound": 0.014691871954972076
+      }
+    ],
+    "cubic_norm_6": 0.3900506496832624,
+    "cubic_norm_7": 0.3528709758988125
+  },
+  {
+    "n": 32,
+    "kind": "compact",
+    "center": 0.72,
+    "width": 0.24,
+    "phase": 0,
+    "infinity_strain_norm": 0.4239539010749156,
+    "horizon_strain_norm": 0.9285599878839467,
+    "cubic_strain_norm": 0.2812581648571737,
+    "cubic_norm_over_unit_baseline": 0.5613649630833814,
+    "radiation_tolerance_for_amplitude_03": 0.22793021797459287,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.3161923094964119e-06,
+        "minimax_relative_lower_bound": 1.4777284944612066e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.316192309496412e-05,
+        "minimax_relative_lower_bound": 1.4777284943660804e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0001316192309496412,
+        "minimax_relative_lower_bound": 0.00014777284848535197
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0013161923094964119,
+        "minimax_relative_lower_bound": 0.0014777275335974662
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.01316192309496412,
+        "minimax_relative_lower_bound": 0.014776324088694053
+      }
+    ],
+    "cubic_norm_6": 0.2053450614821921,
+    "cubic_norm_7": 0.19219667276958727
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.6911315212982966,
+    "horizon_strain_norm": 0.7915390830082492,
+    "cubic_strain_norm": 0.4587637502301266,
+    "cubic_norm_over_unit_baseline": 0.9156494918219078,
+    "radiation_tolerance_for_amplitude_03": 0.3715728476618557,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 8.073786927321731e-07,
+        "minimax_relative_lower_bound": 1.4785517794155935e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 8.073786927321732e-06,
+        "minimax_relative_lower_bound": 1.4785517793654043e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 8.073786927321733e-05,
+        "minimax_relative_lower_bound": 0.0001478551774346404
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0008073786927321733,
+        "minimax_relative_lower_bound": 0.0014785512724458552
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.008073786927321731,
+        "minimax_relative_lower_bound": 0.014785010774426389
+      }
+    ],
+    "cubic_norm_6": 0.3366218300615672,
+    "cubic_norm_7": 0.31168882246755547
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.6291401589246356,
+    "horizon_strain_norm": 0.7951108105498519,
+    "cubic_strain_norm": 0.48291389773854587,
+    "cubic_norm_over_unit_baseline": 0.9638509250921167,
+    "radiation_tolerance_for_amplitude_03": 0.3382444487424299,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 8.869325161591853e-07,
+        "minimax_relative_lower_bound": 1.7097414523869807e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 8.869325161591855e-06,
+        "minimax_relative_lower_bound": 1.7097414522248167e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 8.869325161591854e-05,
+        "minimax_relative_lower_bound": 0.00017097414360083593
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0008869325161591855,
+        "minimax_relative_lower_bound": 0.001709739814363355
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.008869325161591854,
+        "minimax_relative_lower_bound": 0.017095776568374087
+      }
+    ],
+    "cubic_norm_6": 0.35186565661170877,
+    "cubic_norm_7": 0.33075125445906584
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.9250192956364496,
+    "horizon_strain_norm": 0.7004535315610024,
+    "cubic_strain_norm": 0.5357788643648069,
+    "cubic_norm_over_unit_baseline": 1.0693644487788434,
+    "radiation_tolerance_for_amplitude_03": 0.4973178667587515,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.032359182171303e-07,
+        "minimax_relative_lower_bound": 1.2901580903355336e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.0323591821713035e-06,
+        "minimax_relative_lower_bound": 1.2901580903168803e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.032359182171304e-05,
+        "minimax_relative_lower_bound": 0.0001290158088451542
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006032359182171304,
+        "minimax_relative_lower_bound": 0.0012901579019175165
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.006032359182171303,
+        "minimax_relative_lower_bound": 0.012901392463635636
+      }
+    ],
+    "cubic_norm_6": 0.3992246681166977,
+    "cubic_norm_7": 0.3573215021058132
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.8304196850129212,
+    "horizon_strain_norm": 0.7554638388688341,
+    "cubic_strain_norm": 0.5987150817637364,
+    "cubic_norm_over_unit_baseline": 1.1949792460456623,
+    "radiation_tolerance_for_amplitude_03": 0.4464583043978041,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.719552465367368e-07,
+        "minimax_relative_lower_bound": 1.6059451477646075e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.719552465367369e-06,
+        "minimax_relative_lower_bound": 1.6059451476471795e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.719552465367369e-05,
+        "minimax_relative_lower_bound": 0.0001605945135904313
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006719552465367369,
+        "minimax_relative_lower_bound": 0.0016059439616176697
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.006719552465367368,
+        "minimax_relative_lower_bound": 0.01605826533025935
+      }
+    ],
+    "cubic_norm_6": 0.4456140791045768,
+    "cubic_norm_7": 0.3998597774659733
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 1.0082639793109098,
+    "horizon_strain_norm": 0.6314260755632778,
+    "cubic_strain_norm": 0.541349636182635,
+    "cubic_norm_over_unit_baseline": 1.080483187740872,
+    "radiation_tolerance_for_amplitude_03": 0.5420726829007277,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 5.534313191999389e-07,
+        "minimax_relative_lower_bound": 1.1959464719294895e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 5.53431319199939e-06,
+        "minimax_relative_lower_bound": 1.1959464719213017e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 5.5343131919993906e-05,
+        "minimax_relative_lower_bound": 0.00011959464711025009
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.000553431319199939,
+        "minimax_relative_lower_bound": 0.0011959463892223033
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.005534313191999389,
+        "minimax_relative_lower_bound": 0.011959382002296487
+      }
+    ],
+    "cubic_norm_6": 0.40457088441706396,
+    "cubic_norm_7": 0.35969685580647776
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.9181360581473813,
+    "horizon_strain_norm": 0.714008577017144,
+    "cubic_strain_norm": 0.6234660000806423,
+    "cubic_norm_over_unit_baseline": 1.2443797615999799,
+    "radiation_tolerance_for_amplitude_03": 0.4936172337010357,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.077583591453332e-07,
+        "minimax_relative_lower_bound": 1.5125644041264188e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.077583591453333e-06,
+        "minimax_relative_lower_bound": 1.5125644040362579e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.077583591453334e-05,
+        "minimax_relative_lower_bound": 0.0001512564395020107
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006077583591453334,
+        "minimax_relative_lower_bound": 0.0015125634934048775
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.0060775835914533335,
+        "minimax_relative_lower_bound": 0.015124733302558906
+      }
+    ],
+    "cubic_norm_6": 0.4678033063574034,
+    "cubic_norm_7": 0.4121527869827363
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.30478362157562694,
+    "horizon_strain_norm": 0.8195611045085954,
+    "cubic_strain_norm": 0.19652047182161753,
+    "cubic_norm_over_unit_baseline": 0.3922364617208783,
+    "radiation_tolerance_for_amplitude_03": 0.1638607337382171,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.8308229992383538e-06,
+        "minimax_relative_lower_bound": 1.4362310705160592e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.830822999238354e-05,
+        "minimax_relative_lower_bound": 1.4362310704312046e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0001830822999238354,
+        "minimax_relative_lower_bound": 0.00014362310619456757
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0018308229992383541,
+        "minimax_relative_lower_bound": 0.0014362302133928556
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.01830822999238354,
+        "minimax_relative_lower_bound": 0.01436145358332163
+      }
+    ],
+    "cubic_norm_6": 0.14624639188851585,
+    "cubic_norm_7": 0.13127181230021087
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.27308626671464503,
+    "horizon_strain_norm": 0.7834337998238673,
+    "cubic_strain_norm": 0.17062392744989735,
+    "cubic_norm_over_unit_baseline": 0.3405493838250888,
+    "radiation_tolerance_for_amplitude_03": 0.14681929365613466,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.0433281793510717e-06,
+        "minimax_relative_lower_bound": 1.3917083048601194e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.043328179351072e-05,
+        "minimax_relative_lower_bound": 1.3917083047831372e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0002043328179351072,
+        "minimax_relative_lower_bound": 0.00013917082970849962
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.002043328179351072,
+        "minimax_relative_lower_bound": 0.0013917075272708718
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.020433281793510717,
+        "minimax_relative_lower_bound": 0.013916305460031036
+      }
+    ],
+    "cubic_norm_6": 0.12584777627699797,
+    "cubic_norm_7": 0.11521658658614432
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.5324641131601915,
+    "horizon_strain_norm": 0.899839116909368,
+    "cubic_strain_norm": 0.34017882185563997,
+    "cubic_norm_over_unit_baseline": 0.6789650777866475,
+    "radiation_tolerance_for_amplitude_03": 0.28626853313391853,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.0479670843168005e-06,
+        "minimax_relative_lower_bound": 1.4230661058413842e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.0479670843168006e-05,
+        "minimax_relative_lower_bound": 1.423066105779907e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00010479670843168006,
+        "minimax_relative_lower_bound": 0.00014230660996321308
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0010479670843168006,
+        "minimax_relative_lower_bound": 0.001423065484854223
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.010479670843168006,
+        "minimax_relative_lower_bound": 0.014230040040037719
+      }
+    ],
+    "cubic_norm_6": 0.25234973157168517,
+    "cubic_norm_7": 0.22812550014145655
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.44909537868975796,
+    "horizon_strain_norm": 0.870444921450288,
+    "cubic_strain_norm": 0.31351847809403594,
+    "cubic_norm_over_unit_baseline": 0.6257535278224999,
+    "radiation_tolerance_for_amplitude_03": 0.24144702359698916,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.2425085864829066e-06,
+        "minimax_relative_lower_bound": 1.5550082626817438e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.2425085864829067e-05,
+        "minimax_relative_lower_bound": 1.5550082625719453e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00012425085864829066,
+        "minimax_relative_lower_bound": 0.00015550082515920847
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0012425085864829068,
+        "minimax_relative_lower_bound": 0.0015550071536060838
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.012425085864829065,
+        "minimax_relative_lower_bound": 0.01554897355866464
+      }
+    ],
+    "cubic_norm_6": 0.22938881743984538,
+    "cubic_norm_7": 0.213716182213584
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 0.7111093498173471,
+    "horizon_strain_norm": 0.8633456157497312,
+    "cubic_strain_norm": 0.42827690468229457,
+    "cubic_norm_over_unit_baseline": 0.8548006025643706,
+    "radiation_tolerance_for_amplitude_03": 0.38231352205474006,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 7.846962837925614e-07,
+        "minimax_relative_lower_bound": 1.3415177124314757e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 7.846962837925614e-06,
+        "minimax_relative_lower_bound": 1.3415177123985908e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 7.846962837925615e-05,
+        "minimax_relative_lower_bound": 0.00013415177091101314
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0007846962837925615,
+        "minimax_relative_lower_bound": 0.0013415173802638525
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.007846962837925613,
+        "minimax_relative_lower_bound": 0.013414844925678767
+      }
+    ],
+    "cubic_norm_6": 0.3190403291288805,
+    "cubic_norm_7": 0.28571729992001343
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.597563868128048,
+    "horizon_strain_norm": 0.8662577499068815,
+    "cubic_strain_norm": 0.4281542068746702,
+    "cubic_norm_over_unit_baseline": 0.8545557092284378,
+    "radiation_tolerance_for_amplitude_03": 0.3212680962996321,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 9.337995383152009e-07,
+        "minimax_relative_lower_bound": 1.595967453483136e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 9.33799538315201e-06,
+        "minimax_relative_lower_bound": 1.5959674533709908e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 9.33799538315201e-05,
+        "minimax_relative_lower_bound": 0.00015959674421564389
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.000933799538315201,
+        "minimax_relative_lower_bound": 0.0015959663207011495
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.00933799538315201,
+        "minimax_relative_lower_bound": 0.01595854174468706
+      }
+    ],
+    "cubic_norm_6": 0.31635787633167384,
+    "cubic_norm_7": 0.28850254582480067
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.12401339645403259,
+    "horizon_strain_norm": 0.7432259063347626,
+    "cubic_strain_norm": 0.0562939297686874,
+    "cubic_norm_over_unit_baseline": 0.11235741306827392,
+    "radiation_tolerance_for_amplitude_03": 0.06667328786000364,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 4.49955311383355e-06,
+        "minimax_relative_lower_bound": 1.0111162956669113e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 4.49955311383355e-05,
+        "minimax_relative_lower_bound": 1.0111162956315104e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.000449955311383355,
+        "minimax_relative_lower_bound": 0.00010111162920914307
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.00449955311383355,
+        "minimax_relative_lower_bound": 0.0010111159380835667
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.044995531138335494,
+        "minimax_relative_lower_bound": 0.010110805380597325
+      }
+    ],
+    "cubic_norm_6": 0.044815318313521466,
+    "cubic_norm_7": 0.03406748850824871
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.11397438167536834,
+    "horizon_strain_norm": 0.7017515749267123,
+    "cubic_strain_norm": 0.05140619411724933,
+    "cubic_norm_over_unit_baseline": 0.10260195034229766,
+    "radiation_tolerance_for_amplitude_03": 0.06127601513538465,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 4.895879722876447e-06,
+        "minimax_relative_lower_bound": 1.0046536164164704e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 4.895879722876448e-05,
+        "minimax_relative_lower_bound": 1.0046536163776429e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0004895879722876448,
+        "minimax_relative_lower_bound": 0.00010046536124948994
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.004895879722876448,
+        "minimax_relative_lower_bound": 0.0010046532242206862
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.04895879722876447,
+        "minimax_relative_lower_bound": 0.010046143981853654
+      }
+    ],
+    "cubic_norm_6": 0.0391692744836829,
+    "cubic_norm_7": 0.033292112129485366
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.27376458543392684,
+    "horizon_strain_norm": 0.9056488562873188,
+    "cubic_strain_norm": 0.15569222137907487,
+    "cubic_norm_over_unit_baseline": 0.31074709654994037,
+    "radiation_tolerance_for_amplitude_03": 0.14718397796061033,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.0382653340181264e-06,
+        "minimax_relative_lower_bound": 1.266770069088506e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.0382653340181264e-05,
+        "minimax_relative_lower_bound": 1.2667700690342612e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00020382653340181268,
+        "minimax_relative_lower_bound": 0.00012667700636097702
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0020382653340181266,
+        "minimax_relative_lower_bound": 0.0012667695211605304
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.020382653340181262,
+        "minimax_relative_lower_bound": 0.012667152757443094
+      }
+    ],
+    "cubic_norm_6": 0.11772586661805162,
+    "cubic_norm_7": 0.10188566202846984
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.2338172921925039,
+    "horizon_strain_norm": 0.8426481354825864,
+    "cubic_strain_norm": 0.12790105207044855,
+    "cubic_norm_over_unit_baseline": 0.2552785246721154,
+    "radiation_tolerance_for_amplitude_03": 0.1257071258005245,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.386499556724001e-06,
+        "minimax_relative_lower_bound": 1.2184441719418194e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.386499556724001e-05,
+        "minimax_relative_lower_bound": 1.2184441718921728e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00023864995567240014,
+        "minimax_relative_lower_bound": 0.00012184441669275159
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0023864995567240014,
+        "minimax_relative_lower_bound": 0.0012184436704617818
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.02386499556724001,
+        "minimax_relative_lower_bound": 0.012183940236697673
+      }
+    ],
+    "cubic_norm_6": 0.0945435081503123,
+    "cubic_norm_7": 0.08614060707563778
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 0.4626859859770395,
+    "horizon_strain_norm": 0.9411145541817173,
+    "cubic_strain_norm": 0.27934652133521515,
+    "cubic_norm_over_unit_baseline": 0.5575495016214783,
+    "radiation_tolerance_for_amplitude_03": 0.24875373801467757,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.2060120277762365e-06,
+        "minimax_relative_lower_bound": 1.3448228100717974e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.2060120277762367e-05,
+        "minimax_relative_lower_bound": 1.3448228100222088e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00012060120277762368,
+        "minimax_relative_lower_bound": 0.00013448228050633214
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0012060120277762366,
+        "minimax_relative_lower_bound": 0.0013448223091742915
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.012060120277762366,
+        "minimax_relative_lower_bound": 0.013447727177680013
+      }
+    ],
+    "cubic_norm_6": 0.20882932455555203,
+    "cubic_norm_7": 0.18553919313114878
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.3789060069315337,
+    "horizon_strain_norm": 0.8903753887436288,
+    "cubic_strain_norm": 0.25027189586755727,
+    "cubic_norm_over_unit_baseline": 0.4995192714190726,
+    "radiation_tolerance_for_amplitude_03": 0.2037111311711776,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.4726735759368558e-06,
+        "minimax_relative_lower_bound": 1.4712576633793099e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.4726735759368559e-05,
+        "minimax_relative_lower_bound": 1.471257663291453e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0001472673575936856,
+        "minimax_relative_lower_bound": 0.0001471257654505787
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.001472673575936856,
+        "minimax_relative_lower_bound": 0.001471256775939157
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.014726735759368557,
+        "minimax_relative_lower_bound": 0.01471168918807531
+      }
+    ],
+    "cubic_norm_6": 0.18379902459539493,
+    "cubic_norm_7": 0.16986447662452223
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.05718862726175154,
+    "horizon_strain_norm": 0.6588390051700915,
+    "cubic_strain_norm": 0.026495111649460605,
+    "cubic_norm_over_unit_baseline": 0.05288176213884338,
+    "radiation_tolerance_for_amplitude_03": 0.030746305776364575,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 9.757269773548442e-06,
+        "minimax_relative_lower_bound": 1.0319632385781473e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 9.757269773548444e-05,
+        "minimax_relative_lower_bound": 1.0319632385303435e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0009757269773548444,
+        "minimax_relative_lower_bound": 0.00010319632337499697
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.009757269773548445,
+        "minimax_relative_lower_bound": 0.0010319627557128556
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.09757269773548444,
+        "minimax_relative_lower_bound": 0.010319149547389323
+      }
+    ],
+    "cubic_norm_6": 0.019548237206687653,
+    "cubic_norm_7": 0.0178845565622538
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.05417041501944255,
+    "horizon_strain_norm": 0.624034049551527,
+    "cubic_strain_norm": 0.03134864527819372,
+    "cubic_norm_over_unit_baseline": 0.0625689608298052,
+    "radiation_tolerance_for_amplitude_03": 0.029123625167591434,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.0300915434588063e-05,
+        "minimax_relative_lower_bound": 1.2890351486747374e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 0.00010300915434588064,
+        "minimax_relative_lower_bound": 1.2890351485742318e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0010300915434588065,
+        "minimax_relative_lower_bound": 0.00012890351385236507
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.010300915434588064,
+        "minimax_relative_lower_bound": 0.0012890341334666233
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.10300915434588064,
+        "minimax_relative_lower_bound": 0.012889336387658951
+      }
+    ],
+    "cubic_norm_6": 0.022532102202363662,
+    "cubic_norm_7": 0.02179545666234721
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.15905616006894097,
+    "horizon_strain_norm": 0.8507993909749074,
+    "cubic_strain_norm": 0.07912923325253927,
+    "cubic_norm_over_unit_baseline": 0.15793454077311003,
+    "radiation_tolerance_for_amplitude_03": 0.08551331912043988,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 3.508225421322609e-06,
+        "minimax_relative_lower_bound": 1.1081399416898753e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 3.508225421322609e-05,
+        "minimax_relative_lower_bound": 1.1081399416504416e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.000350822542132261,
+        "minimax_relative_lower_bound": 0.00011081399377070838
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.00350822542132261,
+        "minimax_relative_lower_bound": 0.0011081395433712932
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.03508225421322609,
+        "minimax_relative_lower_bound": 0.011081001099110697
+      }
+    ],
+    "cubic_norm_6": 0.06059092353028928,
+    "cubic_norm_7": 0.05089376721054756
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.14053848815689488,
+    "horizon_strain_norm": 0.7876576525477047,
+    "cubic_strain_norm": 0.06636081767826926,
+    "cubic_norm_over_unit_baseline": 0.13244997878213624,
+    "radiation_tolerance_for_amplitude_03": 0.0755576683182575,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 3.970477208697942e-06,
+        "minimax_relative_lower_bound": 1.0517792440936354e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 3.9704772086979425e-05,
+        "minimax_relative_lower_bound": 1.0517792440579321e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0003970477208697943,
+        "minimax_relative_lower_bound": 0.00010517792404875903
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.003970477208697943,
+        "minimax_relative_lower_bound": 0.001051778883453432
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.03970477208697942,
+        "minimax_relative_lower_bound": 0.010517431803727996
+      }
+    ],
+    "cubic_norm_6": 0.04949062393081874,
+    "cubic_norm_7": 0.04420900661479248
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 0.32406951286757907,
+    "horizon_strain_norm": 0.9367635000997699,
+    "cubic_strain_norm": 0.1884356349810223,
+    "cubic_norm_over_unit_baseline": 0.37609988436305397,
+    "radiation_tolerance_for_amplitude_03": 0.17422940211205432,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.7218678154394244e-06,
+        "minimax_relative_lower_bound": 1.2951885725499488e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.7218678154394247e-05,
+        "minimax_relative_lower_bound": 1.2951885724989924e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00017218678154394247,
+        "minimax_relative_lower_bound": 0.0001295188567403314
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0017218678154394245,
+        "minimax_relative_lower_bound": 0.0012951880578353314
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.017218678154394245,
+        "minimax_relative_lower_bound": 0.012951370995771365
+      }
+    ],
+    "cubic_norm_6": 0.14151609135588886,
+    "cubic_norm_7": 0.12442340783812665
+  },
+  {
+    "n": 48,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.267536654542902,
+    "horizon_strain_norm": 0.8692928758231226,
+    "cubic_strain_norm": 0.1595601931256641,
+    "cubic_norm_over_unit_baseline": 0.3184672060014158,
+    "radiation_tolerance_for_amplitude_03": 0.1438356572070261,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.0857136945410056e-06,
+        "minimax_relative_lower_bound": 1.3284628256380852e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.0857136945410057e-05,
+        "minimax_relative_lower_bound": 1.3284628255743655e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0002085713694541006,
+        "minimax_relative_lower_bound": 0.0001328462819202315
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0020857136945410058,
+        "minimax_relative_lower_bound": 0.0013284621819972433
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.020857136945410054,
+        "minimax_relative_lower_bound": 0.013283984610505813
+      }
+    ],
+    "cubic_norm_6": 0.11716479870724168,
+    "cubic_norm_7": 0.10831373492863564
+  },
+  {
+    "n": 48,
+    "kind": "compact",
+    "center": 0.6,
+    "width": 0.24,
+    "phase": 0,
+    "infinity_strain_norm": 0.8016029511760538,
+    "horizon_strain_norm": 0.7909002406769401,
+    "cubic_strain_norm": 0.5269393039280282,
+    "cubic_norm_over_unit_baseline": 1.0517215137871285,
+    "radiation_tolerance_for_amplitude_03": 0.43096557179610717,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.961112897016564e-07,
+        "minimax_relative_lower_bound": 1.464230438738143e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.961112897016565e-06,
+        "minimax_relative_lower_bound": 1.4642304386857113e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.961112897016565e-05,
+        "minimax_relative_lower_bound": 0.00014642304334424428
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006961112897016566,
+        "minimax_relative_lower_bound": 0.0014642299091151797
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.0069611128970165645,
+        "minimax_relative_lower_bound": 0.014641774717859116
+      }
+    ],
+    "cubic_norm_6": 0.3924194584043765,
+    "cubic_norm_7": 0.3516702982763411
+  },
+  {
+    "n": 48,
+    "kind": "compact",
+    "center": 0.72,
+    "width": 0.24,
+    "phase": 0,
+    "infinity_strain_norm": 0.4201906823402617,
+    "horizon_strain_norm": 0.927084783271082,
+    "cubic_strain_norm": 0.2825005192977072,
+    "cubic_norm_over_unit_baseline": 0.5638445862486192,
+    "radiation_tolerance_for_amplitude_03": 0.22590699973408096,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.3279800995681196e-06,
+        "minimax_relative_lower_bound": 1.4975487795737872e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.3279800995681196e-05,
+        "minimax_relative_lower_bound": 1.497548779476186e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00013279800995681196,
+        "minimax_relative_lower_bound": 0.00014975487697160755
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0013279800995681197,
+        "minimax_relative_lower_bound": 0.001497547793705028
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.013279800995681195,
+        "minimax_relative_lower_bound": 0.014974501932013853
+      }
+    ],
+    "cubic_norm_6": 0.20994350756042157,
+    "cubic_norm_7": 0.189024514380282
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.6911315211225357,
+    "horizon_strain_norm": 0.7915390831446417,
+    "cubic_strain_norm": 0.45876374827215843,
+    "cubic_norm_over_unit_baseline": 0.9156494879138711,
+    "radiation_tolerance_for_amplitude_03": 0.37157284756739883,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 8.073786929374155e-07,
+        "minimax_relative_lower_bound": 1.478551773480923e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 8.073786929374156e-06,
+        "minimax_relative_lower_bound": 1.4785517734307332e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 8.073786929374156e-05,
+        "minimax_relative_lower_bound": 0.00014785517684117328
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0008073786929374155,
+        "minimax_relative_lower_bound": 0.0014785512665111931
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.008073786929374155,
+        "minimax_relative_lower_bound": 0.014785010715088481
+      }
+    ],
+    "cubic_norm_6": 0.33662182692876386,
+    "cubic_norm_7": 0.31168882296909795
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.6291401584967931,
+    "horizon_strain_norm": 0.7951108108406912,
+    "cubic_strain_norm": 0.48291389413024316,
+    "cubic_norm_over_unit_baseline": 0.9638509178901608,
+    "radiation_tolerance_for_amplitude_03": 0.3382444485124431,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 8.869325167622486e-07,
+        "minimax_relative_lower_bound": 1.7097414407742088e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 8.869325167622487e-06,
+        "minimax_relative_lower_bound": 1.7097414406120445e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 8.869325167622486e-05,
+        "minimax_relative_lower_bound": 0.00017097414243955874
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0008869325167622487,
+        "minimax_relative_lower_bound": 0.001709739802750594
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.008869325167622486,
+        "minimax_relative_lower_bound": 0.017095776452256576
+      }
+    ],
+    "cubic_norm_6": 0.3518656449048957,
+    "cubic_norm_7": 0.3307512616449066
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.925019295636347,
+    "horizon_strain_norm": 0.7004535315611001,
+    "cubic_strain_norm": 0.5357788643647382,
+    "cubic_norm_over_unit_baseline": 1.0693644487785714,
+    "radiation_tolerance_for_amplitude_03": 0.49731786675874645,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.032359182171365e-07,
+        "minimax_relative_lower_bound": 1.2901580903352185e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.032359182171365e-06,
+        "minimax_relative_lower_bound": 1.2901580903165652e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.032359182171366e-05,
+        "minimax_relative_lower_bound": 0.00012901580884512267
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006032359182171366,
+        "minimax_relative_lower_bound": 0.0012901579019172012
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.006032359182171366,
+        "minimax_relative_lower_bound": 0.012901392463632488
+      }
+    ],
+    "cubic_norm_6": 0.39922466811661933,
+    "cubic_norm_7": 0.35732150210579755
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.8304196850128265,
+    "horizon_strain_norm": 0.7554638388689164,
+    "cubic_strain_norm": 0.598715081763601,
+    "cubic_norm_over_unit_baseline": 1.1949792460452413,
+    "radiation_tolerance_for_amplitude_03": 0.44645830439779816,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.719552465367459e-07,
+        "minimax_relative_lower_bound": 1.6059451477640628e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.719552465367459e-06,
+        "minimax_relative_lower_bound": 1.6059451476466347e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.719552465367459e-05,
+        "minimax_relative_lower_bound": 0.00016059451359037676
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006719552465367459,
+        "minimax_relative_lower_bound": 0.0016059439616171246
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.006719552465367459,
+        "minimax_relative_lower_bound": 0.016058265330253906
+      }
+    ],
+    "cubic_norm_6": 0.4456140791044506,
+    "cubic_norm_7": 0.39985977746591095
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 1.0082639793107893,
+    "horizon_strain_norm": 0.6314260755633715,
+    "cubic_strain_norm": 0.5413496361826008,
+    "cubic_norm_over_unit_baseline": 1.0804831877406675,
+    "radiation_tolerance_for_amplitude_03": 0.5420726829007175,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 5.534313191999495e-07,
+        "minimax_relative_lower_bound": 1.1959464719292857e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 5.534313191999495e-06,
+        "minimax_relative_lower_bound": 1.195946471921097e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 5.534313191999495e-05,
+        "minimax_relative_lower_bound": 0.00011959464711022965
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0005534313191999495,
+        "minimax_relative_lower_bound": 0.0011959463892220997
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.005534313191999495,
+        "minimax_relative_lower_bound": 0.011959382002294443
+      }
+    ],
+    "cubic_norm_6": 0.40457088441700473,
+    "cubic_norm_7": 0.3596968558064924
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.55,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.9181360581472604,
+    "horizon_strain_norm": 0.7140085770172218,
+    "cubic_strain_norm": 0.623466000080539,
+    "cubic_norm_over_unit_baseline": 1.2443797615996166,
+    "radiation_tolerance_for_amplitude_03": 0.49361723370102034,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.077583591453522e-07,
+        "minimax_relative_lower_bound": 1.5125644041260243e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.077583591453522e-06,
+        "minimax_relative_lower_bound": 1.5125644040358623e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.077583591453522e-05,
+        "minimax_relative_lower_bound": 0.00015125643950197117
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006077583591453523,
+        "minimax_relative_lower_bound": 0.0015125634934044826
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.0060775835914535226,
+        "minimax_relative_lower_bound": 0.01512473330255496
+      }
+    ],
+    "cubic_norm_6": 0.4678033063573072,
+    "cubic_norm_7": 0.41215278698268915
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.3047836216728206,
+    "horizon_strain_norm": 0.81956110447882,
+    "cubic_strain_norm": 0.1965204717799914,
+    "cubic_norm_over_unit_baseline": 0.392236461637747,
+    "radiation_tolerance_for_amplitude_03": 0.1638607337904878,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.8308229986543314e-06,
+        "minimax_relative_lower_bound": 1.4362310697535119e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.8308229986543314e-05,
+        "minimax_relative_lower_bound": 1.4362310696686563e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00018308229986543315,
+        "minimax_relative_lower_bound": 0.0001436231061183128
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0018308229986543315,
+        "minimax_relative_lower_bound": 0.001436230212630297
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.018308229986543315,
+        "minimax_relative_lower_bound": 0.014361453575686113
+      }
+    ],
+    "cubic_norm_6": 0.1462463924159489,
+    "cubic_norm_7": 0.13127181165029558
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.2730862669972251,
+    "horizon_strain_norm": 0.7834337997188542,
+    "cubic_strain_norm": 0.17062393171046236,
+    "cubic_norm_over_unit_baseline": 0.3405493923287347,
+    "radiation_tolerance_for_amplitude_03": 0.14681929380807288,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.0433281772365018e-06,
+        "minimax_relative_lower_bound": 1.391708338171366e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.043328177236502e-05,
+        "minimax_relative_lower_bound": 1.3917083380943845e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0002043328177236502,
+        "minimax_relative_lower_bound": 0.00013917083303962422
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.002043328177236502,
+        "minimax_relative_lower_bound": 0.0013917075605820123
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.02043328177236502,
+        "minimax_relative_lower_bound": 0.013916305793036501
+      }
+    ],
+    "cubic_norm_6": 0.12584778116360762,
+    "cubic_norm_7": 0.11521658755809966
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.5324641131601368,
+    "horizon_strain_norm": 0.8998391169093894,
+    "cubic_strain_norm": 0.3401788218555775,
+    "cubic_norm_over_unit_baseline": 0.6789650777864372,
+    "radiation_tolerance_for_amplitude_03": 0.28626853313391787,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.0479670843168028e-06,
+        "minimax_relative_lower_bound": 1.4230661058409463e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.0479670843168028e-05,
+        "minimax_relative_lower_bound": 1.4230661057794685e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0001047967084316803,
+        "minimax_relative_lower_bound": 0.00014230660996316922
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0010479670843168028,
+        "minimax_relative_lower_bound": 0.001423065484853785
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.010479670843168028,
+        "minimax_relative_lower_bound": 0.014230040040033337
+      }
+    ],
+    "cubic_norm_6": 0.2523497315717199,
+    "cubic_norm_7": 0.22812550014132496
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.44909537868970834,
+    "horizon_strain_norm": 0.8704449214503036,
+    "cubic_strain_norm": 0.3135184780938065,
+    "cubic_norm_over_unit_baseline": 0.6257535278219631,
+    "radiation_tolerance_for_amplitude_03": 0.24144702359698678,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.2425085864829189e-06,
+        "minimax_relative_lower_bound": 1.5550082626804248e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.2425085864829189e-05,
+        "minimax_relative_lower_bound": 1.5550082625706263e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00012425085864829188,
+        "minimax_relative_lower_bound": 0.00015550082515907658
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.001242508586482919,
+        "minimax_relative_lower_bound": 0.0015550071536047645
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.012425085864829188,
+        "minimax_relative_lower_bound": 0.015548973558651445
+      }
+    ],
+    "cubic_norm_6": 0.2293888174397561,
+    "cubic_norm_7": 0.21371618221334307
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 0.7111093498172768,
+    "horizon_strain_norm": 0.8633456157497728,
+    "cubic_strain_norm": 0.42827690468227697,
+    "cubic_norm_over_unit_baseline": 0.8548006025642277,
+    "radiation_tolerance_for_amplitude_03": 0.38231352205474073,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 7.8469628379256e-07,
+        "minimax_relative_lower_bound": 1.3415177124312487e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 7.8469628379256e-06,
+        "minimax_relative_lower_bound": 1.341517712398364e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 7.8469628379256e-05,
+        "minimax_relative_lower_bound": 0.00013415177091099042
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0007846962837925601,
+        "minimax_relative_lower_bound": 0.001341517380263625
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.0078469628379256,
+        "minimax_relative_lower_bound": 0.013414844925676498
+      }
+    ],
+    "cubic_norm_6": 0.3190403291289232,
+    "cubic_norm_7": 0.28571729991993916
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.7,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.5975638681279828,
+    "horizon_strain_norm": 0.8662577499069153,
+    "cubic_strain_norm": 0.42815420687447675,
+    "cubic_norm_over_unit_baseline": 0.854555709227944,
+    "radiation_tolerance_for_amplitude_03": 0.32126809629962944,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 9.337995383152088e-07,
+        "minimax_relative_lower_bound": 1.5959674534822267e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 9.337995383152088e-06,
+        "minimax_relative_lower_bound": 1.595967453370081e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 9.337995383152089e-05,
+        "minimax_relative_lower_bound": 0.0001595967442155529
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.000933799538315209,
+        "minimax_relative_lower_bound": 0.0015959663207002397
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.009337995383152088,
+        "minimax_relative_lower_bound": 0.015958541744677972
+      }
+    ],
+    "cubic_norm_6": 0.31635787633160356,
+    "cubic_norm_7": 0.2885025458245906
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.12401339641358729,
+    "horizon_strain_norm": 0.7432259063278103,
+    "cubic_strain_norm": 0.056293929550733736,
+    "cubic_norm_over_unit_baseline": 0.11235741263324465,
+    "radiation_tolerance_for_amplitude_03": 0.06667328783826575,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 4.499553115300566e-06,
+        "minimax_relative_lower_bound": 1.0111162920816963e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 4.499553115300566e-05,
+        "minimax_relative_lower_bound": 1.0111162920462959e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00044995531153005656,
+        "minimax_relative_lower_bound": 0.0001011116288506216
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.004499553115300566,
+        "minimax_relative_lower_bound": 0.0010111159344983584
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.044995531153005655,
+        "minimax_relative_lower_bound": 0.01011080534475175
+      }
+    ],
+    "cubic_norm_6": 0.04481531778844443,
+    "cubic_norm_7": 0.03406748883882858
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.11397438157103881,
+    "horizon_strain_norm": 0.7017515749235377,
+    "cubic_strain_norm": 0.051406192824962,
+    "cubic_norm_over_unit_baseline": 0.10260194776300019,
+    "radiation_tolerance_for_amplitude_03": 0.06127601507930016,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 4.895879727357531e-06,
+        "minimax_relative_lower_bound": 1.0046535920801453e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 4.8958797273575306e-05,
+        "minimax_relative_lower_bound": 1.0046535920413179e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.000489587972735753,
+        "minimax_relative_lower_bound": 0.00010046535881585747
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.004895879727357531,
+        "minimax_relative_lower_bound": 0.001004653199884389
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.04895879727357531,
+        "minimax_relative_lower_bound": 0.010046143738518178
+      }
+    ],
+    "cubic_norm_6": 0.03916927266056735,
+    "cubic_norm_7": 0.033292112279026474
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.27376458543389937,
+    "horizon_strain_norm": 0.9056488562873013,
+    "cubic_strain_norm": 0.1556922213791303,
+    "cubic_norm_over_unit_baseline": 0.3107470965500118,
+    "radiation_tolerance_for_amplitude_03": 0.1471839779606104,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.038265334018126e-06,
+        "minimax_relative_lower_bound": 1.2667700690887968e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.038265334018126e-05,
+        "minimax_relative_lower_bound": 1.2667700690345519e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0002038265334018126,
+        "minimax_relative_lower_bound": 0.000126677006361006
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.002038265334018126,
+        "minimax_relative_lower_bound": 0.0012667695211608212
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.02038265334018126,
+        "minimax_relative_lower_bound": 0.012667152757446003
+      }
+    ],
+    "cubic_norm_6": 0.11772586661826809,
+    "cubic_norm_7": 0.1018856620283044
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.2338172921924802,
+    "horizon_strain_norm": 0.8426481354825701,
+    "cubic_strain_norm": 0.12790105207021432,
+    "cubic_norm_over_unit_baseline": 0.25527852467161577,
+    "radiation_tolerance_for_amplitude_03": 0.12570712580052443,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.3864995567240027e-06,
+        "minimax_relative_lower_bound": 1.2184441719394348e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.386499556724003e-05,
+        "minimax_relative_lower_bound": 1.2184441718897886e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0002386499556724003,
+        "minimax_relative_lower_bound": 0.00012184441669251313
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.002386499556724003,
+        "minimax_relative_lower_bound": 0.0012184436704593977
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.02386499556724003,
+        "minimax_relative_lower_bound": 0.012183940236673836
+      }
+    ],
+    "cubic_norm_6": 0.0945435081503231,
+    "cubic_norm_7": 0.0861406070752782
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 0.4626859859769948,
+    "horizon_strain_norm": 0.9411145541817172,
+    "cubic_strain_norm": 0.27934652133525645,
+    "cubic_norm_over_unit_baseline": 0.5575495016214905,
+    "radiation_tolerance_for_amplitude_03": 0.24875373801467854,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.2060120277762319e-06,
+        "minimax_relative_lower_bound": 1.3448228100718212e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.2060120277762318e-05,
+        "minimax_relative_lower_bound": 1.3448228100222323e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00012060120277762319,
+        "minimax_relative_lower_bound": 0.00013448228050633445
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0012060120277762318,
+        "minimax_relative_lower_bound": 0.0013448223091743158
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.012060120277762319,
+        "minimax_relative_lower_bound": 0.013447727177680243
+      }
+    ],
+    "cubic_norm_6": 0.20882932455571296,
+    "cubic_norm_7": 0.1855391931310298
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.82,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.3789060069314936,
+    "horizon_strain_norm": 0.8903753887436271,
+    "cubic_strain_norm": 0.25027189586730086,
+    "cubic_norm_over_unit_baseline": 0.49951927141849783,
+    "radiation_tolerance_for_amplitude_03": 0.20371113117117653,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.4726735759368634e-06,
+        "minimax_relative_lower_bound": 1.4712576633776243e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.4726735759368635e-05,
+        "minimax_relative_lower_bound": 1.4712576632897668e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00014726735759368635,
+        "minimax_relative_lower_bound": 0.00014712576545041018
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0014726735759368636,
+        "minimax_relative_lower_bound": 0.0014712567759374714
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.014726735759368635,
+        "minimax_relative_lower_bound": 0.014711689188058461
+      }
+    ],
+    "cubic_norm_6": 0.1837990245953549,
+    "cubic_norm_7": 0.16986447662418758
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.1,
+    "phase": 0,
+    "infinity_strain_norm": 0.0571886272394188,
+    "horizon_strain_norm": 0.6588390051613856,
+    "cubic_strain_norm": 0.02649511165597319,
+    "cubic_norm_over_unit_baseline": 0.052881762151835224,
+    "radiation_tolerance_for_amplitude_03": 0.030746305764360927,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 9.757269777357775e-06,
+        "minimax_relative_lower_bound": 1.0319632392345648e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 9.757269777357775e-05,
+        "minimax_relative_lower_bound": 1.031963239186761e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0009757269777357775,
+        "minimax_relative_lower_bound": 0.00010319632344063874
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.009757269777357774,
+        "minimax_relative_lower_bound": 0.001031962756369272
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.09757269777357774,
+        "minimax_relative_lower_bound": 0.010319149553952389
+      }
+    ],
+    "cubic_norm_6": 0.019548237188840998,
+    "cubic_norm_7": 0.017884556591408696
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.1,
+    "phase": 5,
+    "infinity_strain_norm": 0.05417041495798406,
+    "horizon_strain_norm": 0.6240340495338543,
+    "cubic_strain_norm": 0.03134864517275189,
+    "cubic_norm_over_unit_baseline": 0.06256896061934529,
+    "radiation_tolerance_for_amplitude_03": 0.029123625134552453,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.0300915446273826e-05,
+        "minimax_relative_lower_bound": 1.2890351458012095e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 0.00010300915446273826,
+        "minimax_relative_lower_bound": 1.2890351457007039e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0010300915446273826,
+        "minimax_relative_lower_bound": 0.00012890351356501225
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.010300915446273826,
+        "minimax_relative_lower_bound": 0.0012890341305930965
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.10300915446273826,
+        "minimax_relative_lower_bound": 0.01288933635892493
+      }
+    ],
+    "cubic_norm_6": 0.02253210223716884,
+    "cubic_norm_7": 0.02179545647470755
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.16,
+    "phase": 0,
+    "infinity_strain_norm": 0.1590561600689269,
+    "horizon_strain_norm": 0.850799390974886,
+    "cubic_strain_norm": 0.07912923325273905,
+    "cubic_norm_over_unit_baseline": 0.15793454077348884,
+    "radiation_tolerance_for_amplitude_03": 0.08551331912044094,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 3.5082254213225666e-06,
+        "minimax_relative_lower_bound": 1.1081399416925195e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 3.5082254213225666e-05,
+        "minimax_relative_lower_bound": 1.1081399416530858e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0003508225421322567,
+        "minimax_relative_lower_bound": 0.00011081399377097274
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.003508225421322567,
+        "minimax_relative_lower_bound": 0.0011081395433739374
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.035082254213225667,
+        "minimax_relative_lower_bound": 0.011081001099137141
+      }
+    ],
+    "cubic_norm_6": 0.06059092353062017,
+    "cubic_norm_7": 0.05089376721046422
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.16,
+    "phase": 5,
+    "infinity_strain_norm": 0.14053848815688308,
+    "horizon_strain_norm": 0.7876576525476859,
+    "cubic_strain_norm": 0.06636081767814175,
+    "cubic_norm_over_unit_baseline": 0.13244997878186504,
+    "radiation_tolerance_for_amplitude_03": 0.07555766831825876,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 3.970477208697876e-06,
+        "minimax_relative_lower_bound": 1.051779244091464e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 3.970477208697876e-05,
+        "minimax_relative_lower_bound": 1.0517792440557607e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00039704772086978767,
+        "minimax_relative_lower_bound": 0.00010517792404854188
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.003970477208697877,
+        "minimax_relative_lower_bound": 0.0010517788834512607
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.039704772086978764,
+        "minimax_relative_lower_bound": 0.010517431803706288
+      }
+    ],
+    "cubic_norm_6": 0.04949062393092994,
+    "cubic_norm_7": 0.04420900661447658
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.22,
+    "phase": 0,
+    "infinity_strain_norm": 0.32406951286754804,
+    "horizon_strain_norm": 0.9367635000997548,
+    "cubic_strain_norm": 0.18843563498112043,
+    "cubic_norm_over_unit_baseline": 0.37609988436320235,
+    "radiation_tolerance_for_amplitude_03": 0.17422940211205518,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.721867815439416e-06,
+        "minimax_relative_lower_bound": 1.2951885725504534e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.7218678154394162e-05,
+        "minimax_relative_lower_bound": 1.2951885724994967e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0001721867815439416,
+        "minimax_relative_lower_bound": 0.00012951885674038183
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.001721867815439416,
+        "minimax_relative_lower_bound": 0.0012951880578358358
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.017218678154394162,
+        "minimax_relative_lower_bound": 0.012951370995776415
+      }
+    ],
+    "cubic_norm_6": 0.14151609135612833,
+    "cubic_norm_7": 0.12442340783800299
+  },
+  {
+    "n": 64,
+    "kind": "gaussian",
+    "center": 0.9,
+    "width": 0.22,
+    "phase": 5,
+    "infinity_strain_norm": 0.26753665454287423,
+    "horizon_strain_norm": 0.8692928758231087,
+    "cubic_strain_norm": 0.15956019312539305,
+    "cubic_norm_over_unit_baseline": 0.31846720600083467,
+    "radiation_tolerance_for_amplitude_03": 0.14383565720702565,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 2.085713694541012e-06,
+        "minimax_relative_lower_bound": 1.3284628256356646e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 2.085713694541012e-05,
+        "minimax_relative_lower_bound": 1.328462825571944e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.00020857136945410122,
+        "minimax_relative_lower_bound": 0.0001328462819199894
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0020857136945410123,
+        "minimax_relative_lower_bound": 0.001328462181994823
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.02085713694541012,
+        "minimax_relative_lower_bound": 0.013283984610481614
+      }
+    ],
+    "cubic_norm_6": 0.11716479870723324,
+    "cubic_norm_7": 0.10831373492824556
+  },
+  {
+    "n": 64,
+    "kind": "compact",
+    "center": 0.6,
+    "width": 0.24,
+    "phase": 0,
+    "infinity_strain_norm": 0.8010584425630775,
+    "horizon_strain_norm": 0.7909260242406807,
+    "cubic_strain_norm": 0.5243506008550091,
+    "cubic_norm_over_unit_baseline": 1.0465547048311912,
+    "radiation_tolerance_for_amplitude_03": 0.4306728277819288,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 6.9658446191062e-07,
+        "minimax_relative_lower_bound": 1.4580274918492267e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 6.965844619106201e-06,
+        "minimax_relative_lower_bound": 1.4580274917998356e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 6.9658446191062e-05,
+        "minimax_relative_lower_bound": 0.00014580274868607123
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0006965844619106201,
+        "minimax_relative_lower_bound": 0.0014580269929479045
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.006965844619106201,
+        "minimax_relative_lower_bound": 0.014579775970830022
+      }
+    ],
+    "cubic_norm_6": 0.3893187847154153,
+    "cubic_norm_7": 0.3512469736306933
+  },
+  {
+    "n": 64,
+    "kind": "compact",
+    "center": 0.72,
+    "width": 0.24,
+    "phase": 0,
+    "infinity_strain_norm": 0.4188755040897522,
+    "horizon_strain_norm": 0.9264061036851118,
+    "cubic_strain_norm": 0.2789032777281239,
+    "cubic_norm_over_unit_baseline": 0.5566648288821544,
+    "radiation_tolerance_for_amplitude_03": 0.2251999208169002,
+    "limits": [
+      {
+        "tolerance": 1e-06,
+        "amplitude": 1.3321496691107468e-06,
+        "minimax_relative_lower_bound": 1.4831217352009651e-06
+      },
+      {
+        "tolerance": 1e-05,
+        "amplitude": 1.3321496691107468e-05,
+        "minimax_relative_lower_bound": 1.4831217351079369e-05
+      },
+      {
+        "tolerance": 0.0001,
+        "amplitude": 0.0001332149669110747,
+        "minimax_relative_lower_bound": 0.00014831217258051384
+      },
+      {
+        "tolerance": 0.001,
+        "amplitude": 0.0013321496691107468,
+        "minimax_relative_lower_bound": 0.0014831207955252985
+      },
+      {
+        "tolerance": 0.01,
+        "amplitude": 0.013321496691107469,
+        "minimax_relative_lower_bound": 0.014830277677087143
+      }
+    ],
+    "cubic_norm_6": 0.20434544857746686,
+    "cubic_norm_7": 0.1898156367983545
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "original_pair_26_function_max_relative_error_bound": 4.835991814373609e-05,
+  "family_count": 32,
+  "family_max_input_tolerance": 1.7080707899193783e-07,
+  "family_min_relative_ambiguity_bound": 0.011721851987673245,
+  "family_max_relative_ambiguity_bound": 0.040313806257388146,
+  "family_max_recovery_relative_error_bound": 4.721081846305862e-05,
+  "family_max_relative_output_resolution_error": 1.619569129765922e-10,
+  "family_max_energy_flux_error": 1.971766689923271e-07,
+  "original_pair_late_limits": [
+    {
+      "start": 0,
+      "end": 70,
+      "6": 0.04791202026124219,
+      "7": 0.06297934562043536
+    },
+    {
+      "start": 20,
+      "end": 70,
+      "6": 0.06423222256579947,
+      "7": 0.09979102023620977
+    },
+    {
+      "start": 30,
+      "end": 70,
+      "6": 0.06570282431851202,
+      "7": 0.0957330351574554
+    },
+    {
+      "start": 40,
+      "end": 70,
+      "6": 0.0654623914500664,
+      "7": 0.07689480033705105
+    }
+  ]
+}

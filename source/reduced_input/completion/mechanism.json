@@ -1,0 +1,946 @@
+[
+  {
+    "n": 48,
+    "output": 6,
+    "strain_norm": 0.029864765950614793,
+    "news_norm": 0.0461934241397953,
+    "local_output_norm_over_total": 0.00020086564778788808,
+    "peak_time": 10.25,
+    "poles": [
+      {
+        "family": "output",
+        "overtone": 0,
+        "frequency_sign": 1,
+        "s": [
+          -0.09526584584204557,
+          -1.2120098206521623
+        ],
+        "coefficient": [
+          -0.02213824906990979,
+          -0.030420375276529334
+        ],
+        "contour_relative_difference": 8.755834602923586e-12
+      },
+      {
+        "family": "output",
+        "overtone": 0,
+        "frequency_sign": -1,
+        "s": [
+          -0.09526584584204557,
+          1.2120098206521623
+        ],
+        "coefficient": [
+          0.009881180160412697,
+          0.008923319676360326
+        ],
+        "contour_relative_difference": 1.1102978845541168e-11
+      },
+      {
+        "family": "output",
+        "overtone": 1,
+        "frequency_sign": 1,
+        "s": [
+          -0.2866499251095672,
+          -1.2035739743892724
+        ],
+        "coefficient": [
+          -0.046607802258332616,
+          0.3225311350389829
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 1,
+        "frequency_sign": -1,
+        "s": [
+          -0.2866499251095672,
+          1.2035739743892724
+        ],
+        "coefficient": [
+          -0.2248574255699828,
+          -0.1818157768790998
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 2,
+        "frequency_sign": 1,
+        "s": [
+          -0.4805644928566795,
+          -1.187073674592442
+        ],
+        "coefficient": [
+          4.0400684214296865,
+          -11.824423601357685
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 2,
+        "frequency_sign": -1,
+        "s": [
+          -0.4805644928566795,
+          1.187073674592442
+        ],
+        "coefficient": [
+          2.1479930323783054,
+          0.7776600205835716
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 0,
+        "frequency_sign": 1,
+        "s": [
+          -0.1831262766778995,
+          -1.1828500619502578
+        ],
+        "coefficient": [
+          5.573457829588594e-06,
+          1.245729604398225e-06
+        ],
+        "contour_relative_difference": 1.4943679684910598e-08
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 0,
+        "frequency_sign": -1,
+        "s": [
+          -0.1831262766778995,
+          0.43550669311417417
+        ],
+        "coefficient": [
+          5.418779120804122e-08,
+          -2.434865505619908e-07
+        ],
+        "contour_relative_difference": 1.370829918225656e-07
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 1,
+        "frequency_sign": 1,
+        "s": [
+          -0.3732966651284953,
+          -1.1703032164521703
+        ],
+        "coefficient": [
+          -0.004040909541806047,
+          -0.0010328477414487504
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 1,
+        "frequency_sign": -1,
+        "s": [
+          -0.3732966651284953,
+          0.42295984761608657
+        ],
+        "coefficient": [
+          -0.00015641426894124559,
+          0.0001667242755033258
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 2,
+        "frequency_sign": 1,
+        "s": [
+          -0.5688704897691333,
+          -1.1463812109730496
+        ],
+        "coefficient": [
+          0.6586074898538796,
+          0.3356742750494898
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 2,
+        "frequency_sign": -1,
+        "s": [
+          -0.5688704897691333,
+          0.39903784213696597
+        ],
+        "coefficient": [
+          0.050933766718468027,
+          -0.03841000063585191
+        ]
+      }
+    ],
+    "window_0_70": {
+      "norm": 0.029864765950614793,
+      "norm_over_full": 1.0,
+      "output_fundamental_relative_residual": 3.0039306850067575,
+      "output_fundamental_plus_two_overtones_relative_residual": 395.5561573436523,
+      "two_pole_families_relative_residual": 392.92109025139797,
+      "shifted_three_norm_over_signal": 24.271477942206175
+    },
+    "window_10_70": {
+      "norm": 0.026184514255802753,
+      "norm_over_full": 0.8767694446058004,
+      "output_fundamental_relative_residual": 0.760252209017862,
+      "output_fundamental_plus_two_overtones_relative_residual": 3.058019267477521,
+      "two_pole_families_relative_residual": 3.0049349222496735,
+      "shifted_three_norm_over_signal": 0.08204093623480137
+    },
+    "window_20_70": {
+      "norm": 0.012554585206938269,
+      "norm_over_full": 0.42038116848793927,
+      "output_fundamental_relative_residual": 0.10623952612725761,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.011852841228734734,
+      "two_pole_families_relative_residual": 0.011422466402263211,
+      "shifted_three_norm_over_signal": 0.0005146682614194414
+    },
+    "window_30_70": {
+      "norm": 0.005166796346106693,
+      "norm_over_full": 0.17300642351092424,
+      "output_fundamental_relative_residual": 0.021665953118131086,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.0002565970772211281,
+      "two_pole_families_relative_residual": 0.0002568892182228463,
+      "shifted_three_norm_over_signal": 4.691834554291088e-06
+    },
+    "window_40_70": {
+      "norm": 0.002049613083183685,
+      "norm_over_full": 0.0686298056570402,
+      "output_fundamental_relative_residual": 0.003118079985901226,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.0004541174899769683,
+      "two_pole_families_relative_residual": 0.0004539243698608795,
+      "shifted_three_norm_over_signal": 2.4446139475481834e-06
+    },
+    "source_timing": [
+      {
+        "cutoff": 1,
+        "missed_response_relative_norm": 0.4580277253078894
+      },
+      {
+        "cutoff": 2,
+        "missed_response_relative_norm": 0.26145270041857693
+      },
+      {
+        "cutoff": 4,
+        "missed_response_relative_norm": 0.05697010646892996
+      },
+      {
+        "cutoff": 8,
+        "missed_response_relative_norm": 0.001710945983156449
+      },
+      {
+        "cutoff": 12,
+        "missed_response_relative_norm": 6.943742489084953e-05
+      },
+      {
+        "cutoff": 20,
+        "missed_response_relative_norm": 2.1132329903058297e-06
+      }
+    ]
+  },
+  {
+    "n": 48,
+    "output": 7,
+    "strain_norm": 0.03508769508998225,
+    "news_norm": 0.05959781298173596,
+    "local_output_norm_over_total": 0.00013403891122864582,
+    "peak_time": 14.450000000000001,
+    "poles": [
+      {
+        "family": "output",
+        "overtone": 0,
+        "frequency_sign": 1,
+        "s": [
+          -0.09550962927603332,
+          -1.4097351206093254
+        ],
+        "coefficient": [
+          -0.027813167685092753,
+          -0.0467570318257499
+        ],
+        "contour_relative_difference": 7.218519479157365e-12
+      },
+      {
+        "family": "output",
+        "overtone": 0,
+        "frequency_sign": -1,
+        "s": [
+          -0.09550962927603332,
+          1.4097351206093254
+        ],
+        "coefficient": [
+          0.00483151335899122,
+          0.013645352579696311
+        ],
+        "contour_relative_difference": 1.4343955197644268e-12
+      },
+      {
+        "family": "output",
+        "overtone": 1,
+        "frequency_sign": 1,
+        "s": [
+          -0.2871640654970068,
+          -1.4024709380273397
+        ],
+        "coefficient": [
+          0.04334144592801806,
+          0.34040437239138815
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 1,
+        "frequency_sign": -1,
+        "s": [
+          -0.2871640654970068,
+          1.4024709380273397
+        ],
+        "coefficient": [
+          -0.18343187662490298,
+          -0.19512644919447486
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 2,
+        "frequency_sign": 1,
+        "s": [
+          -0.48070920917951954,
+          -1.3881818455387476
+        ],
+        "coefficient": [
+          10.261430676286594,
+          -9.734816320147413
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 2,
+        "frequency_sign": -1,
+        "s": [
+          -0.48070920917951954,
+          1.3881818455387476
+        ],
+        "coefficient": [
+          1.694889174078652,
+          0.6635301390310034
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 0,
+        "frequency_sign": 1,
+        "s": [
+          -0.1868670089339114,
+          -1.4086216659697062
+        ],
+        "coefficient": [
+          5.441588400474439e-06,
+          7.321362637795355e-07
+        ],
+        "contour_relative_difference": 3.384478754993422e-08
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 0,
+        "frequency_sign": -1,
+        "s": [
+          -0.1868670089339114,
+          0.20973508909472593
+        ],
+        "coefficient": [
+          -6.809460363450335e-08,
+          -1.0441064733037605e-07
+        ],
+        "contour_relative_difference": 3.361136129526119e-05
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 1,
+        "frequency_sign": 1,
+        "s": [
+          -0.3770373973845072,
+          -1.3960748204716185
+        ],
+        "coefficient": [
+          -0.003990428454249692,
+          -0.0006052086598347757
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 1,
+        "frequency_sign": -1,
+        "s": [
+          -0.3770373973845072,
+          0.19718824359663834
+        ],
+        "coefficient": [
+          -1.1177498481391388e-06,
+          4.746243476816685e-05
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 2,
+        "frequency_sign": 1,
+        "s": [
+          -0.5726112220251453,
+          -1.3721528149924977
+        ],
+        "coefficient": [
+          0.6806783093957581,
+          0.27088490042731606
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 2,
+        "frequency_sign": -1,
+        "s": [
+          -0.5726112220251453,
+          0.17326623811751773
+        ],
+        "coefficient": [
+          0.009037540839363516,
+          -0.005354498963994566
+        ]
+      }
+    ],
+    "window_0_70": {
+      "norm": 0.03508769508998225,
+      "norm_over_full": 1.0,
+      "output_fundamental_relative_residual": 3.606264311606378,
+      "output_fundamental_plus_two_overtones_relative_residual": 397.038422499607,
+      "two_pole_families_relative_residual": 406.10834131679627,
+      "shifted_three_norm_over_signal": 19.553375256660484
+    },
+    "window_10_70": {
+      "norm": 0.03208821730955467,
+      "norm_over_full": 0.9145148242785559,
+      "output_fundamental_relative_residual": 1.0137645786004217,
+      "output_fundamental_plus_two_overtones_relative_residual": 2.8941618499607844,
+      "two_pole_families_relative_residual": 2.9049728420055474,
+      "shifted_three_norm_over_signal": 0.06615749595133819
+    },
+    "window_20_70": {
+      "norm": 0.017807056790803678,
+      "norm_over_full": 0.5075014686811873,
+      "output_fundamental_relative_residual": 0.09214015647562622,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.010198458275040262,
+      "two_pole_families_relative_residual": 0.010205613118526986,
+      "shifted_three_norm_over_signal": 0.0003268164330557349
+    },
+    "window_30_70": {
+      "norm": 0.007274955284419281,
+      "norm_over_full": 0.2073363686546719,
+      "output_fundamental_relative_residual": 0.015419073602144846,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.00013260071621309585,
+      "two_pole_families_relative_residual": 0.00013288955041986395,
+      "shifted_three_norm_over_signal": 2.7991042080135488e-06
+    },
+    "window_40_70": {
+      "norm": 0.0028066005621520404,
+      "norm_over_full": 0.0799881712080125,
+      "output_fundamental_relative_residual": 0.0019153267678016473,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.00014013580106378334,
+      "two_pole_families_relative_residual": 0.00014009893529698674,
+      "shifted_three_norm_over_signal": 1.4594935423192736e-06
+    },
+    "source_timing": [
+      {
+        "cutoff": 1,
+        "missed_response_relative_norm": 0.3172759359111302
+      },
+      {
+        "cutoff": 2,
+        "missed_response_relative_norm": 0.21975113282728043
+      },
+      {
+        "cutoff": 4,
+        "missed_response_relative_norm": 0.05075021012493989
+      },
+      {
+        "cutoff": 8,
+        "missed_response_relative_norm": 0.0014711384884995018
+      },
+      {
+        "cutoff": 12,
+        "missed_response_relative_norm": 5.561504826311842e-05
+      },
+      {
+        "cutoff": 20,
+        "missed_response_relative_norm": 1.6442006774299608e-06
+      }
+    ]
+  },
+  {
+    "n": 64,
+    "output": 6,
+    "strain_norm": 0.029864765950526357,
+    "news_norm": 0.046193424139685794,
+    "local_output_norm_over_total": 0.00020086564779274232,
+    "peak_time": 10.25,
+    "poles": [
+      {
+        "family": "output",
+        "overtone": 0,
+        "frequency_sign": 1,
+        "s": [
+          -0.09526584584213565,
+          -1.212009820652144
+        ],
+        "coefficient": [
+          -0.022138249069550656,
+          -0.030420375276215304
+        ],
+        "contour_relative_difference": 1.272576069169908e-11
+      },
+      {
+        "family": "output",
+        "overtone": 0,
+        "frequency_sign": -1,
+        "s": [
+          -0.09526584584213565,
+          1.212009820652144
+        ],
+        "coefficient": [
+          0.009881180160276209,
+          0.00892331967670135
+        ],
+        "contour_relative_difference": 1.649293917177276e-11
+      },
+      {
+        "family": "output",
+        "overtone": 1,
+        "frequency_sign": 1,
+        "s": [
+          -0.28664992506619696,
+          -1.2035739744089062
+        ],
+        "coefficient": [
+          -0.04660780257667882,
+          0.3225311344827694
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 1,
+        "frequency_sign": -1,
+        "s": [
+          -0.28664992506619696,
+          1.2035739744089062
+        ],
+        "coefficient": [
+          -0.22485742348093218,
+          -0.18181577707836163
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 2,
+        "frequency_sign": 1,
+        "s": [
+          -0.4805644932048944,
+          -1.1870736861174318
+        ],
+        "coefficient": [
+          4.040070593206024,
+          -11.824424621917414
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 2,
+        "frequency_sign": -1,
+        "s": [
+          -0.4805644932048944,
+          1.1870736861174318
+        ],
+        "coefficient": [
+          2.1479930603274773,
+          0.7776604758346983
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 0,
+        "frequency_sign": 1,
+        "s": [
+          -0.18312627667750137,
+          -1.1828500619502271
+        ],
+        "coefficient": [
+          5.5734577599309085e-06,
+          1.245729374329792e-06
+        ],
+        "contour_relative_difference": 1.9103406296281785e-08
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 0,
+        "frequency_sign": -1,
+        "s": [
+          -0.18312627667750137,
+          0.43550669311414353
+        ],
+        "coefficient": [
+          5.418944959141475e-08,
+          -2.4348676448458816e-07
+        ],
+        "contour_relative_difference": 1.3592532020423372e-05
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 1,
+        "frequency_sign": 1,
+        "s": [
+          -0.3732966651548812,
+          -1.1703032164716205
+        ],
+        "coefficient": [
+          -0.004040911065673019,
+          -0.001032848425646592
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 1,
+        "frequency_sign": -1,
+        "s": [
+          -0.3732966651548812,
+          0.4229598476355369
+        ],
+        "coefficient": [
+          -0.00015640962983933,
+          0.00016673454870246105
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 2,
+        "frequency_sign": 1,
+        "s": [
+          -0.5688705217662725,
+          -1.1463813201000383
+        ],
+        "coefficient": [
+          0.658605468261301,
+          0.3356722223397353
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 2,
+        "frequency_sign": -1,
+        "s": [
+          -0.5688705217662725,
+          0.39903795126395464
+        ],
+        "coefficient": [
+          0.05111904923758253,
+          -0.038337471605891675
+        ]
+      }
+    ],
+    "window_0_70": {
+      "norm": 0.029864765950526357,
+      "norm_over_full": 1.0,
+      "output_fundamental_relative_residual": 3.003930684986992,
+      "output_fundamental_plus_two_overtones_relative_residual": 395.5562119321392,
+      "two_pole_families_relative_residual": 392.91897762684516,
+      "shifted_three_norm_over_signal": 24.274021957016075
+    },
+    "window_10_70": {
+      "norm": 0.02618451425570491,
+      "norm_over_full": 0.8767694446051206,
+      "output_fundamental_relative_residual": 0.7602522090132409,
+      "output_fundamental_plus_two_overtones_relative_residual": 3.0580196826179122,
+      "two_pole_families_relative_residual": 3.004948626472019,
+      "shifted_three_norm_over_signal": 0.08202896988286512
+    },
+    "window_20_70": {
+      "norm": 0.012554585206782822,
+      "norm_over_full": 0.42038116848397905,
+      "output_fundamental_relative_residual": 0.10623952612826258,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.011852848218669765,
+      "two_pole_families_relative_residual": 0.01142237528478758,
+      "shifted_three_norm_over_signal": 0.0005147732093074286
+    },
+    "window_30_70": {
+      "norm": 0.005166796346103186,
+      "norm_over_full": 0.17300642351131912,
+      "output_fundamental_relative_residual": 0.021665953095739147,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.0002565969650654001,
+      "two_pole_families_relative_residual": 0.0002568887388831105,
+      "shifted_three_norm_over_signal": 4.6917303435353765e-06
+    },
+    "window_40_70": {
+      "norm": 0.002049613083199653,
+      "norm_over_full": 0.06862980565777811,
+      "output_fundamental_relative_residual": 0.0031180798866986205,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.0004541172089285951,
+      "two_pole_families_relative_residual": 0.00045392409218293595,
+      "shifted_three_norm_over_signal": 2.44461210072297e-06
+    },
+    "source_timing": [
+      {
+        "cutoff": 1,
+        "missed_response_relative_norm": 0.4580277253139636
+      },
+      {
+        "cutoff": 2,
+        "missed_response_relative_norm": 0.26145270041665547
+      },
+      {
+        "cutoff": 4,
+        "missed_response_relative_norm": 0.0569701064707871
+      },
+      {
+        "cutoff": 8,
+        "missed_response_relative_norm": 0.0017109459825757243
+      },
+      {
+        "cutoff": 12,
+        "missed_response_relative_norm": 6.94374253147614e-05
+      },
+      {
+        "cutoff": 20,
+        "missed_response_relative_norm": 2.1132325786262353e-06
+      }
+    ]
+  },
+  {
+    "n": 64,
+    "output": 7,
+    "strain_norm": 0.035087695089993404,
+    "news_norm": 0.05959781298173688,
+    "local_output_norm_over_total": 0.00013403891122997148,
+    "peak_time": 14.450000000000001,
+    "poles": [
+      {
+        "family": "output",
+        "overtone": 0,
+        "frequency_sign": 1,
+        "s": [
+          -0.09550962927602358,
+          -1.4097351206093498
+        ],
+        "coefficient": [
+          -0.027813167685943028,
+          -0.04675703182358403
+        ],
+        "contour_relative_difference": 3.111250392404856e-11
+      },
+      {
+        "family": "output",
+        "overtone": 0,
+        "frequency_sign": -1,
+        "s": [
+          -0.09550962927602358,
+          1.4097351206093498
+        ],
+        "coefficient": [
+          0.004831513358716458,
+          0.013645352580090534
+        ],
+        "contour_relative_difference": 3.859768111616025e-11
+      },
+      {
+        "family": "output",
+        "overtone": 1,
+        "frequency_sign": 1,
+        "s": [
+          -0.2871640654946426,
+          -1.4024709380356444
+        ],
+        "coefficient": [
+          0.04334144346422608,
+          0.3404043719350753
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 1,
+        "frequency_sign": -1,
+        "s": [
+          -0.2871640654946426,
+          1.4024709380356444
+        ],
+        "coefficient": [
+          -0.18343187625836338,
+          -0.1951264492021803
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 2,
+        "frequency_sign": 1,
+        "s": [
+          -0.4807092129932409,
+          -1.3881818454568737
+        ],
+        "coefficient": [
+          10.261448119604434,
+          -9.734826359750791
+        ]
+      },
+      {
+        "family": "output",
+        "overtone": 2,
+        "frequency_sign": -1,
+        "s": [
+          -0.4807092129932409,
+          1.3881818454568737
+        ],
+        "coefficient": [
+          1.6948888285282375,
+          0.6635324831110809
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 0,
+        "frequency_sign": 1,
+        "s": [
+          -0.18686700893351327,
+          -1.4086216659696755
+        ],
+        "coefficient": [
+          5.441588447216509e-06,
+          7.321361389453647e-07
+        ],
+        "contour_relative_difference": 1.1414536686224893e-07
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 0,
+        "frequency_sign": -1,
+        "s": [
+          -0.18686700893351327,
+          0.2097350890946953
+        ],
+        "coefficient": [
+          -6.811096852842841e-08,
+          -1.0443679093133871e-07
+        ],
+        "contour_relative_difference": 0.0014271103201159985
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 1,
+        "frequency_sign": 1,
+        "s": [
+          -0.3770373974108931,
+          -1.396074820491069
+        ],
+        "coefficient": [
+          -0.003990423299341165,
+          -0.0006052077071501886
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 1,
+        "frequency_sign": -1,
+        "s": [
+          -0.3770373974108931,
+          0.19718824361608867
+        ],
+        "coefficient": [
+          -4.3811689710989545e-06,
+          4.829731901257379e-05
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 2,
+        "frequency_sign": 1,
+        "s": [
+          -0.5726112540222844,
+          -1.3721529241194865
+        ],
+        "coefficient": [
+          0.6805391389997701,
+          0.27078275259876744
+        ]
+      },
+      {
+        "family": "shifted_intermediate",
+        "overtone": 2,
+        "frequency_sign": -1,
+        "s": [
+          -0.5726112540222844,
+          0.1732663472445064
+        ],
+        "coefficient": [
+          0.06230301754057051,
+          0.07984607769568414
+        ]
+      }
+    ],
+    "window_0_70": {
+      "norm": 0.035087695089993404,
+      "norm_over_full": 1.0,
+      "output_fundamental_relative_residual": 3.6062643115319273,
+      "output_fundamental_plus_two_overtones_relative_residual": 397.03897376691066,
+      "two_pole_families_relative_residual": 404.94657495629207,
+      "shifted_three_norm_over_signal": 19.742249751249332
+    },
+    "window_10_70": {
+      "norm": 0.03208821730957085,
+      "norm_over_full": 0.9145148242787264,
+      "output_fundamental_relative_residual": 1.0137645785900196,
+      "output_fundamental_plus_two_overtones_relative_residual": 2.89416682466176,
+      "two_pole_families_relative_residual": 2.910128646090871,
+      "shifted_three_norm_over_signal": 0.06523479952204628
+    },
+    "window_20_70": {
+      "norm": 0.017807056790839184,
+      "norm_over_full": 0.5075014686820379,
+      "output_fundamental_relative_residual": 0.09214015645525096,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.010198524157696474,
+      "two_pole_families_relative_residual": 0.010177377950843875,
+      "shifted_three_norm_over_signal": 0.000353832152032041
+    },
+    "window_30_70": {
+      "norm": 0.00727495528460268,
+      "norm_over_full": 0.20733636865983285,
+      "output_fundamental_relative_residual": 0.015419073552386163,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.00013260063873311487,
+      "two_pole_families_relative_residual": 0.00013261365600591112,
+      "shifted_three_norm_over_signal": 2.6285527151446896e-06
+    },
+    "window_40_70": {
+      "norm": 0.0028066005623364905,
+      "norm_over_full": 0.07998817121324392,
+      "output_fundamental_relative_residual": 0.0019153266968526237,
+      "output_fundamental_plus_two_overtones_relative_residual": 0.0001401357353926856,
+      "two_pole_families_relative_residual": 0.00014009913412705335,
+      "shifted_three_norm_over_signal": 1.4584303212338525e-06
+    },
+    "source_timing": [
+      {
+        "cutoff": 1,
+        "missed_response_relative_norm": 0.31727593591192504
+      },
+      {
+        "cutoff": 2,
+        "missed_response_relative_norm": 0.2197511328269454
+      },
+      {
+        "cutoff": 4,
+        "missed_response_relative_norm": 0.05075021012538522
+      },
+      {
+        "cutoff": 8,
+        "missed_response_relative_norm": 0.001471138488889439
+      },
+      {
+        "cutoff": 12,
+        "missed_response_relative_norm": 5.56150479141145e-05
+      },
+      {
+        "cutoff": 20,
+        "missed_response_relative_norm": 1.644199934409276e-06
+      }
+    ]
+  }
+]

@@ -1,0 +1,259 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      9150,        249]
+NotebookOptionsPosition[      5571,        182]
+NotebookOutlinePosition[      6079,        201]
+CellTagsIndexPosition[      6036,        198]
+WindowTitle->QCS computational resources
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Quasinormal-Mode Collider Spectroscopy", "Title",ExpressionUUID->"9adffb1e-4656-ab4f-9d22-9ead398d97c3"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",ExpressionUUID->"75a0e4ee-b54d-794f-98b2-072f2bd61930"],
+
+Cell[BoxData[
+ RowBox[{"Get", "[", 
+  RowBox[{"FileNameJoin", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<Kernel\>\"", 
+     ",", "\"\<QCS.wl\>\""}], "}"}], "]"}], "]"}]], "Input",ExpressionUUID->\
+"45fca86b-87b6-4f40-b40a-1181fa6efe9a"],
+
+Cell[BoxData[
+ RowBox[{"SetSystemOptions", "[", 
+  RowBox[{"\"\<ParallelOptions\>\"", "\[Rule]", 
+   RowBox[{"\"\<ParallelThreadNumber\>\"", "\[Rule]", "1"}]}], "]"}]], "Input",\
+ExpressionUUID->"faaa0119-dbbd-6f46-ab3e-d0a93a663f72"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Check reference sample datas", "Section",
+ CellChangeTimes->{{4.0008544697738132`*^9, 
+  4.0008544759647446`*^9}},ExpressionUUID->"b6a52d80-5f61-8e4d-b32e-\
+3dc62ed10ff0"],
+
+Cell[BoxData[
+ RowBox[{"QCSCheckData", "[", "]"}]], "Input",ExpressionUUID->"d8471b43-b69f-f840-b3e7-04a76160be17"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Figures 2 and 4 computations", "Section",
+ CellChangeTimes->{{4.000854460612358*^9, 
+  4.000854465022066*^9}},ExpressionUUID->"948ecc69-235b-0940-b4aa-\
+ec79b7c469a3"],
+
+Cell["", "Text",
+ CellChangeTimes->{{4.000854485924574*^9, 
+  4.000854487729866*^9}},ExpressionUUID->"4dc1e1ad-77f7-c64a-b8d0-\
+c442c7a35ba5"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"pair", "=", 
+   RowBox[{"QCSPreparePair", "[", "]"}]}], ";"}]], "Input",ExpressionUUID->\
+"a71f7956-339c-e34d-91af-07c24d5a1ed0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"recovery", "=", 
+   RowBox[{"QCSReconstructPair", "[", "pair", "]"}]}], ";"}]], "Input",Express\
+ionUUID->"3861d820-bb98-3c4a-946b-68ec28397126"],
+
+Cell[BoxData[
+ RowBox[{"QCSFigures", "[", "True", "]"}]], "Input",ExpressionUUID->"26f8d5cd-7b04-0a48-977f-dbad4a97d7c1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Schwarzschild residues and radiation reconstruction", "Section",ExpressionUUID->"1c92b36c-a03f-b841-a8c0-f6ed1f1013a8"],
+
+Cell[BoxData[
+ RowBox[{"QCSGR", "[", "]"}]], "Input",ExpressionUUID->"2bda25ab-b019-ae47-83f1-bf77947aa6c4"],
+
+Cell[BoxData[
+ RowBox[{"QCSFlux", "[", "]"}]], "Input",ExpressionUUID->"e48fb0ab-793f-d146-9e42-4e668699c63e"],
+
+Cell[BoxData[
+ RowBox[{"QCSWavepacket", "[", "]"}]], "Input",ExpressionUUID->"98465c21-0f0f-2f49-ad59-534dc8e80206"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Continuum and pole scattering", "Section",ExpressionUUID->"132ef3d0-3d08-7649-b2e7-ebbbcc99613b"],
+
+Cell["", "Text",
+ CellChangeTimes->{{4.000854496188715*^9, 
+  4.0008545080299244`*^9}},ExpressionUUID->"26f074dd-be4a-f448-872d-\
+69da9043937c"],
+
+Cell[BoxData[
+ RowBox[{"QCSScattering", "[", "]"}]], "Input",ExpressionUUID->"a3822f8b-4e82-984c-80af-983215f4208a"],
+
+Cell[BoxData[
+ RowBox[{"QCSPoleScattering", "[", "]"}]], "Input",ExpressionUUID->"475dff1e-6aa2-d946-8b07-0fdfe4a6c971"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Exchange with two poles", "Section",
+ CellChangeTimes->{{4.0008545219182663`*^9, 
+  4.000854536271187*^9}},ExpressionUUID->"04c5f631-807e-1b4a-a47e-\
+7772cdf2419a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"twoPole", "=", 
+   RowBox[{"QCSTwoPole", "[", "]"}]}], ";"}]], "Input",ExpressionUUID->\
+"35aef75c-0e2e-734f-b434-ac4e713cc106"],
+
+Cell[BoxData[
+ RowBox[{"QCSCausal", "[", "]"}]], "Input",ExpressionUUID->"2ab52cff-f87f-8a43-8089-f44a4bc9784a"],
+
+Cell[BoxData[
+ RowBox[{"QCSCausal", "[", 
+  RowBox[{"100000", ",", 
+   RowBox[{"twoPole", "[", "\"\<matrices\>\"", "]"}]}], "]"}]], "Input",Expres\
+sionUUID->"9d31677c-5f3c-fb45-90a7-f08c36f2c403"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Kerr scaling and quadratic RWZ results", "Section",
+ CellChangeTimes->{{4.000854547501253*^9, 
+  4.0008545486037064`*^9}},ExpressionUUID->"8f631954-d664-7048-9e56-\
+6428ed1b024c"],
+
+Cell[BoxData[
+ RowBox[{"QCSKerr", "[", "]"}]], "Input",ExpressionUUID->"f707fcc4-7a91-044f-b4c4-f281914a400b"],
+
+Cell[BoxData[
+ RowBox[{"QCSRWZ", "[", "]"}]], "Input",ExpressionUUID->"1a5bd57d-7634-4f4f-83f9-1001b47c8149"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Plots from the figure data", "Section",
+ CellChangeTimes->{{4.000854554891432*^9, 
+  4.000854555711397*^9}},ExpressionUUID->"991fb05e-6234-1c40-a33a-\
+603c5f4adf7c"],
+
+Cell[BoxData[
+ RowBox[{"QCSFigures", "[", "]"}]], "Input",ExpressionUUID->"8ca09bf1-368f-ff4b-a105-1c051cc62b80"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Tests", "Section",ExpressionUUID->"76800bcf-6644-2c45-bf0f-0c8d3411e598"],
+
+Cell[BoxData[
+ RowBox[{"TestReport", "[", 
+  RowBox[{"FileNameJoin", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<Tests\>\"", 
+     ",", "\"\<Core.wlt\>\""}], "}"}], "]"}], "]"}]], "Input",ExpressionUUID->\
+"4527541c-3ebc-af4c-8c2d-dba81e3bd4d5"],
+
+Cell["", "Text",
+ CellChangeTimes->{
+  4.000854560933836*^9},ExpressionUUID->"088cd65e-7daa-dc40-9d7c-\
+5b90f20aa8e8"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1100, 721},
+WindowMargins->{{Automatic, 81.5}, {Automatic, 32}},
+WindowTitle->"QCS computational resources",
+TaggingRules-><|"QCSRelease" -> "2026.10.12.2"|>,
+FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (2025\:5e747\:67088\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"7b76c6d9-a867-9548-8d2b-85ff0717869d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[617, 23, 110, 0, 96, "Title",ExpressionUUID->"9adffb1e-4656-ab4f-9d22-9ead398d97c3"],
+Cell[CellGroupData[{
+Cell[752, 27, 79, 0, 66, "Section",ExpressionUUID->"75a0e4ee-b54d-794f-98b2-072f2bd61930"],
+Cell[834, 29, 285, 7, 42, "Input",ExpressionUUID->"45fca86b-87b6-4f40-b40a-1181fa6efe9a"],
+Cell[1122, 38, 234, 4, 42, "Input",ExpressionUUID->"faaa0119-dbbd-6f46-ab3e-d0a93a663f72"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1393, 47, 177, 3, 66, "Section",ExpressionUUID->"b6a52d80-5f61-8e4d-b32e-3dc62ed10ff0"],
+Cell[1573, 52, 115, 1, 28, "Input",ExpressionUUID->"d8471b43-b69f-f840-b3e7-04a76160be17"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1725, 58, 173, 3, 66, "Section",ExpressionUUID->"948ecc69-235b-0940-b4aa-ec79b7c469a3"],
+Cell[1901, 63, 142, 3, 33, "Text",ExpressionUUID->"4dc1e1ad-77f7-c64a-b8d0-c442c7a35ba5"],
+Cell[2046, 68, 164, 4, 28, "Input",ExpressionUUID->"a71f7956-339c-e34d-91af-07c24d5a1ed0"],
+Cell[2213, 74, 180, 4, 28, "Input",ExpressionUUID->"3861d820-bb98-3c4a-946b-68ec28397126"],
+Cell[2396, 80, 121, 1, 42, "Input",ExpressionUUID->"26f8d5cd-7b04-0a48-977f-dbad4a97d7c1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2554, 86, 125, 0, 66, "Section",ExpressionUUID->"1c92b36c-a03f-b841-a8c0-f6ed1f1013a8"],
+Cell[2682, 88, 108, 1, 28, "Input",ExpressionUUID->"2bda25ab-b019-ae47-83f1-bf77947aa6c4"],
+Cell[2793, 91, 110, 1, 28, "Input",ExpressionUUID->"e48fb0ab-793f-d146-9e42-4e668699c63e"],
+Cell[2906, 94, 116, 1, 28, "Input",ExpressionUUID->"98465c21-0f0f-2f49-ad59-534dc8e80206"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3059, 100, 103, 0, 66, "Section",ExpressionUUID->"132ef3d0-3d08-7649-b2e7-ebbbcc99613b"],
+Cell[3165, 102, 144, 3, 33, "Text",ExpressionUUID->"26f074dd-be4a-f448-872d-69da9043937c"],
+Cell[3312, 107, 116, 1, 28, "Input",ExpressionUUID->"a3822f8b-4e82-984c-80af-983215f4208a"],
+Cell[3431, 110, 120, 1, 28, "Input",ExpressionUUID->"475dff1e-6aa2-d946-8b07-0fdfe4a6c971"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3588, 116, 170, 3, 66, "Section",ExpressionUUID->"04c5f631-807e-1b4a-a47e-7772cdf2419a"],
+Cell[3761, 121, 163, 4, 28, "Input",ExpressionUUID->"35aef75c-0e2e-734f-b434-ac4e713cc106"],
+Cell[3927, 127, 112, 1, 28, "Input",ExpressionUUID->"2ab52cff-f87f-8a43-8089-f44a4bc9784a"],
+Cell[4042, 130, 197, 4, 28, "Input",ExpressionUUID->"9d31677c-5f3c-fb45-90a7-f08c36f2c403"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4276, 139, 185, 3, 66, "Section",ExpressionUUID->"8f631954-d664-7048-9e56-6428ed1b024c"],
+Cell[4464, 144, 110, 1, 28, "Input",ExpressionUUID->"f707fcc4-7a91-044f-b4c4-f281914a400b"],
+Cell[4577, 147, 109, 1, 28, "Input",ExpressionUUID->"1a5bd57d-7634-4f4f-83f9-1001b47c8149"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4723, 153, 171, 3, 66, "Section",ExpressionUUID->"991fb05e-6234-1c40-a33a-603c5f4adf7c"],
+Cell[4897, 158, 113, 1, 28, "Input",ExpressionUUID->"8ca09bf1-368f-ff4b-a105-1c051cc62b80"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5047, 164, 79, 0, 66, "Section",ExpressionUUID->"76800bcf-6644-2c45-bf0f-0c8d3411e598"],
+Cell[5129, 166, 293, 7, 42, "Input",ExpressionUUID->"4527541c-3ebc-af4c-8c2d-dba81e3bd4d5"],
+Cell[5425, 175, 118, 3, 33, "Text",ExpressionUUID->"088cd65e-7daa-dc40-9d7c-5b90f20aa8e8"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

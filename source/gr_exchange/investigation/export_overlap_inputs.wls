@@ -1,0 +1,50 @@
+base = StringReplace[DirectoryName[$InputFileName], "\\" -> "/"] <> "/";
+$MaxExtraPrecision=500;
+al[k_,ww_]:=k^2+(2*(-2*I*ww)+2)*k+2*(-2*I*ww)+1;
+be[k_,ww_,j_]:=-(2*k^2+(8*(-2*I*ww)+2)*k+8*(-2*I*ww)^2+4*(-2*I*ww)+(j+2)*(j-1)-1);
+ga[k_,ww_]:=k^2+4*(-2*I*ww)*k+4*(-2*I*ww)^2-4;
+cf[j_,ww_?NumericQ,nn_]:=Module[{v=be[nn,ww,j]},Do[v=SetPrecision[be[k,ww,j]-al[k,ww]*ga[k+1,ww]/v,90],{k,nn-1,0,-1}];v];
+aco[j_,ww_,nn_]:=Module[{ra=Table[0,{nn+1}]},Do[ra[[k+1]]=SetPrecision[-ga[k+1,ww]/(be[k+1,ww,j]+al[k+1,ww]*ra[[k+2]]),90],{k,nn-1,0,-1}];FoldList[SetPrecision[#1*#2,90]&,1,Take[ra,nn]]];
+cx[z_]:={ToString[Re[N[z,32]],InputForm],ToString[Im[N[z,32]],InputForm]};
+rat[expr_]:=Module[{e=Together[expr]},<|"numerator"->(cx/@CoefficientList[Numerator[e],r]),"denominator"->(cx/@CoefficientList[Denominator[e],r])|>];
+f=1-2/r;cc[j_]:=(j+2)*(j-1)*((j+2)*(j-1)+2)/6;
+hh[j_]:=cc[j]+12*(r-2)/(r^2*((j+2)*(j-1)*r+6));
+spec={{"220",2,37367/100000-8896/100000*I},{"320",3,59944/100000-9270/100000*I},{"440",4,80918/100000-9416/100000*I},{"441",4,79663/100000-28433/100000*I}};
+data=<||>;qhor=<||>;freq=<||>;parenths=<||>;
+Do[
+ {key,j,guess}=item;
+ ww=wwv/.FindRoot[cf[j,wwv,1800]==0,{wwv,N[guess,90]},WorkingPrecision->90,AccuracyGoal->60,PrecisionGoal->60];
+ aa=aco[j,ww,1800];norm=Exp[-2*I*ww]*Total[aa];rho=-2*I*ww;
+ Print[key," frequency ",N[ww,18]," CFcheck ",N[cf[j,ww,2400],4]];
+ AssociateTo[data,key-><|"l"->j,"omega"->cx[ww],"a"->(cx/@aa),"outgoing_norm"->cx[norm]|>];AssociateTo[freq,key->ww];
+ pp=SeriesData[t,0,Take[aa,22],0,22,1];
+ pr=Series[Normal[pp]/.t->t/(2+t),{t,0,19}];
+ qq=Series[2^(-rho)*(1+t/2)^(-2*rho)*Exp[-rho*t/2],{t,0,19}]*pr/norm;
+ AssociateTo[parenths,key->qq];
+ If[j==4,
+   qz=Series[(hh[j]/(cc[j]+2*I*ww))/.r->t+2,{t,0,18}]*qq+
+     Series[(2*f/(cc[j]+2*I*ww))/.r->t+2,{t,0,18}]*(D[qq,t]+rho*qq/t);
+   AssociateTo[qhor,key->qz];
+ ];
+,{item,spec}];
+sources=<||>;
+Do[
+ key=If[j==2,"220","320"];ww=freq[key];rho=-2*I*ww;
+ fs=Get[base<>"zsource_rwparents_"<>ToString[j]<>".wl"]/.w->ww;
+ AssociateTo[sources,key->(rat/@fs)];qq=parenths[key];dd=D[qq,t]+rho*qq/t;
+ sh=Total[MapThread[Times,{(Series[#/.r->t+2,{t,0,16}]&/@fs),{qq^2,qq*dd,dd^2}}]];
+ AssociateTo[parenths,key<>"source"->sh];Print["Horizon source ",key," lowest powers ",N[Table[SeriesCoefficient[sh,k],{k,-1,1}],5]];
+,{j,{2,3}}];
+tails=<||>;
+Do[
+ qn=qhor[nkey];
+ nh=(2+t)*qn^2;
+ AssociateTo[tails,nkey<>"norm"-><|"exponent"->cx[-4*I*freq[nkey]],"coefficients"->(cx/@Table[SeriesCoefficient[nh,k],{k,0,12}])|>];
+ Do[
+  ph=(2+t)*qn*parenths[pkey<>"source"];
+  AssociateTo[tails,nkey<>pkey-><|"exponent"->cx[-2*I*(freq[nkey]+2*freq[pkey])],"coefficients"->(cx/@Table[SeriesCoefficient[ph,k],{k,0,12}])|>];
+ ,{pkey,{"220","320"}}];
+,{nkey,{"440","441"}}];
+Export[base<>"overlap_inputs.json",<|"modes"->data,"sources"->sources,"horizon"->tails|>,"RawJSON"];
+Put[{data,sources,tails},base<>"overlap_inputs_exact.wl"];
+Print["Export complete"];Exit[];

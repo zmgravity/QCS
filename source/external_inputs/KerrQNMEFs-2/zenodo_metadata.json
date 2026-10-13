@@ -1,0 +1,227 @@
+{
+  "created": "2025-02-19T16:53:18.716713+08:00",
+  "modified": "2026-05-27T14:42:29.234643+08:00",
+  "id": 14380191,
+  "conceptrecid": "12696857",
+  "doi": "10.5281/zenodo.14380191",
+  "conceptdoi": "10.5281/zenodo.12696857",
+  "doi_url": "https://doi.org/10.5281/zenodo.14380191",
+  "metadata": {
+    "title": "Kerr quasinormal mode frequencies and excitation factors",
+    "doi": "10.5281/zenodo.14380191",
+    "publication_date": "2025-02-19",
+    "description": "<p>Kerr quasinormal mode frequencies and excitation factors for gravitational ($s=-2$), electromagnetic ($s=-1$), and scalar fields ($s=0$). &nbsp;Normalization is $2M=1$ except for the spin parameter $a/M$.</p>\n<h2>Data Format</h2>\n<p>$a/M$, $\\mathrm{Re}(2M\\omega)$, $\\mathrm{Im}(2M\\omega)$, $\\mathrm{Re}(A)$, $\\mathrm{Im}(A)$, $\\mathrm{Re}(\\nu)$, $\\mathrm{Im}(\\nu)$, $\\mathrm{Re}((2M)^{-2s}B)$, $\\mathrm{Im}((2M)^{-2s}B)$</p>\n<p>$M$: Mass<br>$a$: Spin parameter<br>$\\omega$: Quasinormal mode frequency<br>$A$: Separation constant<br>$\\nu$: Renormalized angular momentum<br>$B$: Excitation factor</p>\n<h2>How to cite</h2>\n<p>If you use this dataset, please cite both this Zenodo record and the associated publication.&nbsp;</p>\n<p>For the Zenodo record, the following BibTeX entry uses the DOI that represents all versions, and resolves to the latest version of the dataset:</p>\n<pre class=\"language-markup\"><code>@misc{motohashi_2024_12696857,\n  author       = {Motohashi, Hayato},\n  title        = {Kerr quasinormal mode frequencies and excitation factors},\n  month        = jul,\n  year         = 2024,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.12696857},\n  url          = {https://doi.org/10.5281/zenodo.12696857},\n}</code></pre>\n<p>For a version-specific citation, please use the citation information provided by Zenodo.</p>\n<p>Associated publication:</p>\n<pre class=\"language-markup\"><code>@article{Motohashi:2024fwt,\n    author = \"Motohashi, Hayato\",\n    title = \"{Resonant Excitation of Quasinormal Modes of Black Holes}\",\n    eprint = \"2407.15191\",\n    archivePrefix = \"arXiv\",\n    primaryClass = \"gr-qc\",\n    doi = \"10.1103/PhysRevLett.134.141401\",\n    journal = \"Phys. Rev. Lett.\",\n    volume = \"134\",\n    number = \"14\",\n    pages = \"141401\",\n    year = \"2025\"\n}</code></pre>\n<h2>Version History</h2>\n<p>Version 0.2.0: Expanded dataset with additional modes:&nbsp;<br>&nbsp; $s=-2$, $\\ell=4&ndash;6$, $n=0&ndash;7$&nbsp;<br>&nbsp; $s=-1$, $\\ell=2&ndash;6$, $n=0&ndash;7$<br>&nbsp; $s=0$, $\\ell=1&ndash;6$, $n=0&ndash;7$<br>Version 0.1.1: Added GIF animation (no changes to dataset)<br>Version 0.1.0: Initial release with $s=-2$, $\\ell=2&ndash;3$, $n=0&ndash;7$</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Motohashi, Hayato",
+        "affiliation": "Kogakuin University",
+        "orcid": "0000-0002-4330-7024"
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1103/PhysRevLett.134.141401",
+        "relation": "isDocumentedBy",
+        "resource_type": "publication",
+        "scheme": "doi"
+      }
+    ],
+    "version": "0.2.0",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "JP22K03639",
+        "internal_id": "00hhkn466::JP22K03639",
+        "funder": {
+          "name": "Japan Society for the Promotion of Science"
+        },
+        "title": "Grants-in-Aid for Scientific Research (KAKENHI)"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 2,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "12696857"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Kerr quasinormal mode frequencies and excitation factors",
+  "links": {
+    "self": "https://zenodo.org/api/records/14380191",
+    "self_html": "https://zenodo.org/records/14380191",
+    "preview_html": "https://zenodo.org/records/14380191?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.14380191",
+    "self_doi": "https://doi.org/10.5281/zenodo.14380191",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14380191",
+    "reserve_doi": "https://zenodo.org/api/records/14380191/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/12696857",
+    "parent_html": "https://zenodo.org/records/12696857",
+    "parent_doi": "https://doi.org/10.5281/zenodo.12696857",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12696857",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14380191/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14380191/sequence/default",
+    "files": "https://zenodo.org/api/records/14380191/files",
+    "media_files": "https://zenodo.org/api/records/14380191/media-files",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14380191:s-2l3m1_Bzz.gif/full/%5E10,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14380191:s-2l3m1_Bzz.gif/full/%5E50,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14380191:s-2l3m1_Bzz.gif/full/%5E100,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14380191:s-2l3m1_Bzz.gif/full/%5E250,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14380191:s-2l3m1_Bzz.gif/full/%5E750,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14380191:s-2l3m1_Bzz.gif/full/%5E1200,/0/default.jpg"
+    },
+    "archive": "https://zenodo.org/api/records/14380191/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14380191/media-files-archive",
+    "latest": "https://zenodo.org/api/records/14380191/versions/latest",
+    "latest_html": "https://zenodo.org/records/14380191/latest",
+    "versions": "https://zenodo.org/api/records/14380191/versions",
+    "draft": "https://zenodo.org/api/records/14380191/draft",
+    "access_links": "https://zenodo.org/api/records/14380191/access/links",
+    "access_grants": "https://zenodo.org/api/records/14380191/access/grants",
+    "access_users": "https://zenodo.org/api/records/14380191/access/users",
+    "access_request": "https://zenodo.org/api/records/14380191/access/request",
+    "access": "https://zenodo.org/api/records/14380191/access",
+    "communities": "https://zenodo.org/api/records/14380191/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14380191/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/14380191/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/14380191/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/14380191/quota-increase",
+    "requests": "https://zenodo.org/api/records/14380191/requests"
+  },
+  "updated": "2026-05-27T14:42:29.234643+08:00",
+  "recid": "14380191",
+  "revision": 16,
+  "files": [
+    {
+      "id": "df8c6e65-ce3a-4176-97ea-60c7c5b65c08",
+      "key": "s-2l3m1_Bzz.gif",
+      "size": 8102550,
+      "checksum": "md5:2ff6a3e6747142f37889a3091a5975b3",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/s-2l3m1_Bzz.gif/content"
+      }
+    },
+    {
+      "id": "78453bc9-1082-4bbc-887c-66db4f3de598",
+      "key": "KerrQNMEFs0.zip",
+      "size": 60347563,
+      "checksum": "md5:de622b364cd92bd15e14224098343253",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/KerrQNMEFs0.zip/content"
+      }
+    },
+    {
+      "id": "933eb8a9-b6a2-4fa8-ba0b-261edb613b0b",
+      "key": "s-2l3m1_wzz.gif",
+      "size": 6229764,
+      "checksum": "md5:3e1b32e84f6f7461e0fd9fe8d8df1a04",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/s-2l3m1_wzz.gif/content"
+      }
+    },
+    {
+      "id": "a47057a1-8e8e-48f0-8a95-05be202d80a5",
+      "key": "s-2l3m1_w.gif",
+      "size": 6317465,
+      "checksum": "md5:296210197c691dfeca87dce8f47a2d97",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/s-2l3m1_w.gif/content"
+      }
+    },
+    {
+      "id": "0f202d10-c865-43de-ae4e-e0040a8ab7b4",
+      "key": "KerrQNMEFs-2.zip",
+      "size": 60243941,
+      "checksum": "md5:4f14846fa2205f3409bf6f1e1ec3120c",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/KerrQNMEFs-2.zip/content"
+      }
+    },
+    {
+      "id": "05cbf7a8-7be7-4db0-a04f-52dbbac40b54",
+      "key": "s-2l3m1_wz.gif",
+      "size": 7399238,
+      "checksum": "md5:85c830cdd9aad58293d6d5352fe7ce8a",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/s-2l3m1_wz.gif/content"
+      }
+    },
+    {
+      "id": "d3c53f3c-0404-4197-8c74-e132dc745392",
+      "key": "s-2l3m1_Bz.gif",
+      "size": 9508617,
+      "checksum": "md5:5cb8bc4c0e0ce6d907f26a9f58695874",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/s-2l3m1_Bz.gif/content"
+      }
+    },
+    {
+      "id": "62f6d20a-a4b5-427a-be41-eed4fe39af07",
+      "key": "KerrQNMEFs-1.zip",
+      "size": 56524152,
+      "checksum": "md5:1e13dc473ebb1d01f2beecd5b554fffd",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/KerrQNMEFs-1.zip/content"
+      }
+    },
+    {
+      "id": "067aee9f-bbc7-497a-a190-a4a9108135c3",
+      "key": "s-2l2m2_Bz.gif",
+      "size": 21194532,
+      "checksum": "md5:a51eef39b4763ab1b47da5bde7a4cc73",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/s-2l2m2_Bz.gif/content"
+      }
+    },
+    {
+      "id": "83834d0b-28f5-43d8-9260-91294256bf29",
+      "key": "s-2l2m2_wz.gif",
+      "size": 9677244,
+      "checksum": "md5:063f55c789a8595511f9bbe3fc2a11f4",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/s-2l2m2_wz.gif/content"
+      }
+    },
+    {
+      "id": "97ccdee9-ea23-4c56-8dba-5a8f3979aa95",
+      "key": "s-2l2m2_w.gif",
+      "size": 6566195,
+      "checksum": "md5:22a5772c165c0a5d74bef2ba798c0347",
+      "links": {
+        "self": "https://zenodo.org/api/records/14380191/files/s-2l2m2_w.gif/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1155680"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 3026,
+    "unique_downloads": 2771,
+    "views": 2361,
+    "unique_views": 2189,
+    "version_downloads": 2436,
+    "version_unique_downloads": 2238,
+    "version_unique_views": 1745,
+    "version_views": 1859
+  },
+  "state": "done",
+  "submitted": true
+}
