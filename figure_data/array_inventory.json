@@ -1,0 +1,1701 @@
+{
+  "source/reduced_input/ambiguity_coefficients.npz": {
+    "p14_both_10_strain_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_10_strain_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_10_news_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_10_news_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_20_strain_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_20_strain_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_20_news_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_20_news_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_30_strain_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_30_strain_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_30_news_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_30_news_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_40_strain_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_40_strain_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_40_news_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_40_news_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_60_strain_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_60_strain_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_60_news_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_both_60_news_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_infinity_60_strain_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_infinity_60_strain_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_infinity_60_news_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_infinity_60_news_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_infinity_400_strain_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_infinity_400_strain_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_infinity_400_news_0_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p14_infinity_400_news_30_70": {
+      "shape": [
+        28
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_10_strain_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_10_strain_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_10_news_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_10_news_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_20_strain_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_20_strain_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_20_news_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_20_news_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_30_strain_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_30_strain_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_30_news_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_30_news_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_40_strain_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_40_strain_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_40_news_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_40_news_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_60_strain_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_60_strain_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_60_news_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_both_60_news_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_infinity_60_strain_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_infinity_60_strain_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_infinity_60_news_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_infinity_60_news_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_infinity_400_strain_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_infinity_400_strain_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_infinity_400_news_0_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p18_infinity_400_news_30_70": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_10_strain_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_10_strain_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_10_news_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_10_news_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_20_strain_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_20_strain_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_20_news_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_20_news_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_30_strain_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_30_strain_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_30_news_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_30_news_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_40_strain_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_40_strain_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_40_news_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_40_news_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_60_strain_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_60_strain_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_60_news_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_both_60_news_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_infinity_60_strain_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_infinity_60_strain_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_infinity_60_news_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_infinity_60_news_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_infinity_400_strain_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_infinity_400_strain_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_infinity_400_news_0_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p22_infinity_400_news_30_70": {
+      "shape": [
+        44
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_10_strain_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_10_strain_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_10_news_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_10_news_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_20_strain_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_20_strain_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_20_news_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_20_news_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_30_strain_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_30_strain_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_30_news_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_30_news_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_40_strain_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_40_strain_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_40_news_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_40_news_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_60_strain_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_60_strain_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_60_news_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_both_60_news_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_infinity_60_strain_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_infinity_60_strain_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_infinity_60_news_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_infinity_60_news_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_infinity_400_strain_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_infinity_400_strain_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_infinity_400_news_0_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p26_infinity_400_news_30_70": {
+      "shape": [
+        52
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_10_strain_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_10_strain_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_10_news_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_10_news_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_20_strain_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_20_strain_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_20_news_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_20_news_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_30_strain_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_30_strain_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_30_news_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_30_news_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_40_strain_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_40_strain_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_40_news_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_40_news_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_60_strain_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_60_strain_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_60_news_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_both_60_news_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_infinity_60_strain_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_infinity_60_strain_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_infinity_60_news_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_infinity_60_news_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_infinity_400_strain_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_infinity_400_strain_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_infinity_400_news_0_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    },
+    "p34_infinity_400_news_30_70": {
+      "shape": [
+        68
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/reduced_input/completion/mechanism_waveforms.npz": {
+    "t": {
+      "shape": [
+        2801
+      ],
+      "dtype": "float64"
+    },
+    "full_6": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "master_6": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "local_6": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "fundamental_6": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "output3_6": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "shifted3_6": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "full_7": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "master_7": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "local_7": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "fundamental_7": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "output3_7": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    },
+    "shifted3_7": {
+      "shape": [
+        2801
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/reduced_input/completion/recovery_waveforms.npz": {
+    "t": {
+      "shape": [
+        2801
+      ],
+      "dtype": "float64"
+    },
+    "prediction_plus": {
+      "shape": [
+        2801,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "prediction_minus": {
+      "shape": [
+        2801,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "reference_plus": {
+      "shape": [
+        2801,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "reference_minus": {
+      "shape": [
+        2801,
+        2
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/reduced_input/completion/weak_family_coefficients.npz": {
+    "coefficients": {
+      "shape": [
+        32,
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "energy_normalized_subspace": {
+      "shape": [
+        36,
+        4
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/reduced_input/completion/weak_family_waveforms.npz": {
+    "t": {
+      "shape": [
+        32001
+      ],
+      "dtype": "float64"
+    },
+    "tout": {
+      "shape": [
+        2801
+      ],
+      "dtype": "float64"
+    },
+    "cubic_0": {
+      "shape": [
+        2801,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "radiation_0": {
+      "shape": [
+        32001,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "cubic_1": {
+      "shape": [
+        2801,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "radiation_1": {
+      "shape": [
+        32001,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "cubic_2": {
+      "shape": [
+        2801,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "radiation_2": {
+      "shape": [
+        32001,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "cubic_3": {
+      "shape": [
+        2801,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "radiation_3": {
+      "shape": [
+        32001,
+        2
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/reduced_input/kernels_n32_end400_sample0.1.npz": {
+    "t": {
+      "shape": [
+        4001
+      ],
+      "dtype": "float64"
+    },
+    "z": {
+      "shape": [
+        32
+      ],
+      "dtype": "float64"
+    },
+    "O": {
+      "shape": [
+        4001,
+        2,
+        64
+      ],
+      "dtype": "complex128"
+    },
+    "Od": {
+      "shape": [
+        4001,
+        2,
+        64
+      ],
+      "dtype": "complex128"
+    },
+    "tout": {
+      "shape": [
+        1001
+      ],
+      "dtype": "float64"
+    },
+    "F6": {
+      "shape": [
+        1001,
+        64
+      ],
+      "dtype": "complex128"
+    },
+    "Fd6": {
+      "shape": [
+        1001,
+        64
+      ],
+      "dtype": "complex128"
+    },
+    "F7": {
+      "shape": [
+        1001,
+        64
+      ],
+      "dtype": "complex128"
+    },
+    "Fd7": {
+      "shape": [
+        1001,
+        64
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/reduced_input/kernels_n48_end400_sample0.1.npz": {
+    "t": {
+      "shape": [
+        4001
+      ],
+      "dtype": "float64"
+    },
+    "z": {
+      "shape": [
+        48
+      ],
+      "dtype": "float64"
+    },
+    "O": {
+      "shape": [
+        4001,
+        2,
+        96
+      ],
+      "dtype": "complex128"
+    },
+    "Od": {
+      "shape": [
+        4001,
+        2,
+        96
+      ],
+      "dtype": "complex128"
+    },
+    "tout": {
+      "shape": [
+        1001
+      ],
+      "dtype": "float64"
+    },
+    "F6": {
+      "shape": [
+        1001,
+        96
+      ],
+      "dtype": "complex128"
+    },
+    "Fd6": {
+      "shape": [
+        1001,
+        96
+      ],
+      "dtype": "complex128"
+    },
+    "F7": {
+      "shape": [
+        1001,
+        96
+      ],
+      "dtype": "complex128"
+    },
+    "Fd7": {
+      "shape": [
+        1001,
+        96
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/reduced_input/kernels_n64_end400_sample0.1.npz": {
+    "t": {
+      "shape": [
+        4001
+      ],
+      "dtype": "float64"
+    },
+    "z": {
+      "shape": [
+        64
+      ],
+      "dtype": "float64"
+    },
+    "O": {
+      "shape": [
+        4001,
+        2,
+        128
+      ],
+      "dtype": "complex128"
+    },
+    "Od": {
+      "shape": [
+        4001,
+        2,
+        128
+      ],
+      "dtype": "complex128"
+    },
+    "tout": {
+      "shape": [
+        1001
+      ],
+      "dtype": "float64"
+    },
+    "F6": {
+      "shape": [
+        1001,
+        128
+      ],
+      "dtype": "complex128"
+    },
+    "Fd6": {
+      "shape": [
+        1001,
+        128
+      ],
+      "dtype": "complex128"
+    },
+    "F7": {
+      "shape": [
+        1001,
+        128
+      ],
+      "dtype": "complex128"
+    },
+    "Fd7": {
+      "shape": [
+        1001,
+        128
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/reduced_input/paired_preparations.npz": {
+    "strain_plus": {
+      "shape": [
+        701,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "strain_minus": {
+      "shape": [
+        701,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "news_plus": {
+      "shape": [
+        701,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "news_minus": {
+      "shape": [
+        701,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "t": {
+      "shape": [
+        4001
+      ],
+      "dtype": "float64"
+    },
+    "tout": {
+      "shape": [
+        701
+      ],
+      "dtype": "float64"
+    },
+    "radiation_plus": {
+      "shape": [
+        4001,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "radiation_minus": {
+      "shape": [
+        4001,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "z": {
+      "shape": [
+        64
+      ],
+      "dtype": "float64"
+    },
+    "initial_plus": {
+      "shape": [
+        128
+      ],
+      "dtype": "complex128"
+    },
+    "initial_minus": {
+      "shape": [
+        128
+      ],
+      "dtype": "complex128"
+    },
+    "dark_coefficients": {
+      "shape": [
+        36
+      ],
+      "dtype": "complex128"
+    },
+    "fine_flux_t": {
+      "shape": [
+        32001
+      ],
+      "dtype": "float64"
+    },
+    "fine_dark_radiation": {
+      "shape": [
+        32001,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "fine_dark_news": {
+      "shape": [
+        32001,
+        2
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/reduced_input/paired_preparations_fine.npz": {
+    "strain_plus": {
+      "shape": [
+        5601,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "strain_minus": {
+      "shape": [
+        5601,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "news_plus": {
+      "shape": [
+        5601,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "news_minus": {
+      "shape": [
+        5601,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "t": {
+      "shape": [
+        64001
+      ],
+      "dtype": "float64"
+    },
+    "tout": {
+      "shape": [
+        5601
+      ],
+      "dtype": "float64"
+    },
+    "radiation_plus": {
+      "shape": [
+        64001,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "radiation_minus": {
+      "shape": [
+        64001,
+        2
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/time_response/prototype_waveforms.npz": {
+    "tau": {
+      "shape": [
+        701
+      ],
+      "dtype": "float64"
+    },
+    "original_radiation": {
+      "shape": [
+        701,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "original_reference_6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_reference_7": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_6_order6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_7_order6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_6_order10": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_7_order10": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_6_order14": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_7_order14": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_6_order18": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_7_order18": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_6_order22": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_7_order22": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_6_order26": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_7_order26": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_radiation": {
+      "shape": [
+        701,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_reference_6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_reference_7": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_6_order6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_7_order6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_6_order10": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_7_order10": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_6_order14": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_7_order14": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_6_order18": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_7_order18": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_6_order22": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_7_order22": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_6_order26": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_7_order26": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    }
+  },
+  "source/time_response/time_sewing_waveforms.npz": {
+    "tau": {
+      "shape": [
+        2048
+      ],
+      "dtype": "float64"
+    },
+    "actual": {
+      "shape": [
+        2048,
+        5
+      ],
+      "dtype": "complex128"
+    },
+    "reconstructed": {
+      "shape": [
+        2048,
+        5
+      ],
+      "dtype": "complex128"
+    },
+    "radiation": {
+      "shape": [
+        2048,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "points": {
+      "shape": [
+        5
+      ],
+      "dtype": "float64"
+    }
+  },
+  "source/time_response/validated_waveforms.npz": {
+    "tau": {
+      "shape": [
+        701
+      ],
+      "dtype": "float64"
+    },
+    "original_radiation": {
+      "shape": [
+        701,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "original_reference_6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_reference_7": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "original_prediction_7": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_radiation": {
+      "shape": [
+        701,
+        2
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_reference_6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_reference_7": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_prediction_7": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_fundamental_fit_6": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    },
+    "wavepacket_fundamental_fit_7": {
+      "shape": [
+        701
+      ],
+      "dtype": "complex128"
+    }
+  }
+}

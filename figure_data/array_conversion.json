@@ -1,0 +1,959 @@
+[
+  {
+    "original": "source/reduced_input/ambiguity_coefficients.npz",
+    "converted": "source/reduced_input/ambiguity_coefficients.mat",
+    "original_sha256": "b43687cb45c9787d190d7c97c41752512e23256d28f33b47fc816d8242970860",
+    "shapes": {
+      "p14_both_10_strain_0_70": [
+        28
+      ],
+      "p14_both_10_strain_30_70": [
+        28
+      ],
+      "p14_both_10_news_0_70": [
+        28
+      ],
+      "p14_both_10_news_30_70": [
+        28
+      ],
+      "p14_both_20_strain_0_70": [
+        28
+      ],
+      "p14_both_20_strain_30_70": [
+        28
+      ],
+      "p14_both_20_news_0_70": [
+        28
+      ],
+      "p14_both_20_news_30_70": [
+        28
+      ],
+      "p14_both_30_strain_0_70": [
+        28
+      ],
+      "p14_both_30_strain_30_70": [
+        28
+      ],
+      "p14_both_30_news_0_70": [
+        28
+      ],
+      "p14_both_30_news_30_70": [
+        28
+      ],
+      "p14_both_40_strain_0_70": [
+        28
+      ],
+      "p14_both_40_strain_30_70": [
+        28
+      ],
+      "p14_both_40_news_0_70": [
+        28
+      ],
+      "p14_both_40_news_30_70": [
+        28
+      ],
+      "p14_both_60_strain_0_70": [
+        28
+      ],
+      "p14_both_60_strain_30_70": [
+        28
+      ],
+      "p14_both_60_news_0_70": [
+        28
+      ],
+      "p14_both_60_news_30_70": [
+        28
+      ],
+      "p14_infinity_60_strain_0_70": [
+        28
+      ],
+      "p14_infinity_60_strain_30_70": [
+        28
+      ],
+      "p14_infinity_60_news_0_70": [
+        28
+      ],
+      "p14_infinity_60_news_30_70": [
+        28
+      ],
+      "p14_infinity_400_strain_0_70": [
+        28
+      ],
+      "p14_infinity_400_strain_30_70": [
+        28
+      ],
+      "p14_infinity_400_news_0_70": [
+        28
+      ],
+      "p14_infinity_400_news_30_70": [
+        28
+      ],
+      "p18_both_10_strain_0_70": [
+        36
+      ],
+      "p18_both_10_strain_30_70": [
+        36
+      ],
+      "p18_both_10_news_0_70": [
+        36
+      ],
+      "p18_both_10_news_30_70": [
+        36
+      ],
+      "p18_both_20_strain_0_70": [
+        36
+      ],
+      "p18_both_20_strain_30_70": [
+        36
+      ],
+      "p18_both_20_news_0_70": [
+        36
+      ],
+      "p18_both_20_news_30_70": [
+        36
+      ],
+      "p18_both_30_strain_0_70": [
+        36
+      ],
+      "p18_both_30_strain_30_70": [
+        36
+      ],
+      "p18_both_30_news_0_70": [
+        36
+      ],
+      "p18_both_30_news_30_70": [
+        36
+      ],
+      "p18_both_40_strain_0_70": [
+        36
+      ],
+      "p18_both_40_strain_30_70": [
+        36
+      ],
+      "p18_both_40_news_0_70": [
+        36
+      ],
+      "p18_both_40_news_30_70": [
+        36
+      ],
+      "p18_both_60_strain_0_70": [
+        36
+      ],
+      "p18_both_60_strain_30_70": [
+        36
+      ],
+      "p18_both_60_news_0_70": [
+        36
+      ],
+      "p18_both_60_news_30_70": [
+        36
+      ],
+      "p18_infinity_60_strain_0_70": [
+        36
+      ],
+      "p18_infinity_60_strain_30_70": [
+        36
+      ],
+      "p18_infinity_60_news_0_70": [
+        36
+      ],
+      "p18_infinity_60_news_30_70": [
+        36
+      ],
+      "p18_infinity_400_strain_0_70": [
+        36
+      ],
+      "p18_infinity_400_strain_30_70": [
+        36
+      ],
+      "p18_infinity_400_news_0_70": [
+        36
+      ],
+      "p18_infinity_400_news_30_70": [
+        36
+      ],
+      "p22_both_10_strain_0_70": [
+        44
+      ],
+      "p22_both_10_strain_30_70": [
+        44
+      ],
+      "p22_both_10_news_0_70": [
+        44
+      ],
+      "p22_both_10_news_30_70": [
+        44
+      ],
+      "p22_both_20_strain_0_70": [
+        44
+      ],
+      "p22_both_20_strain_30_70": [
+        44
+      ],
+      "p22_both_20_news_0_70": [
+        44
+      ],
+      "p22_both_20_news_30_70": [
+        44
+      ],
+      "p22_both_30_strain_0_70": [
+        44
+      ],
+      "p22_both_30_strain_30_70": [
+        44
+      ],
+      "p22_both_30_news_0_70": [
+        44
+      ],
+      "p22_both_30_news_30_70": [
+        44
+      ],
+      "p22_both_40_strain_0_70": [
+        44
+      ],
+      "p22_both_40_strain_30_70": [
+        44
+      ],
+      "p22_both_40_news_0_70": [
+        44
+      ],
+      "p22_both_40_news_30_70": [
+        44
+      ],
+      "p22_both_60_strain_0_70": [
+        44
+      ],
+      "p22_both_60_strain_30_70": [
+        44
+      ],
+      "p22_both_60_news_0_70": [
+        44
+      ],
+      "p22_both_60_news_30_70": [
+        44
+      ],
+      "p22_infinity_60_strain_0_70": [
+        44
+      ],
+      "p22_infinity_60_strain_30_70": [
+        44
+      ],
+      "p22_infinity_60_news_0_70": [
+        44
+      ],
+      "p22_infinity_60_news_30_70": [
+        44
+      ],
+      "p22_infinity_400_strain_0_70": [
+        44
+      ],
+      "p22_infinity_400_strain_30_70": [
+        44
+      ],
+      "p22_infinity_400_news_0_70": [
+        44
+      ],
+      "p22_infinity_400_news_30_70": [
+        44
+      ],
+      "p26_both_10_strain_0_70": [
+        52
+      ],
+      "p26_both_10_strain_30_70": [
+        52
+      ],
+      "p26_both_10_news_0_70": [
+        52
+      ],
+      "p26_both_10_news_30_70": [
+        52
+      ],
+      "p26_both_20_strain_0_70": [
+        52
+      ],
+      "p26_both_20_strain_30_70": [
+        52
+      ],
+      "p26_both_20_news_0_70": [
+        52
+      ],
+      "p26_both_20_news_30_70": [
+        52
+      ],
+      "p26_both_30_strain_0_70": [
+        52
+      ],
+      "p26_both_30_strain_30_70": [
+        52
+      ],
+      "p26_both_30_news_0_70": [
+        52
+      ],
+      "p26_both_30_news_30_70": [
+        52
+      ],
+      "p26_both_40_strain_0_70": [
+        52
+      ],
+      "p26_both_40_strain_30_70": [
+        52
+      ],
+      "p26_both_40_news_0_70": [
+        52
+      ],
+      "p26_both_40_news_30_70": [
+        52
+      ],
+      "p26_both_60_strain_0_70": [
+        52
+      ],
+      "p26_both_60_strain_30_70": [
+        52
+      ],
+      "p26_both_60_news_0_70": [
+        52
+      ],
+      "p26_both_60_news_30_70": [
+        52
+      ],
+      "p26_infinity_60_strain_0_70": [
+        52
+      ],
+      "p26_infinity_60_strain_30_70": [
+        52
+      ],
+      "p26_infinity_60_news_0_70": [
+        52
+      ],
+      "p26_infinity_60_news_30_70": [
+        52
+      ],
+      "p26_infinity_400_strain_0_70": [
+        52
+      ],
+      "p26_infinity_400_strain_30_70": [
+        52
+      ],
+      "p26_infinity_400_news_0_70": [
+        52
+      ],
+      "p26_infinity_400_news_30_70": [
+        52
+      ],
+      "p34_both_10_strain_0_70": [
+        68
+      ],
+      "p34_both_10_strain_30_70": [
+        68
+      ],
+      "p34_both_10_news_0_70": [
+        68
+      ],
+      "p34_both_10_news_30_70": [
+        68
+      ],
+      "p34_both_20_strain_0_70": [
+        68
+      ],
+      "p34_both_20_strain_30_70": [
+        68
+      ],
+      "p34_both_20_news_0_70": [
+        68
+      ],
+      "p34_both_20_news_30_70": [
+        68
+      ],
+      "p34_both_30_strain_0_70": [
+        68
+      ],
+      "p34_both_30_strain_30_70": [
+        68
+      ],
+      "p34_both_30_news_0_70": [
+        68
+      ],
+      "p34_both_30_news_30_70": [
+        68
+      ],
+      "p34_both_40_strain_0_70": [
+        68
+      ],
+      "p34_both_40_strain_30_70": [
+        68
+      ],
+      "p34_both_40_news_0_70": [
+        68
+      ],
+      "p34_both_40_news_30_70": [
+        68
+      ],
+      "p34_both_60_strain_0_70": [
+        68
+      ],
+      "p34_both_60_strain_30_70": [
+        68
+      ],
+      "p34_both_60_news_0_70": [
+        68
+      ],
+      "p34_both_60_news_30_70": [
+        68
+      ],
+      "p34_infinity_60_strain_0_70": [
+        68
+      ],
+      "p34_infinity_60_strain_30_70": [
+        68
+      ],
+      "p34_infinity_60_news_0_70": [
+        68
+      ],
+      "p34_infinity_60_news_30_70": [
+        68
+      ],
+      "p34_infinity_400_strain_0_70": [
+        68
+      ],
+      "p34_infinity_400_strain_30_70": [
+        68
+      ],
+      "p34_infinity_400_news_0_70": [
+        68
+      ],
+      "p34_infinity_400_news_30_70": [
+        68
+      ]
+    }
+  },
+  {
+    "original": "source/reduced_input/completion/mechanism_waveforms.npz",
+    "converted": "source/reduced_input/completion/mechanism_waveforms.mat",
+    "original_sha256": "156780d0a26d0e27744d41091aa3ffab7a69ead92c9b796a0893e1d2eb92b602",
+    "shapes": {
+      "t": [
+        2801
+      ],
+      "full_6": [
+        2801
+      ],
+      "master_6": [
+        2801
+      ],
+      "local_6": [
+        2801
+      ],
+      "fundamental_6": [
+        2801
+      ],
+      "output3_6": [
+        2801
+      ],
+      "shifted3_6": [
+        2801
+      ],
+      "full_7": [
+        2801
+      ],
+      "master_7": [
+        2801
+      ],
+      "local_7": [
+        2801
+      ],
+      "fundamental_7": [
+        2801
+      ],
+      "output3_7": [
+        2801
+      ],
+      "shifted3_7": [
+        2801
+      ]
+    }
+  },
+  {
+    "original": "source/reduced_input/completion/recovery_waveforms.npz",
+    "converted": "source/reduced_input/completion/recovery_waveforms.mat",
+    "original_sha256": "7844ae08554e0356a1e66e9cc475710ce4cc0eacb7a274dd798bdf2b9644bf43",
+    "shapes": {
+      "t": [
+        2801
+      ],
+      "prediction_plus": [
+        2801,
+        2
+      ],
+      "prediction_minus": [
+        2801,
+        2
+      ],
+      "reference_plus": [
+        2801,
+        2
+      ],
+      "reference_minus": [
+        2801,
+        2
+      ]
+    }
+  },
+  {
+    "original": "source/reduced_input/completion/weak_family_coefficients.npz",
+    "converted": "source/reduced_input/completion/weak_family_coefficients.mat",
+    "original_sha256": "ee42b21d6666a250d99dde695fdcb54189ca4e1dc65f21cbb8e69d3e5ed19272",
+    "shapes": {
+      "coefficients": [
+        32,
+        36
+      ],
+      "energy_normalized_subspace": [
+        36,
+        4
+      ]
+    }
+  },
+  {
+    "original": "source/reduced_input/completion/weak_family_waveforms.npz",
+    "converted": "source/reduced_input/completion/weak_family_waveforms.mat",
+    "original_sha256": "f7af1c45cf38b6f1bd62b5fa93dafde5e2a5af079fb81976f5458284b83f7d53",
+    "shapes": {
+      "t": [
+        32001
+      ],
+      "tout": [
+        2801
+      ],
+      "cubic_0": [
+        2801,
+        2
+      ],
+      "radiation_0": [
+        32001,
+        2
+      ],
+      "cubic_1": [
+        2801,
+        2
+      ],
+      "radiation_1": [
+        32001,
+        2
+      ],
+      "cubic_2": [
+        2801,
+        2
+      ],
+      "radiation_2": [
+        32001,
+        2
+      ],
+      "cubic_3": [
+        2801,
+        2
+      ],
+      "radiation_3": [
+        32001,
+        2
+      ]
+    }
+  },
+  {
+    "original": "source/reduced_input/kernels_n32_end400_sample0.1.npz",
+    "converted": "source/reduced_input/kernels_n32_end400_sample0.1.mat",
+    "original_sha256": "b32de7660d6cb134f89d75ead99dc90f89c2fd7ebd9516d2323913fbc4c9e2d8",
+    "shapes": {
+      "t": [
+        4001
+      ],
+      "z": [
+        32
+      ],
+      "O": [
+        4001,
+        2,
+        64
+      ],
+      "Od": [
+        4001,
+        2,
+        64
+      ],
+      "tout": [
+        1001
+      ],
+      "F6": [
+        1001,
+        64
+      ],
+      "Fd6": [
+        1001,
+        64
+      ],
+      "F7": [
+        1001,
+        64
+      ],
+      "Fd7": [
+        1001,
+        64
+      ]
+    }
+  },
+  {
+    "original": "source/reduced_input/kernels_n48_end400_sample0.1.npz",
+    "converted": "source/reduced_input/kernels_n48_end400_sample0.1.mat",
+    "original_sha256": "29dc554fcabc170164f787c6abf897ed7ea224605dfdb8b7ff4ca15756c7d020",
+    "shapes": {
+      "t": [
+        4001
+      ],
+      "z": [
+        48
+      ],
+      "O": [
+        4001,
+        2,
+        96
+      ],
+      "Od": [
+        4001,
+        2,
+        96
+      ],
+      "tout": [
+        1001
+      ],
+      "F6": [
+        1001,
+        96
+      ],
+      "Fd6": [
+        1001,
+        96
+      ],
+      "F7": [
+        1001,
+        96
+      ],
+      "Fd7": [
+        1001,
+        96
+      ]
+    }
+  },
+  {
+    "original": "source/reduced_input/kernels_n64_end400_sample0.1.npz",
+    "converted": "source/reduced_input/kernels_n64_end400_sample0.1.mat",
+    "original_sha256": "2ce9d8cc1309c34173375744347f470138f79a930b86269f05833c44a20c9eee",
+    "shapes": {
+      "t": [
+        4001
+      ],
+      "z": [
+        64
+      ],
+      "O": [
+        4001,
+        2,
+        128
+      ],
+      "Od": [
+        4001,
+        2,
+        128
+      ],
+      "tout": [
+        1001
+      ],
+      "F6": [
+        1001,
+        128
+      ],
+      "Fd6": [
+        1001,
+        128
+      ],
+      "F7": [
+        1001,
+        128
+      ],
+      "Fd7": [
+        1001,
+        128
+      ]
+    }
+  },
+  {
+    "original": "source/reduced_input/paired_preparations.npz",
+    "converted": "source/reduced_input/paired_preparations.mat",
+    "original_sha256": "b38ae7c6ef92fd54432c95683eed3eedf0dc380832e08e6379f6f5b41f5ce5d1",
+    "shapes": {
+      "strain_plus": [
+        701,
+        2
+      ],
+      "strain_minus": [
+        701,
+        2
+      ],
+      "news_plus": [
+        701,
+        2
+      ],
+      "news_minus": [
+        701,
+        2
+      ],
+      "t": [
+        4001
+      ],
+      "tout": [
+        701
+      ],
+      "radiation_plus": [
+        4001,
+        2
+      ],
+      "radiation_minus": [
+        4001,
+        2
+      ],
+      "z": [
+        64
+      ],
+      "initial_plus": [
+        128
+      ],
+      "initial_minus": [
+        128
+      ],
+      "dark_coefficients": [
+        36
+      ],
+      "fine_flux_t": [
+        32001
+      ],
+      "fine_dark_radiation": [
+        32001,
+        2
+      ],
+      "fine_dark_news": [
+        32001,
+        2
+      ]
+    }
+  },
+  {
+    "original": "source/reduced_input/paired_preparations_fine.npz",
+    "converted": "source/reduced_input/paired_preparations_fine.mat",
+    "original_sha256": "656f7be94cdc7289525c7c38510082b2e5fb09e625d8fd17c5f61fe90b6cbf42",
+    "shapes": {
+      "strain_plus": [
+        5601,
+        2
+      ],
+      "strain_minus": [
+        5601,
+        2
+      ],
+      "news_plus": [
+        5601,
+        2
+      ],
+      "news_minus": [
+        5601,
+        2
+      ],
+      "t": [
+        64001
+      ],
+      "tout": [
+        5601
+      ],
+      "radiation_plus": [
+        64001,
+        2
+      ],
+      "radiation_minus": [
+        64001,
+        2
+      ]
+    }
+  },
+  {
+    "original": "source/time_response/prototype_waveforms.npz",
+    "converted": "source/time_response/prototype_waveforms.mat",
+    "original_sha256": "a7993ccc6df85097ea1193f89a48543c77a288d5e005370327db9f012ec4c3c6",
+    "shapes": {
+      "tau": [
+        701
+      ],
+      "original_radiation": [
+        701,
+        2
+      ],
+      "original_reference_6": [
+        701
+      ],
+      "original_reference_7": [
+        701
+      ],
+      "original_prediction_6_order6": [
+        701
+      ],
+      "original_prediction_7_order6": [
+        701
+      ],
+      "original_prediction_6_order10": [
+        701
+      ],
+      "original_prediction_7_order10": [
+        701
+      ],
+      "original_prediction_6_order14": [
+        701
+      ],
+      "original_prediction_7_order14": [
+        701
+      ],
+      "original_prediction_6_order18": [
+        701
+      ],
+      "original_prediction_7_order18": [
+        701
+      ],
+      "original_prediction_6_order22": [
+        701
+      ],
+      "original_prediction_7_order22": [
+        701
+      ],
+      "original_prediction_6_order26": [
+        701
+      ],
+      "original_prediction_7_order26": [
+        701
+      ],
+      "wavepacket_radiation": [
+        701,
+        2
+      ],
+      "wavepacket_reference_6": [
+        701
+      ],
+      "wavepacket_reference_7": [
+        701
+      ],
+      "wavepacket_prediction_6_order6": [
+        701
+      ],
+      "wavepacket_prediction_7_order6": [
+        701
+      ],
+      "wavepacket_prediction_6_order10": [
+        701
+      ],
+      "wavepacket_prediction_7_order10": [
+        701
+      ],
+      "wavepacket_prediction_6_order14": [
+        701
+      ],
+      "wavepacket_prediction_7_order14": [
+        701
+      ],
+      "wavepacket_prediction_6_order18": [
+        701
+      ],
+      "wavepacket_prediction_7_order18": [
+        701
+      ],
+      "wavepacket_prediction_6_order22": [
+        701
+      ],
+      "wavepacket_prediction_7_order22": [
+        701
+      ],
+      "wavepacket_prediction_6_order26": [
+        701
+      ],
+      "wavepacket_prediction_7_order26": [
+        701
+      ]
+    }
+  },
+  {
+    "original": "source/time_response/time_sewing_waveforms.npz",
+    "converted": "source/time_response/time_sewing_waveforms.mat",
+    "original_sha256": "c03906706850559f7faf7159e0dafd48925d672debc35c238f0bfb464af4f7b0",
+    "shapes": {
+      "tau": [
+        2048
+      ],
+      "actual": [
+        2048,
+        5
+      ],
+      "reconstructed": [
+        2048,
+        5
+      ],
+      "radiation": [
+        2048,
+        2
+      ],
+      "points": [
+        5
+      ]
+    }
+  },
+  {
+    "original": "source/time_response/validated_waveforms.npz",
+    "converted": "source/time_response/validated_waveforms.mat",
+    "original_sha256": "a00d24795d8dd3c9d8fd7ff75161cda13ddedcd8d0e2672057beb7b7bfb2062f",
+    "shapes": {
+      "tau": [
+        701
+      ],
+      "original_radiation": [
+        701,
+        2
+      ],
+      "original_reference_6": [
+        701
+      ],
+      "original_reference_7": [
+        701
+      ],
+      "original_prediction_6": [
+        701
+      ],
+      "original_prediction_7": [
+        701
+      ],
+      "wavepacket_radiation": [
+        701,
+        2
+      ],
+      "wavepacket_reference_6": [
+        701
+      ],
+      "wavepacket_reference_7": [
+        701
+      ],
+      "wavepacket_prediction_6": [
+        701
+      ],
+      "wavepacket_prediction_7": [
+        701
+      ],
+      "wavepacket_fundamental_fit_6": [
+        701
+      ],
+      "wavepacket_fundamental_fit_7": [
+        701
+      ]
+    }
+  }
+]

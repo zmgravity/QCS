@@ -1,0 +1,72 @@
+{
+  "archives": 13,
+  "arrays": 269,
+  "all_values_exact_after_wolfram_import": true,
+  "files": [
+    {
+      "file": "source/reduced_input/ambiguity_coefficients.mat",
+      "arrays": 140,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/reduced_input/completion/mechanism_waveforms.mat",
+      "arrays": 13,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/reduced_input/completion/recovery_waveforms.mat",
+      "arrays": 5,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/reduced_input/completion/weak_family_coefficients.mat",
+      "arrays": 2,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/reduced_input/completion/weak_family_waveforms.mat",
+      "arrays": 10,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/reduced_input/kernels_n32_end400_sample0.1.mat",
+      "arrays": 9,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/reduced_input/kernels_n48_end400_sample0.1.mat",
+      "arrays": 9,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/reduced_input/kernels_n64_end400_sample0.1.mat",
+      "arrays": 9,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/reduced_input/paired_preparations.mat",
+      "arrays": 15,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/reduced_input/paired_preparations_fine.mat",
+      "arrays": 8,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/time_response/prototype_waveforms.mat",
+      "arrays": 31,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/time_response/time_sewing_waveforms.mat",
+      "arrays": 5,
+      "real_and_imaginary_values_exact": true
+    },
+    {
+      "file": "source/time_response/validated_waveforms.mat",
+      "arrays": 13,
+      "real_and_imaginary_values_exact": true
+    }
+  ]
+}

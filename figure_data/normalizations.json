@@ -1,0 +1,18 @@
+{
+  "common_cubic_peaks_66_77": [
+    0.06815335481097465,
+    0.05681033681987108
+  ],
+  "hidden_amplitude": 0.3000008458706083,
+  "baseline_amplitude": 0.5,
+  "hidden_key": "p18_infinity_400_strain_0_70",
+  "time_units": "M",
+  "radiation_columns": [
+    "horizon",
+    "infinity"
+  ],
+  "cubic_columns": [
+    "66",
+    "77"
+  ]
+}
