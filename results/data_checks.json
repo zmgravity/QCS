@@ -1,0 +1,25 @@
+{
+	"scope":"Diagnostics recomputed in Wolfram Language from the retained arrays.",
+	"infinity_mismatch_to_midpoint_0_400M":9.89378159961143e-7,
+	"relative_complex_L2_difference_errors":[
+		1.021032002930103e-5,
+		7.301918567353562e-6
+	],
+	"common_cubic_peaks":[
+		6.815335481097465e-2,
+		5.681033681987108e-2
+	],
+	"pointwise_difference_peak_percent":[
+		8.109477818372138,
+		1.1123171929153516e1
+	],
+	"complex_L2_separation_percent":[
+		9.582404045862912,
+		1.2595869115398042e1
+	],
+	"hidden_direction_energy":1.00000000000008,
+	"preparation_energies":[
+		0.3284468105600703,
+		0.35155420448610514
+	]
+}

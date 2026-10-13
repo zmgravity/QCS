@@ -1,0 +1,23 @@
+{
+	"forward_relative_L2":{
+		"t":0.0,
+		"radiation_plus":3.967476939799993e-13,
+		"radiation_minus":4.0037143676233656e-13,
+		"tout":0.0,
+		"strain_plus":1.1752352957559603e-11,
+		"strain_minus":1.1592471032346132e-11,
+		"news_plus":1.2410066557231013e-11,
+		"news_minus":1.184973461963853e-11
+	},
+	"recovery_relative_L2":{
+		"t":8.907029803272484e-17,
+		"prediction_plus":4.011110498961302e-12,
+		"prediction_minus":3.962189231406053e-12,
+		"reference_plus":1.1752575038476899e-11,
+		"reference_minus":1.159295720377292e-11
+	},
+	"difference_reconstruction_errors":[
+		1.0210317769992706e-5,
+		7.301918168511374e-6
+	]
+}

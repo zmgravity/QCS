@@ -1,0 +1,29 @@
+Propagating boundary radiation...
+Propagating cubic channel 6...
+Propagating cubic channel 7...
+Selecting the reconstruction filter from operators...
+GR cascade: ell=2, n=32
+GR cascade: ell=2, n=48
+GR cascade: ell=2, n=64
+GR cascade: ell=3, n=32
+GR cascade: ell=3, n=48
+GR cascade: ell=3, n=64
+# Test Results Summary
+
+| Metric | Value |
+| --- | --- |
+| **Overall Result** | Success |
+| **Total Files** | 1 |
+| **Total Tests** | 16 |
+| **Passed** | 16 (100%) |
+| **Failed** | 0 (0%) |
+| **Total Time** | 39 ms |
+
+## Core.wlt
+
+| Metric | Value |
+| --- | --- |
+| **Tests** | 16 |
+| **Passed** | 16 (100%) |
+| **Failed** | 0 (0%) |
+| **Time** | 39 ms |

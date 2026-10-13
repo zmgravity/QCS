@@ -1,0 +1,17 @@
+{
+	"kernels":[
+		{
+			"n":32,
+			"maximum_relative_difference":1.3168986148380874e-12
+		},
+		{
+			"n":48,
+			"maximum_relative_difference":3.5130188254235206e-12
+		},
+		{
+			"n":64,
+			"maximum_relative_difference":2.61333306737445e-12
+		}
+	],
+	"reconstruction_relative_difference":4.551529204579069e-12
+}
